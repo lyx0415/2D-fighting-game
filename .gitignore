@@ -16,3 +16,4 @@ tools/audio-sources/**/python-deps/
 .env.*
 *.pem
 *.key
+artifacts/*.bundle
