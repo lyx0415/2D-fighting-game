@@ -1,0 +1,35 @@
+[
+  {
+    "id": "fire-crackling",
+    "author": "AntumDeluge",
+    "page": "https://opengameart.org/content/fire-crackling",
+    "downloadUrl": "https://opengameart.org/sites/default/files/fire-1_0.ogg",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "fire-crackling.ogg",
+    "sha256": "f922929805bc6afdf0a35727fa3998033db544c1b6f62ed3aeab94341ed6ddeb",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "id": "wind1",
+    "author": "Luke.RUSTLTD",
+    "page": "https://opengameart.org/content/wind1",
+    "downloadUrl": "https://opengameart.org/sites/default/files/wind1.wav",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "wind1.wav",
+    "sha256": "a2856f794fbf77e05f8241dc4adeade7f62fa21c3c9dc49f7725b6c6218060c3",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "id": "loopable-dungeon-ambience",
+    "author": "JaggedStone",
+    "page": "https://opengameart.org/content/loopable-dungeon-ambience",
+    "downloadUrl": "https://opengameart.org/sites/default/files/dungeon_ambient_1_0.ogg",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "loopable-dungeon-ambience.ogg",
+    "sha256": "df491823e4877371c34dbda4e9321cd83a4a14fa7573cee0ebca1ae423b70e6e",
+    "retrieved": "2026-11-04"
+  }
+]

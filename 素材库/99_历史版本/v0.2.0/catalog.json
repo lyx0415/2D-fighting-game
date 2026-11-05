@@ -1,0 +1,408 @@
+{
+  "version": 1,
+  "updated": "2026-10-30",
+  "runtimeSource": "src/game/art.ts",
+  "note": "本目录为现有资产导出与整理，游戏暂未改为从此目录加载。带crop/reference的文件为参考，不能当作已完成的独立游戏素材。",
+  "items": [
+    {
+      "id": "char_warrior_base_v001",
+      "name": "雷恩·战士",
+      "path": "01_人物/英雄/char_warrior_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(warrior)",
+      "sha256": "936520e7af4672c6ff362c8577df0f9c91bc223e5f8a51075a81699a7f9d34fd"
+    },
+    {
+      "id": "char_archer_base_v001",
+      "name": "薇拉·射手",
+      "path": "01_人物/英雄/char_archer_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(archer)",
+      "sha256": "dcbd5977b0b8a2b68a80747d26d4d361890c3c32023c1d41ee9983d7aab38838"
+    },
+    {
+      "id": "char_mage_base_v001",
+      "name": "伊诺·法师",
+      "path": "01_人物/英雄/char_mage_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(mage)",
+      "sha256": "e3b62370c110baf79aadfcb8cf71cc599a58546b440a7e05dbdec4434bd8db72"
+    },
+    {
+      "id": "char_tank_base_v001",
+      "name": "布兰·坦克",
+      "path": "01_人物/英雄/char_tank_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(tank)",
+      "sha256": "0b634130bae341bb4026223604a7db7061da82098b8d2e53baae4a5810db95a7"
+    },
+    {
+      "id": "char_assassin_base_v001",
+      "name": "赛芙·刺客",
+      "path": "01_人物/英雄/char_assassin_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(assassin)",
+      "sha256": "c14fcc7784087f75f22230ce63c6b1f3d37f1a2f244c26b450865b0b64fa0282"
+    },
+    {
+      "id": "enemy_zombie_base_v001",
+      "name": "蹒跚尸兵",
+      "path": "01_人物/敌人/enemy_zombie_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(zombie)",
+      "sha256": "83c638129ede48646bae8e68d8cdabd030f8e0e38132c9a11beb3568632a9c67"
+    },
+    {
+      "id": "enemy_wolf_base_v001",
+      "name": "腐狼",
+      "path": "01_人物/敌人/enemy_wolf_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(wolf)",
+      "sha256": "870e7d189590ecc38d17bdf893e0fb2c6f63c0c313d3b728ab4e397f8a816b18"
+    },
+    {
+      "id": "enemy_crossbow_base_v001",
+      "name": "教团弩手",
+      "path": "01_人物/敌人/enemy_crossbow_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(crossbow)",
+      "sha256": "57f315cdb202a0988440a745b3d13bfc85637a3cc8709f16657d6b35a1833993"
+    },
+    {
+      "id": "enemy_priest_base_v001",
+      "name": "黑潮祭司",
+      "path": "01_人物/敌人/enemy_priest_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(priest)",
+      "sha256": "49d5614b33ecf8cb19eaedd40e7029844bade762345d6fd9cd5cd9df6212f3a8"
+    },
+    {
+      "id": "enemy_raider_base_v001",
+      "name": "精英掠夺者",
+      "path": "01_人物/敌人/enemy_raider_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(raider)",
+      "sha256": "9d541a8eeb035d85b2b89619dab158229006a253e931935bedcaf17cda28bfd9"
+    },
+    {
+      "id": "enemy_guard_base_v001",
+      "name": "精英盾卫",
+      "path": "01_人物/敌人/enemy_guard_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(guard)",
+      "sha256": "b49bc78f844f3d0c3c2c73ea94ac53baa6b520220758631e88c49fdf608640bf"
+    },
+    {
+      "id": "enemy_boss_base_v001",
+      "name": "灰烬典狱长",
+      "path": "01_人物/敌人/enemy_boss_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(boss)",
+      "sha256": "98b9e8a5892d14d1a1932832cad12f67e96838df8d865be79cb5a469a77adfec"
+    },
+    {
+      "id": "enemy_wraith_base_v001",
+      "name": "缚印怨灵",
+      "path": "01_人物/敌人/enemy_wraith_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(wraith)",
+      "sha256": "82f9571081442b89acf0343996c4a52ce5fd66080d1bd180b265b6a819d4e423"
+    },
+    {
+      "id": "enemy_fanatic_base_v001",
+      "name": "黑誓狂信徒",
+      "path": "01_人物/敌人/enemy_fanatic_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(fanatic)",
+      "sha256": "56ea46d504fa1c51669022685acbd0adf33e87c422dd35062c0d59acd626b59d"
+    },
+    {
+      "id": "enemy_bishop_base_v001",
+      "name": "黑潮主教·莫尔",
+      "path": "01_人物/敌人/enemy_bishop_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(bishop)",
+      "sha256": "6541a0eb1ee09ab85d9f7692c5e2acb951e554880f0a7a1f767c752412a65784"
+    },
+    {
+      "id": "map_ash_full_v001",
+      "name": "灰烬村道",
+      "path": "03_地图背景/map_ash_full_v001.svg",
+      "status": "已接入·完整背景",
+      "source": "src/game/art.ts#sceneSvg(ash)",
+      "sha256": "c396a94c2daae8b23dd230e80168a7e38ef0387d9cf35081261d8757e6744d4f"
+    },
+    {
+      "id": "map_forest_full_v001",
+      "name": "雾林囚车",
+      "path": "03_地图背景/map_forest_full_v001.svg",
+      "status": "已接入·完整背景",
+      "source": "src/game/art.ts#sceneSvg(forest)",
+      "sha256": "195788a37bf5057d4c5d5a9e7a98adf29da10c3b526e9d5670443927f40006a0"
+    },
+    {
+      "id": "map_fortress_full_v001",
+      "name": "黑石哨站",
+      "path": "03_地图背景/map_fortress_full_v001.svg",
+      "status": "已接入·完整背景",
+      "source": "src/game/art.ts#sceneSvg(fortress)",
+      "sha256": "8e4ad307c006b3aac84718c82f6c93c633cd09c2e6dc0efbe950775d0d1dbfc8"
+    },
+    {
+      "id": "map_abbey_full_v001",
+      "name": "无声修道院",
+      "path": "03_地图背景/map_abbey_full_v001.svg",
+      "status": "已接入·完整背景",
+      "source": "src/game/art.ts#sceneSvg(abbey)",
+      "sha256": "a1be031ca31809d5bc6f4e6f0a530b5d97708b99a8899e48a71dc338eac46625"
+    },
+    {
+      "id": "map_crypt_full_v001",
+      "name": "遗骨墓道",
+      "path": "03_地图背景/map_crypt_full_v001.svg",
+      "status": "已接入·完整背景",
+      "source": "src/game/art.ts#sceneSvg(crypt)",
+      "sha256": "a543c68fffba3795662dff094c9dec228899389eab4fea03875802b961de81ea"
+    },
+    {
+      "id": "ui_royal_seal_v001",
+      "name": "王印徽记",
+      "path": "05_游戏界面/标识/ui_royal_seal_v001.svg",
+      "status": "已接入·独立图形",
+      "source": "src/game/art.ts#crestSvg",
+      "sha256": "fd4cafdfdbacfa83344508f7d98cf576eb3662d7d328c1bf3b61c8845a298082"
+    },
+    {
+      "id": "story_01_v001",
+      "name": "公主与王印",
+      "path": "06_剧情插画/story_01_v001.svg",
+      "status": "已接入·插画",
+      "source": "src/game/art.ts#storySvg(0)",
+      "sha256": "ca52ea38e2717f931bdcc067f17711d86c339ce45a3dbbd60c1916d2b8e02183"
+    },
+    {
+      "id": "story_02_v001",
+      "name": "教团掳掠",
+      "path": "06_剧情插画/story_02_v001.svg",
+      "status": "已接入·插画",
+      "source": "src/game/art.ts#storySvg(1)",
+      "sha256": "0c19052a30e3d7f76fde476f3426ea83d633b09f61ea1dba1bbc7e144453502e"
+    },
+    {
+      "id": "story_03_v001",
+      "name": "骑士追赶",
+      "path": "06_剧情插画/story_03_v001.svg",
+      "status": "已接入·插画",
+      "source": "src/game/art.ts#storySvg(2)",
+      "sha256": "3b550dcaf809f00123d8e1aae55d20ff899d679cfd1423d91ad1796259bf3424"
+    },
+    {
+      "id": "equip_sword_part_v001",
+      "name": "誓约长剑部件",
+      "path": "02_装备/武器/equip_sword_part_v001.svg",
+      "status": "已用部件·未作背包图标",
+      "source": "src/game/art.ts#blade",
+      "sha256": "7ad35d8caae9b35209b89467254ffbfc3caf46b5e3c09b4dc87a32bc983eb255"
+    },
+    {
+      "id": "equip_archer_crop_v001",
+      "name": "雾林长弓·裁切参考",
+      "path": "02_装备/武器/equip_archer_crop_v001.svg",
+      "status": "裁切参考·含手部或衣物，不作独立成品",
+      "source": "src/game/art.ts#characterSvg(archer)",
+      "sha256": "9e257e23cf8a656eef9b7aa0a562a74635dda321e0edd428f7c686474aec51b2"
+    },
+    {
+      "id": "equip_mage_crop_v001",
+      "name": "寒星法杖·裁切参考",
+      "path": "02_装备/武器/equip_mage_crop_v001.svg",
+      "status": "裁切参考·含手部或衣物，不作独立成品",
+      "source": "src/game/art.ts#characterSvg(mage)",
+      "sha256": "50cc40cf7c01355e23a8911a116684bdbad1d44d862b83d4cea3555b4415e1f9"
+    },
+    {
+      "id": "equip_tank_crop_v001",
+      "name": "守望盾锤·裁切参考",
+      "path": "02_装备/武器/equip_tank_crop_v001.svg",
+      "status": "裁切参考·含手部或衣物，不作独立成品",
+      "source": "src/game/art.ts#characterSvg(tank)",
+      "sha256": "f3b3ddb48f4ed44e827a49f7b5dbf09127cceea92a37bc05fd2ec53555ef9dbe"
+    },
+    {
+      "id": "equip_assassin_crop_v001",
+      "name": "夜行短刃·裁切参考",
+      "path": "02_装备/武器/equip_assassin_crop_v001.svg",
+      "status": "裁切参考·含手部或衣物，不作独立成品",
+      "source": "src/game/art.ts#characterSvg(assassin)",
+      "sha256": "1dd9692fdf228aae886798824138cc3a1a9c838c4a0bd80adb6b2cf737868171"
+    },
+    {
+      "id": "equip_armor_crop_v001",
+      "name": "旅人锁甲·造型参考",
+      "path": "02_装备/护甲/equip_armor_crop_v001.svg",
+      "status": "裁切参考·非独立成品",
+      "source": "src/game/art.ts#characterSvg(warrior)",
+      "sha256": "7bbe7d8c986e7e75d6a1dfd0b834822f57c6d3653276da0c460297f8ca5a45b5"
+    },
+    {
+      "id": "equip_charm_seal_reference_v001",
+      "name": "余烬吊坠·王印造型参考",
+      "path": "02_装备/饰品/equip_charm_seal_reference_v001.svg",
+      "status": "旧版设计参考·现有独立吊坠图标见icon文件",
+      "source": "src/game/art.ts#crestSvg",
+      "sha256": "fd4cafdfdbacfa83344508f7d98cf576eb3662d7d328c1bf3b61c8845a298082"
+    },
+    {
+      "id": "obj_dead_tree_v001",
+      "name": "枯树",
+      "path": "04_物体/自然物/obj_dead_tree_v001.svg",
+      "status": "已用背景部件·未单独接入",
+      "source": "src/game/art.ts#deadTree",
+      "sha256": "35d8b0c9d37cba387f453900f17a440d830011c6412d2999e7d7c7924d401d08"
+    },
+    {
+      "id": "obj_pine_v001",
+      "name": "雾林松树",
+      "path": "04_物体/自然物/obj_pine_v001.svg",
+      "status": "已用背景部件·未单独接入",
+      "source": "src/game/art.ts#pine",
+      "sha256": "a4f9a3502f39a2ac74add46bc294765905bc7335e387f3a747f3b69927733ecb"
+    },
+    {
+      "id": "obj_ruin_v001",
+      "name": "村庄废墟",
+      "path": "04_物体/建筑物/obj_ruin_v001.svg",
+      "status": "已用背景部件·未单独接入",
+      "source": "src/game/art.ts#ruin",
+      "sha256": "e771ea6325df2486720ba04980dd1d2d47de1b4ee80fa86f8dde0c3f42dc007a"
+    },
+    {
+      "id": "obj_prison_cart_v001",
+      "name": "囚车",
+      "path": "04_物体/建筑物/obj_prison_cart_v001.svg",
+      "status": "已用背景部件·未单独接入",
+      "source": "src/game/art.ts#sceneSvg(forest)",
+      "sha256": "3fd43b5c1dbfae30d16afcd96d0e4bc0db264be6426d54433cc6de899b6830c9"
+    },
+    {
+      "id": "obj_prison_gate_v001",
+      "name": "监牢大门",
+      "path": "04_物体/建筑物/obj_prison_gate_v001.svg",
+      "status": "已用背景部件·未单独接入",
+      "source": "src/game/art.ts#sceneSvg(fortress)",
+      "sha256": "18850a3c2e417a3e847a0c0e562aa5cbb9dd2d7970b3d4634fd27ae87077bbbd"
+    },
+    {
+      "id": "ui_title_reference_v001",
+      "name": "标题界面",
+      "path": "05_游戏界面/运行截图/ui_title_reference_v001.png",
+      "status": "开发版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-title-1280.png",
+      "sha256": "ea5cb7ec1446e57e71a19cf5c3b246f8ba955bb63ebbf2534f226edfcd0ce821"
+    },
+    {
+      "id": "ui_camp_reference_v001",
+      "name": "营地界面",
+      "path": "05_游戏界面/运行截图/ui_camp_reference_v001.png",
+      "status": "开发版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-camp-1280.png",
+      "sha256": "bf94caa1569aa6ce46a7a543cafd7944f4c1df03710a13b5644df22b378ae11c"
+    },
+    {
+      "id": "ui_mobile_battle_reference_v001",
+      "name": "手机横屏战斗",
+      "path": "05_游戏界面/运行截图/ui_mobile_battle_reference_v001.png",
+      "status": "开发版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-battle-844.png",
+      "sha256": "29eac6c2aa296b67900c22ba7772388c4e98de5dee97aaf82d0cfc45f8f5c21d"
+    },
+    {
+      "id": "ui_party_reference_v001",
+      "name": "五职业与编队",
+      "path": "05_游戏界面/运行截图/ui_party_reference_v001.png",
+      "status": "开发版运行参考截图·非UI切图",
+      "source": "artifacts/campaign-five-heroes.png",
+      "sha256": "999b7100f45ed7ce9a0070b4e0d92aa8d03054260d40f9d8308b9c7e007949c3"
+    },
+    {
+      "id": "ui_result_reference_v001",
+      "name": "通关结算",
+      "path": "05_游戏界面/运行截图/ui_result_reference_v001.png",
+      "status": "开发版运行参考截图·非UI切图",
+      "source": "artifacts/campaign-level-3.png",
+      "sha256": "ea5f1adb8f44a604d85b56b3b88b196a19760bf0c66be8718c0d67b1e02c00f2"
+    },
+    {
+      "id": "ui_armory_reference_v001",
+      "name": "新版装备工坊",
+      "path": "05_游戏界面/运行截图/ui_armory_reference_v001.png",
+      "status": "生产版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-production-armory.png",
+      "sha256": "cb58fd475436ad6e17c076c7f9584ffb44c51fe54612231a966e459ffcd848a7"
+    },
+    {
+      "id": "ui_chapter_abbey_reference_v001",
+      "name": "第一章修道院生产战斗",
+      "path": "05_游戏界面/运行截图/ui_chapter_abbey_reference_v001.png",
+      "status": "开发版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-chapter-production.png",
+      "sha256": "d4f2cd9ba89c1599b0e3dcc0fedc5ea603db47c22e834f37ef58cee13f2a9a41"
+    },
+    {
+      "id": "equip_weapon_warrior_icon_v001",
+      "name": "誓约长剑",
+      "path": "02_装备/武器/equip_weapon_warrior_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(weapon,warrior)",
+      "sha256": "4bd86058668fce25e1572b27ca728364ec8a7efd1368dd4f38e6de44bf96238b"
+    },
+    {
+      "id": "equip_weapon_archer_icon_v001",
+      "name": "雾林长弓",
+      "path": "02_装备/武器/equip_weapon_archer_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(weapon,archer)",
+      "sha256": "5c96a5e9048d1e562d74223775527e7b9c1eb77478a2684dd21bb16cc5ce3709"
+    },
+    {
+      "id": "equip_weapon_mage_icon_v001",
+      "name": "寒星法杖",
+      "path": "02_装备/武器/equip_weapon_mage_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(weapon,mage)",
+      "sha256": "cabc30b66af612adeb6b4a8b6477c52d8017cdb8c04389157a60a6378637270b"
+    },
+    {
+      "id": "equip_weapon_tank_icon_v001",
+      "name": "守望盾锤",
+      "path": "02_装备/武器/equip_weapon_tank_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(weapon,tank)",
+      "sha256": "fbd8873ce1507d7a9702bd1dc2ec4c505437a235764c4843381854ad2b26176d"
+    },
+    {
+      "id": "equip_weapon_assassin_icon_v001",
+      "name": "夜行双刃",
+      "path": "02_装备/武器/equip_weapon_assassin_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(weapon,assassin)",
+      "sha256": "bc2ea926fcb5af064fca4e28f42ba64d5d3d222aa8ad178a8bf93fffcecbd2a8"
+    },
+    {
+      "id": "equip_armor_universal_icon_v001",
+      "name": "旅人锁甲",
+      "path": "02_装备/护甲/equip_armor_universal_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(armor,universal)",
+      "sha256": "d65f9fefbbcad17457461234e983dd1109baea88c1dad54602b10e61e83ac825"
+    },
+    {
+      "id": "equip_charm_universal_icon_v001",
+      "name": "余烬吊坠",
+      "path": "02_装备/饰品/equip_charm_universal_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(charm,universal)",
+      "sha256": "e68d5471db64a1904b5016763840e5f018d30f4197af0f7577341eed6e80f4e4"
+    }
+  ]
+}

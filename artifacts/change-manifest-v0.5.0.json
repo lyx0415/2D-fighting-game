@@ -1,0 +1,83 @@
+{
+  "version": "0.5.0",
+  "date": "2026-10-30",
+  "baseline": "素材库/99_历史版本/v0.4.0/源码采样",
+  "note": "源码相对上一版采样的变化；不是Git提交或完整旧版发布包",
+  "files": [
+    {
+      "path": "src/campaign-hub.css",
+      "status": "new",
+      "sha256": "c8506f6183b60f03df1917e4020c84d58c0eaa896aab19169d559ab6379010aa"
+    },
+    {
+      "path": "src/core/battle.ts",
+      "status": "changed",
+      "sha256": "7bca88ca8b1f8b4fd129d3e360aa360d6f9980c28d5e2f9dea97ee7503363847"
+    },
+    {
+      "path": "src/game/art.ts",
+      "status": "changed",
+      "sha256": "c8d0ee7020f825df012bc04c25ced6c27c20ec4fec43f8e26cdbeaae8cb9d24c"
+    },
+    {
+      "path": "src/game/audio-cues.ts",
+      "status": "new",
+      "sha256": "1668a4671789c97e815c331b37f8fbde42ed6c0b984ae8c305ad5621559ddafa"
+    },
+    {
+      "path": "src/game/audio.ts",
+      "status": "changed",
+      "sha256": "c0f50805afa87d64dbcae3eff88c6e34ff6f8adefe0b43e7c614d19bb3fe7096"
+    },
+    {
+      "path": "src/game/chapter-map.ts",
+      "status": "changed",
+      "sha256": "157d75a0cb69f20b2eab1ad28f08542ab4678a6277cdade0855a6334c67480ea"
+    },
+    {
+      "path": "src/game/combat-effects.ts",
+      "status": "new",
+      "sha256": "43dfed7a28b4d8757ab15589c54c21db84644d8327f95f6c0424b6449562e3f7"
+    },
+    {
+      "path": "src/game/enemy-art.ts",
+      "status": "new",
+      "sha256": "160df88d23ed19c087d0f61d7b717f0b88eb797068c40605e98eb763402c1f7c"
+    },
+    {
+      "path": "src/game/hero-art.ts",
+      "status": "changed",
+      "sha256": "c6bb37afca11fbc9ec77e49b7ba6de159c4cb018cc0f4226774dac398a62c420"
+    },
+    {
+      "path": "src/game/hero-motion.ts",
+      "status": "changed",
+      "sha256": "7ee95aa71eaf36fbcaded49e19fd2e26fe09df421f4fd12036a3d9768d6695b3"
+    },
+    {
+      "path": "src/game/hero-rig.ts",
+      "status": "new",
+      "sha256": "4068cf4f903eed228ac71796d33453a239a2d88cfb5ecfa6c1d2b120f360ca1e"
+    },
+    {
+      "path": "src/game/rig-renderer.ts",
+      "status": "new",
+      "sha256": "f5d940c0a19c958c816b6fd27d49bb7445a8b439969762978c7642360bf81bd1"
+    },
+    {
+      "path": "src/game/rig-types.ts",
+      "status": "new",
+      "sha256": "0b0670f6ed17e2a4066d9981509167dc61bd7eb9b9c99ad25021ea891740ddab"
+    },
+    {
+      "path": "src/game/scene.ts",
+      "status": "changed",
+      "sha256": "6d4aa3e33d934c712a1f346ee8cbed6477d67301e38053ed3f715c640595eb5a"
+    },
+    {
+      "path": "src/main.ts",
+      "status": "changed",
+      "sha256": "62132c82ac67e52dae13a5e00e9d5964066a0a5e9039d3c9695e34460451a7e6"
+    }
+  ]
+}

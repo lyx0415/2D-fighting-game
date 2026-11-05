@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-05",
+  "version": "0.13.0",
+  "assets": 1493,
+  "historicalAssetsChecked": 1754,
+  "runtimePaintedTextures": 26,
+  "runtimeAudioFiles": 72,
+  "audioMixModes": 3,
+  "baseAudioCues": 52,
+  "voiceAlternates": 20,
+  "svgFiles": 1018,
+  "ok": true,
+  "errors": [],
+  "legacyRigs": 15,
+  "legacyRigLayers": 219,
+  "audioFiles": 314
+}

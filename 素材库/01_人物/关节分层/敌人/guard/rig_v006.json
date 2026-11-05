@@ -1,0 +1,104 @@
+{
+  "kind": "guard",
+  "width": 128,
+  "height": 160,
+  "footX": 64,
+  "footY": 150,
+  "parts": [
+    {
+      "id": "cape",
+      "parent": "body",
+      "pivotX": 64,
+      "pivotY": 58,
+      "path": "rig_guard_cape_v006.svg"
+    },
+    {
+      "id": "rearThigh",
+      "pivotX": 53,
+      "pivotY": 97,
+      "path": "rig_guard_rearThigh_v006.svg"
+    },
+    {
+      "id": "rearShin",
+      "parent": "rearThigh",
+      "pivotX": 47,
+      "pivotY": 121,
+      "path": "rig_guard_rearShin_v006.svg"
+    },
+    {
+      "id": "frontThigh",
+      "pivotX": 73,
+      "pivotY": 97,
+      "path": "rig_guard_frontThigh_v006.svg"
+    },
+    {
+      "id": "frontShin",
+      "parent": "frontThigh",
+      "pivotX": 77,
+      "pivotY": 121,
+      "path": "rig_guard_frontShin_v006.svg"
+    },
+    {
+      "id": "body",
+      "pivotX": 64,
+      "pivotY": 98,
+      "path": "rig_guard_body_v006.svg"
+    },
+    {
+      "id": "chest",
+      "parent": "body",
+      "pivotX": 64,
+      "pivotY": 98,
+      "path": "rig_guard_chest_v006.svg"
+    },
+    {
+      "id": "rearUpperArm",
+      "parent": "body",
+      "pivotX": 39,
+      "pivotY": 66,
+      "path": "rig_guard_rearUpperArm_v006.svg"
+    },
+    {
+      "id": "rearForearm",
+      "parent": "rearUpperArm",
+      "pivotX": 36,
+      "pivotY": 87,
+      "path": "rig_guard_rearForearm_v006.svg"
+    },
+    {
+      "id": "frontUpperArm",
+      "parent": "body",
+      "pivotX": 87,
+      "pivotY": 65,
+      "path": "rig_guard_frontUpperArm_v006.svg"
+    },
+    {
+      "id": "frontForearm",
+      "parent": "frontUpperArm",
+      "pivotX": 95,
+      "pivotY": 84,
+      "path": "rig_guard_frontForearm_v006.svg"
+    },
+    {
+      "id": "weapon",
+      "parent": "frontForearm",
+      "pivotX": 104,
+      "pivotY": 103,
+      "path": "rig_guard_weapon_v006.svg"
+    },
+    {
+      "id": "shield",
+      "parent": "rearForearm",
+      "pivotX": 40,
+      "pivotY": 106,
+      "path": "rig_guard_shield_v006.svg"
+    },
+    {
+      "id": "head",
+      "parent": "body",
+      "pivotX": 67,
+      "pivotY": 55,
+      "path": "rig_guard_head_v006.svg"
+    }
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\playwright.config.ts",
+    "rootDir": "C:/Users/lyx/Desktop/test/游戏制作/2D横板格斗/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/browser-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/lyx/Desktop/test/游戏制作/2D横板格斗/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/lyx/Desktop/test/游戏制作/2D横板格斗/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/lyx/Desktop/test/游戏制作/2D横板格斗/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/lyx/Desktop/test/游戏制作/2D横板格斗/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "production.spec.ts",
+      "file": "production.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "生产包真实开战，无调试入口、无运行错误",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3510,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:26:31.855Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ed69554c53210704c98c-b04f858c8428c5cb1e0c",
+          "file": "production.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "生产包真实开战，无调试入口、无运行错误",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3605,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:26:42.921Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ed69554c53210704c98c-65eccc0df0de53dead59",
+          "file": "production.spec.ts",
+          "line": 2,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v006.spec.ts",
+      "file": "v006.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "宽幅舆图、半屏入口与平移 1280",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1218,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:26:35.557Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "17c6ce0863ecc1049d94-fac33552ff0c6e2e9c40",
+          "file": "v006.spec.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "宽幅舆图、半屏入口与平移 1920",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1382,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:26:36.782Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "17c6ce0863ecc1049d94-cfac77a8b47d16c96245",
+          "file": "v006.spec.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "宽幅舆图、半屏入口与平移 844",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1009,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:26:38.171Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "17c6ce0863ecc1049d94-32ec11e50f08fc5c81db",
+          "file": "v006.spec.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "宽幅舆图、半屏入口与平移 915",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1067,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:26:39.187Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "17c6ce0863ecc1049d94-b71363e0047d4d53b226",
+          "file": "v006.spec.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "五英雄十五种独立角度面容与运行头部同源",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1886,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:26:40.259Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "17c6ce0863ecc1049d94-f8886aa594b8e5b72edb",
+          "file": "v006.spec.ts",
+          "line": 105,
+          "column": 1
+        },
+        {
+          "title": "宽幅舆图、半屏入口与平移 1280",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 10596,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m428\u001b[39m\nReceived:   \u001b[31m389\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m428\u001b[39m\nReceived:   \u001b[31m389\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts:23:2",
+                    "location": {
+                      "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                      "column": 2,
+                      "line": 23
+                    },
+                    "snippet": "  21 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.7,30);await page.mouse.up();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70);expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(before,0);\n  22 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70,{steps:8});await page.mouse.up();\n> 23 |  await expect.poll(()=>viewport.evaluate(el=>el.scrollLeft)).toBeGreaterThan(before+100);await expect(page.locator('.prepare-modal')).toHaveCount(0);\n     |  ^\n  24 |  const dragged=await viewport.evaluate(el=>el.scrollLeft);await page.locator('[data-tab=gear]').click();await page.locator('[data-act=close-management]').click();expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(dragged,0);\n  25 |  await page.getByRole('button',{name:'定位当前关卡'}).click();\n  26 |  const gap=await page.evaluate(()=>{const path=document.querySelector('.atlas-route path') as SVGPathElement,p=path.getPointAtLength(0),point=new DOMPoint(p.x,p.y).matrixTransform(path.getScreenCTM()!),node=document.querySelector('.chapter-node')!.getBoundingClientRect();return Math.hypot(point.x-node.x-node.width/2,point.y-node.y-node.height/2);});expect(gap).toBeLessThan(2);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                        "column": 2,
+                        "line": 23
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m428\u001b[39m\nReceived:   \u001b[31m389\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate\n\n  21 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.7,30);await page.mouse.up();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70);expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(before,0);\n  22 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70,{steps:8});await page.mouse.up();\n> 23 |  await expect.poll(()=>viewport.evaluate(el=>el.scrollLeft)).toBeGreaterThan(before+100);await expect(page.locator('.prepare-modal')).toHaveCount(0);\n     |  ^\n  24 |  const dragged=await viewport.evaluate(el=>el.scrollLeft);await page.locator('[data-tab=gear]').click();await page.locator('[data-act=close-management]').click();expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(dragged,0);\n  25 |  await page.getByRole('button',{name:'定位当前关卡'}).click();\n  26 |  const gap=await page.evaluate(()=>{const path=document.querySelector('.atlas-route path') as SVGPathElement,p=path.getPointAtLength(0),point=new DOMPoint(p.x,p.y).matrixTransform(path.getScreenCTM()!),node=document.querySelector('.chapter-node')!.getBoundingClientRect();return Math.hypot(point.x-node.x-node.width/2,point.y-node.y-node.height/2);});expect(gap).toBeLessThan(2);\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts:23:2"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:26:46.593Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-1280-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-1280-webkit\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-1280-webkit\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                    "column": 2,
+                    "line": 23
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "17c6ce0863ecc1049d94-499430f3f138b443afcd",
+          "file": "v006.spec.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "宽幅舆图、半屏入口与平移 1920",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 11103,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m292\u001b[39m\nReceived:   \u001b[31m285\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m292\u001b[39m\nReceived:   \u001b[31m285\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts:23:2",
+                    "location": {
+                      "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                      "column": 2,
+                      "line": 23
+                    },
+                    "snippet": "  21 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.7,30);await page.mouse.up();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70);expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(before,0);\n  22 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70,{steps:8});await page.mouse.up();\n> 23 |  await expect.poll(()=>viewport.evaluate(el=>el.scrollLeft)).toBeGreaterThan(before+100);await expect(page.locator('.prepare-modal')).toHaveCount(0);\n     |  ^\n  24 |  const dragged=await viewport.evaluate(el=>el.scrollLeft);await page.locator('[data-tab=gear]').click();await page.locator('[data-act=close-management]').click();expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(dragged,0);\n  25 |  await page.getByRole('button',{name:'定位当前关卡'}).click();\n  26 |  const gap=await page.evaluate(()=>{const path=document.querySelector('.atlas-route path') as SVGPathElement,p=path.getPointAtLength(0),point=new DOMPoint(p.x,p.y).matrixTransform(path.getScreenCTM()!),node=document.querySelector('.chapter-node')!.getBoundingClientRect();return Math.hypot(point.x-node.x-node.width/2,point.y-node.y-node.height/2);});expect(gap).toBeLessThan(2);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                        "column": 2,
+                        "line": 23
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m292\u001b[39m\nReceived:   \u001b[31m285\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate\n\n  21 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.7,30);await page.mouse.up();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70);expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(before,0);\n  22 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70,{steps:8});await page.mouse.up();\n> 23 |  await expect.poll(()=>viewport.evaluate(el=>el.scrollLeft)).toBeGreaterThan(before+100);await expect(page.locator('.prepare-modal')).toHaveCount(0);\n     |  ^\n  24 |  const dragged=await viewport.evaluate(el=>el.scrollLeft);await page.locator('[data-tab=gear]').click();await page.locator('[data-act=close-management]').click();expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(dragged,0);\n  25 |  await page.getByRole('button',{name:'定位当前关卡'}).click();\n  26 |  const gap=await page.evaluate(()=>{const path=document.querySelector('.atlas-route path') as SVGPathElement,p=path.getPointAtLength(0),point=new DOMPoint(p.x,p.y).matrixTransform(path.getScreenCTM()!),node=document.querySelector('.chapter-node')!.getBoundingClientRect();return Math.hypot(point.x-node.x-node.width/2,point.y-node.y-node.height/2);});expect(gap).toBeLessThan(2);\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts:23:2"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:26:58.139Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-1920-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-1920-webkit\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-1920-webkit\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                    "column": 2,
+                    "line": 23
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "17c6ce0863ecc1049d94-ab60a107c70e195a02de",
+          "file": "v006.spec.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "宽幅舆图、半屏入口与平移 844",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 10350,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m407\u001b[39m\nReceived:   \u001b[31m348\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m407\u001b[39m\nReceived:   \u001b[31m348\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts:23:2",
+                    "location": {
+                      "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                      "column": 2,
+                      "line": 23
+                    },
+                    "snippet": "  21 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.7,30);await page.mouse.up();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70);expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(before,0);\n  22 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70,{steps:8});await page.mouse.up();\n> 23 |  await expect.poll(()=>viewport.evaluate(el=>el.scrollLeft)).toBeGreaterThan(before+100);await expect(page.locator('.prepare-modal')).toHaveCount(0);\n     |  ^\n  24 |  const dragged=await viewport.evaluate(el=>el.scrollLeft);await page.locator('[data-tab=gear]').click();await page.locator('[data-act=close-management]').click();expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(dragged,0);\n  25 |  await page.getByRole('button',{name:'定位当前关卡'}).click();\n  26 |  const gap=await page.evaluate(()=>{const path=document.querySelector('.atlas-route path') as SVGPathElement,p=path.getPointAtLength(0),point=new DOMPoint(p.x,p.y).matrixTransform(path.getScreenCTM()!),node=document.querySelector('.chapter-node')!.getBoundingClientRect();return Math.hypot(point.x-node.x-node.width/2,point.y-node.y-node.height/2);});expect(gap).toBeLessThan(2);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                        "column": 2,
+                        "line": 23
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m407\u001b[39m\nReceived:   \u001b[31m348\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate\n\n  21 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.7,30);await page.mouse.up();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70);expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(before,0);\n  22 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70,{steps:8});await page.mouse.up();\n> 23 |  await expect.poll(()=>viewport.evaluate(el=>el.scrollLeft)).toBeGreaterThan(before+100);await expect(page.locator('.prepare-modal')).toHaveCount(0);\n     |  ^\n  24 |  const dragged=await viewport.evaluate(el=>el.scrollLeft);await page.locator('[data-tab=gear]').click();await page.locator('[data-act=close-management]').click();expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(dragged,0);\n  25 |  await page.getByRole('button',{name:'定位当前关卡'}).click();\n  26 |  const gap=await page.evaluate(()=>{const path=document.querySelector('.atlas-route path') as SVGPathElement,p=path.getPointAtLength(0),point=new DOMPoint(p.x,p.y).matrixTransform(path.getScreenCTM()!),node=document.querySelector('.chapter-node')!.getBoundingClientRect();return Math.hypot(point.x-node.x-node.width/2,point.y-node.y-node.height/2);});expect(gap).toBeLessThan(2);\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts:23:2"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:27:10.080Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-844-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-844-webkit\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-844-webkit\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                    "column": 2,
+                    "line": 23
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "17c6ce0863ecc1049d94-67748ccc8cb650cfebcb",
+          "file": "v006.spec.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "宽幅舆图、半屏入口与平移 915",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 10478,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m377\u001b[39m\nReceived:   \u001b[31m321\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m377\u001b[39m\nReceived:   \u001b[31m321\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts:23:2",
+                    "location": {
+                      "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                      "column": 2,
+                      "line": 23
+                    },
+                    "snippet": "  21 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.7,30);await page.mouse.up();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70);expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(before,0);\n  22 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70,{steps:8});await page.mouse.up();\n> 23 |  await expect.poll(()=>viewport.evaluate(el=>el.scrollLeft)).toBeGreaterThan(before+100);await expect(page.locator('.prepare-modal')).toHaveCount(0);\n     |  ^\n  24 |  const dragged=await viewport.evaluate(el=>el.scrollLeft);await page.locator('[data-tab=gear]').click();await page.locator('[data-act=close-management]').click();expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(dragged,0);\n  25 |  await page.getByRole('button',{name:'定位当前关卡'}).click();\n  26 |  const gap=await page.evaluate(()=>{const path=document.querySelector('.atlas-route path') as SVGPathElement,p=path.getPointAtLength(0),point=new DOMPoint(p.x,p.y).matrixTransform(path.getScreenCTM()!),node=document.querySelector('.chapter-node')!.getBoundingClientRect();return Math.hypot(point.x-node.x-node.width/2,point.y-node.y-node.height/2);});expect(gap).toBeLessThan(2);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                        "column": 2,
+                        "line": 23
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m377\u001b[39m\nReceived:   \u001b[31m321\u001b[39m\n\nCall Log:\n- Timeout 10000ms exceeded while waiting on the predicate\n\n  21 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.7,30);await page.mouse.up();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70);expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(before,0);\n  22 |  await page.mouse.move(bounds!.x+bounds!.width*.7,bounds!.y+70);await page.mouse.down();await page.mouse.move(bounds!.x+bounds!.width*.3,bounds!.y+70,{steps:8});await page.mouse.up();\n> 23 |  await expect.poll(()=>viewport.evaluate(el=>el.scrollLeft)).toBeGreaterThan(before+100);await expect(page.locator('.prepare-modal')).toHaveCount(0);\n     |  ^\n  24 |  const dragged=await viewport.evaluate(el=>el.scrollLeft);await page.locator('[data-tab=gear]').click();await page.locator('[data-act=close-management]').click();expect(await viewport.evaluate(el=>el.scrollLeft)).toBeCloseTo(dragged,0);\n  25 |  await page.getByRole('button',{name:'定位当前关卡'}).click();\n  26 |  const gap=await page.evaluate(()=>{const path=document.querySelector('.atlas-route path') as SVGPathElement,p=path.getPointAtLength(0),point=new DOMPoint(p.x,p.y).matrixTransform(path.getScreenCTM()!),node=document.querySelector('.chapter-node')!.getBoundingClientRect();return Math.hypot(point.x-node.x-node.width/2,point.y-node.y-node.height/2);});expect(gap).toBeLessThan(2);\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts:23:2"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:27:21.194Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-915-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-915-webkit\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\v006-宽幅舆图、半屏入口与平移-915-webkit\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\v006.spec.ts",
+                    "column": 2,
+                    "line": 23
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "17c6ce0863ecc1049d94-d49f5029ec023229054b",
+          "file": "v006.spec.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "五英雄十五种独立角度面容与运行头部同源",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1830,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-30T09:27:32.501Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "17c6ce0863ecc1049d94-1077780111cdd49fe850",
+          "file": "v006.spec.ts",
+          "line": 105,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-30T09:26:29.501Z",
+    "duration": 65180.884999999995,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 4,
+    "flaky": 0
+  }
+}

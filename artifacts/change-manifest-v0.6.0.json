@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-30",
+  "version": "0.6.0",
+  "baseline": "素材库/99_历史版本/v0.5.0/源码采样",
+  "runtimeChanges": [
+    {
+      "path": "src/atlas-v006.css",
+      "status": "added",
+      "sha256": "50bda200f647f36df55d43954313d9044fb0faaa9a29d92b2a96aa7e59eabb39"
+    },
+    {
+      "path": "src/game/chapter-map.ts",
+      "status": "modified",
+      "sha256": "83615170afe2889d1227d4f8d236cfc5e4a77d5ad6bdc5698d9862f4b4f6969d"
+    },
+    {
+      "path": "src/game/hero-art.ts",
+      "status": "modified",
+      "sha256": "18d26e38ac63b7b7ec61f6aef2d646177aafd01a50465fa5c8b12953e556748c"
+    },
+    {
+      "path": "src/main.ts",
+      "status": "modified",
+      "sha256": "539da9132ca466742ffecf28e33bf9447c150b0127280014c2cea38c41950e54"
+    },
+    {
+      "path": "src/ui/chapter-navigation.ts",
+      "status": "added",
+      "sha256": "92414f6a287ce18b150c57ec796fd496f46886b41ecbb763cf977f751431ab39"
+    },
+    {
+      "path": "src/ui/dock-icons.ts",
+      "status": "added",
+      "sha256": "4b547a5728a8c8a5378f4d10a0e4ccbc76d3513052aaebd6ca604a3737f2d112"
+    }
+  ],
+  "notes": [
+    "No git repository; runtime source hashes compared with saved v0.5 source sample.",
+    "Dependency versions unchanged; package and lock bumped to 0.6.0.",
+    "Design, test, preview and asset exports updated separately."
+  ],
+  "buildFiles": [
+    {
+      "path": "dist/assets/index-BW27bNP3.css",
+      "sha256": "f98461d88621ada0aec8c032b5642b05460b325038058d086c74a87a2f44c380"
+    },
+    {
+      "path": "dist/assets/index-CICtX4xW.js",
+      "sha256": "ce1d3cb849b8276e26bddff661f2e2791adf63292e03cdd475c2695174d6c61c"
+    },
+    {
+      "path": "dist/assets/phaser-0YPJO2g1.js",
+      "sha256": "3c73b8d15f22eb21b75a78f863fa809a5f19a8539228d4bb14f2aa115f743b91"
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "852659e226c91c085e86505df1e38e2c37fa366dc3540387880355bbe220dbfd"
+    }
+  ]
+}

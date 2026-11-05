@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-31",
+  "passed": true,
+  "files": [
+    {
+      "file": "ambient-abbey.wav",
+      "seconds": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.08172352282314184,
+      "centroidHz": 852.918413673325,
+      "sha256": "6d8e68c69aef8e5226e490dc5e54d8e139ed544e6557317f0eb9d4808cc15e6f"
+    },
+    {
+      "file": "ambient-ash.wav",
+      "seconds": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.0792891769764279,
+      "centroidHz": 1334.3772465118855,
+      "sha256": "ceb0735e839d8f7a281e478e93091d02a2057916aacbe62b0ed54332c562de72"
+    },
+    {
+      "file": "ambient-camp.wav",
+      "seconds": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.08581614971131063,
+      "centroidHz": 668.4433381741563,
+      "sha256": "85d21bdbabca1b41710d6d0e5cd693c8f87ee8cf9c9e36e7c5d2166ecbf60535"
+    },
+    {
+      "file": "ambient-crypt.wav",
+      "seconds": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.06859815487115836,
+      "centroidHz": 558.3674817872861,
+      "sha256": "9c32e52b22f21ceded8505ed9245bae1019e8c4227a9405bb6f34495895d700f"
+    },
+    {
+      "file": "ambient-forest.wav",
+      "seconds": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.0725695463570372,
+      "centroidHz": 2773.9033447978713,
+      "sha256": "4668187fcb25b0c9f793f22677df6119003b42eec723df0ad68921de4298cb40"
+    },
+    {
+      "file": "ambient-fortress.wav",
+      "seconds": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.07689979205971566,
+      "centroidHz": 928.1253094303243,
+      "sha256": "c4d803c6b0dcf588bff4ad1f3466c14b5e52e70da846f4ecda7088e521a4d673"
+    },
+    {
+      "file": "arcaneBolt.wav",
+      "seconds": 0.37501133786848073,
+      "peak": 0.8199462890625,
+      "rms": 0.2641277699102471,
+      "centroidHz": 1032.031796909302,
+      "sha256": "d4bc4641af20039ffec2d3af1e9b64a4d7dc3c9b5cb1b0693c0e3524c1083a76"
+    },
+    {
+      "file": "archerHurt.wav",
+      "seconds": 0.20997732426303856,
+      "peak": 0.658111572265625,
+      "rms": 0.15061953352319837,
+      "centroidHz": 1346.187998795833,
+      "sha256": "ab3ca45861a79d8a9af58ffb4dbc0612fdfaa4bd6523c07537688affca18451d"
+    },
+    {
+      "file": "arrowHit.wav",
+      "seconds": 0.12997732426303854,
+      "peak": 0.61029052734375,
+      "rms": 0.13494088292873693,
+      "centroidHz": 3892.6345153447614,
+      "sha256": "105c2c195b989babe64844414e754fc914f078280177afd75be096a42c086af8"
+    },
+    {
+      "file": "arrowRain.wav",
+      "seconds": 0.5299773242630386,
+      "peak": 0.8199462890625,
+      "rms": 0.14433273706240898,
+      "centroidHz": 5420.738752948623,
+      "sha256": "45edbbe5899e3201447366b981d6320d2526783ef08bea644e68a413f9f5f1ad"
+    },
+    {
+      "file": "assassinHurt.wav",
+      "seconds": 0.20997732426303856,
+      "peak": 0.70477294921875,
+      "rms": 0.15702668295798022,
+      "centroidHz": 1362.2717486813672,
+      "sha256": "cb7581786f22232846e8b9c6238c02fb0c919570caf61c7ea67d421175d57212"
+    },
+    {
+      "file": "bite.wav",
+      "seconds": 0.24,
+      "peak": 0.8199462890625,
+      "rms": 0.14118291593902718,
+      "centroidHz": 731.3457806179537,
+      "sha256": "531bfb683d920df730cc274cf9bd55531a443bb36e46ea2564a7176765ccf504"
+    },
+    {
+      "file": "bladeHit.wav",
+      "seconds": 0.14,
+      "peak": 0.670501708984375,
+      "rms": 0.11723959759460036,
+      "centroidHz": 3712.6967946860273,
+      "sha256": "1b34ec9fcd112a052a0a36d8680849bcc34ba082a5db2769cda6547db4c23966"
+    },
+    {
+      "file": "bladeSwing.wav",
+      "seconds": 0.28,
+      "peak": 0.8199462890625,
+      "rms": 0.14463571274546935,
+      "centroidHz": 3336.4625752174943,
+      "sha256": "439f9fefac73dedc6537d2d69d3f846d69dfa283e95248d58e3781e2dfadf87b"
+    },
+    {
+      "file": "bowRelease.wav",
+      "seconds": 0.34997732426303857,
+      "peak": 0.5284423828125,
+      "rms": 0.08473540468541496,
+      "centroidHz": 3846.4811472128326,
+      "sha256": "b4eb630de32efc93fac08766b96061d82d015d0ffb8905eb94b6ce7083aa2440"
+    },
+    {
+      "file": "chant.wav",
+      "seconds": 0.6999546485260771,
+      "peak": 0.8199462890625,
+      "rms": 0.20060047565463338,
+      "centroidHz": 657.7872045533536,
+      "sha256": "37034aabda9434ed4c86f33e8b2548011f15b5d6851666dd04c0f1947cd64120"
+    },
+    {
+      "file": "claw.wav",
+      "seconds": 0.16,
+      "peak": 0.8199462890625,
+      "rms": 0.12824165795701992,
+      "centroidHz": 1552.0260097417,
+      "sha256": "8e1f6c09319a4f3943775b038a11208a9274e2a32ae0c0a5b4f64ee3cb8cd8e4"
+    },
+    {
+      "file": "cleave.wav",
+      "seconds": 0.4,
+      "peak": 0.775665283203125,
+      "rms": 0.12914138899505215,
+      "centroidHz": 1507.2976432470557,
+      "sha256": "5c680851eb05b8f577ffc9a84fb9d4815b9fd51bd6821afa5da379fdf445342e"
+    },
+    {
+      "file": "click.wav",
+      "seconds": 0.054965986394557825,
+      "peak": 0.484466552734375,
+      "rms": 0.09011950081542483,
+      "centroidHz": 2597.4121584541804,
+      "sha256": "b479e6a8744d2fa13242a532b37def06fc640ad8a06ba51005fbf28bdafc47be"
+    },
+    {
+      "file": "crossbow.wav",
+      "seconds": 0.20997732426303856,
+      "peak": 0.6827392578125,
+      "rms": 0.09967910921917578,
+      "centroidHz": 4417.161496035808,
+      "sha256": "a174f948ac5a264ee8f04dca41e19f8e4a6e82541e112ea21f1a10c526ed9379"
+    },
+    {
+      "file": "daggerSwing.wav",
+      "seconds": 0.12997732426303854,
+      "peak": 0.772857666015625,
+      "rms": 0.1153759081564836,
+      "centroidHz": 5658.003625877779,
+      "sha256": "832a47bc21683760671e3945c1a76558624985a2776e7b9eff1070464139c237"
+    },
+    {
+      "file": "death.wav",
+      "seconds": 0.44997732426303855,
+      "peak": 0.8199462890625,
+      "rms": 0.16305133535191693,
+      "centroidHz": 591.2755889969479,
+      "sha256": "383f373317a937fe8e305154022118589c61f0a4a94cc04b4eeb33ca43f487d8"
+    },
+    {
+      "file": "doom.wav",
+      "seconds": 1.1,
+      "peak": 0.8199462890625,
+      "rms": 0.24103832610207576,
+      "centroidHz": 327.36087866377153,
+      "sha256": "d38581df631c449ae57b587110b47b26a33af5367162f49346d5c445bf4ac17b"
+    },
+    {
+      "file": "entry.wav",
+      "seconds": 0.8,
+      "peak": 0.8199462890625,
+      "rms": 0.1789221646782056,
+      "centroidHz": 639.0445323152491,
+      "sha256": "49abbdb94281d0c34f6484842daceb6dd40164203aec35e112a746dd09c93186"
+    },
+    {
+      "file": "execute.wav",
+      "seconds": 0.2549659863945578,
+      "peak": 0.756317138671875,
+      "rms": 0.10284486954764836,
+      "centroidHz": 4351.168913306296,
+      "sha256": "ee9b77984523134cec27d3f076044b1a455a8b3cca5ba9d6adc8cac013830d04"
+    },
+    {
+      "file": "fireHit.wav",
+      "seconds": 0.8,
+      "peak": 0.8199462890625,
+      "rms": 0.10694928585314131,
+      "centroidHz": 1537.4660452856585,
+      "sha256": "d5653ecd66c15c938706bbcc87adda1a08df2a5fe4502fa400b11cd2c4529a21"
+    },
+    {
+      "file": "fleshHit.wav",
+      "seconds": 0.14,
+      "peak": 0.69122314453125,
+      "rms": 0.1958777862120585,
+      "centroidHz": 703.4610531497052,
+      "sha256": "4710be14e439cc89b918c9d2e4d09eea90075a9a1c0ab918295a599b2c1197e1"
+    },
+    {
+      "file": "frost.wav",
+      "seconds": 0.6,
+      "peak": 0.8199462890625,
+      "rms": 0.1103908919119217,
+      "centroidHz": 6087.162509523027,
+      "sha256": "e3eda29a6318ccdf4c653fe76c51687a613f94cf17e67b472f62087fb79aac12"
+    },
+    {
+      "file": "frostHit.wav",
+      "seconds": 0.22,
+      "peak": 0.8199462890625,
+      "rms": 0.13903310154994028,
+      "centroidHz": 5501.124463549047,
+      "sha256": "7ef4a0335a856ca24f61711803f87ed248274c4c6acf185d88f467871d9ed352"
+    },
+    {
+      "file": "hammerSwing.wav",
+      "seconds": 0.38,
+      "peak": 0.7607421875,
+      "rms": 0.13515529754990863,
+      "centroidHz": 696.5856607452146,
+      "sha256": "4c95a32385d91c112905bce6ba8245dcef74aa54a6b49dc3068f8bc9b4d95a49"
+    },
+    {
+      "file": "loot.wav",
+      "seconds": 0.22997732426303855,
+      "peak": 0.41748046875,
+      "rms": 0.06555320321642898,
+      "centroidHz": 3692.3881666122807,
+      "sha256": "f3b7337feecf0d0f7d7e615a4d440efa463c0426e1cd708b876dec1752b59b23"
+    },
+    {
+      "file": "lost.wav",
+      "seconds": 0.8,
+      "peak": 0.7958984375,
+      "rms": 0.24236516314479326,
+      "centroidHz": 228.32888015491346,
+      "sha256": "edd4424c8874e05a1cf2ce2705bf0666f9abd4d7cde0d1e1f2a150d9f3b02187"
+    },
+    {
+      "file": "mageHurt.wav",
+      "seconds": 0.20997732426303856,
+      "peak": 0.610992431640625,
+      "rms": 0.13626966376305522,
+      "centroidHz": 1353.0643113026795,
+      "sha256": "7c2f2f50b0b2af9a4aa6e0ad573c09dd2ed05ceed808f92fdd0626222e5e0b2b"
+    },
+    {
+      "file": "magicHit.wav",
+      "seconds": 0.3,
+      "peak": 0.8199462890625,
+      "rms": 0.11431610291704435,
+      "centroidHz": 1627.3464648475688,
+      "sha256": "ad1a592318f49958e76c056b6f95e376594ba7d8338891e7f11ae8d86f6e1c04"
+    },
+    {
+      "file": "metalHit.wav",
+      "seconds": 0.16,
+      "peak": 0.66259765625,
+      "rms": 0.12837228291638775,
+      "centroidHz": 2292.0195847531577,
+      "sha256": "de3d7c3240846d27bc04e435a0183dfcf1dd770d3058d3f3c6649ee7185d54cb"
+    },
+    {
+      "file": "meteorCast.wav",
+      "seconds": 0.8,
+      "peak": 0.8199462890625,
+      "rms": 0.18409862173505875,
+      "centroidHz": 1330.21961708473,
+      "sha256": "b7261ebd9aeadac5f94d91e52cadd5491b140b705fde088bc5098561a36c915a"
+    },
+    {
+      "file": "oath.wav",
+      "seconds": 1.0049886621315194,
+      "peak": 0.719573974609375,
+      "rms": 0.22329576516732705,
+      "centroidHz": 692.92063219546,
+      "sha256": "0fadc3f86e5d1fa8fc0b6f23160186d85e9c8601ce98798477ad67dcd881a789"
+    },
+    {
+      "file": "shadow.wav",
+      "seconds": 0.45501133786848075,
+      "peak": 0.8199462890625,
+      "rms": 0.1338221435781909,
+      "centroidHz": 2371.664774361456,
+      "sha256": "1bc6332753b480f45167035a2b853f15b72ad6707577a46af7189bdfbaba02d6"
+    },
+    {
+      "file": "shieldBash.wav",
+      "seconds": 0.34997732426303857,
+      "peak": 0.81103515625,
+      "rms": 0.12795686252519062,
+      "centroidHz": 1341.6963174371758,
+      "sha256": "deee2de682024d1faefa6c06a6634f94399a8d471ece77036cdfdadd58f036ae"
+    },
+    {
+      "file": "sweep.wav",
+      "seconds": 0.42,
+      "peak": 0.635650634765625,
+      "rms": 0.10905496241982061,
+      "centroidHz": 3849.2545020701946,
+      "sha256": "3cf7f1ac0c2950295dbd691359a027715037df2fb1e87161107a42dbeebbcdb6"
+    },
+    {
+      "file": "tankHurt.wav",
+      "seconds": 0.20997732426303856,
+      "peak": 0.769927978515625,
+      "rms": 0.16341408210524816,
+      "centroidHz": 1382.8772328610737,
+      "sha256": "ab019e4355ca5d862b95d648de2ff3afe70359d98fc0ee5873dfbaa12104dcf1"
+    },
+    {
+      "file": "volley.wav",
+      "seconds": 0.4,
+      "peak": 0.8199462890625,
+      "rms": 0.15287827086128122,
+      "centroidHz": 4862.629277476539,
+      "sha256": "cabc197c5dbba8333d04f01e96d0d2eae6f62fc394ac27e461f97af6469e8223"
+    },
+    {
+      "file": "ward.wav",
+      "seconds": 0.6999546485260771,
+      "peak": 0.8199462890625,
+      "rms": 0.10729825825865896,
+      "centroidHz": 3268.6779562440847,
+      "sha256": "b30ad9f3dfffb31c84fd5a6e979a4d0e6b3202e247aa61f42597f99686b4f64d"
+    },
+    {
+      "file": "warriorHurt.wav",
+      "seconds": 0.20997732426303856,
+      "peak": 0.63836669921875,
+      "rms": 0.1603723663548855,
+      "centroidHz": 1370.4411150757974,
+      "sha256": "39316f793cd4230fa37ae60065f1aac252ae1c587e2e2a723385f34faa86beff"
+    },
+    {
+      "file": "won.wav",
+      "seconds": 0.9499773242630386,
+      "peak": 0.8199462890625,
+      "rms": 0.22641507476821612,
+      "centroidHz": 407.4221403909182,
+      "sha256": "6de826185173f58ee14f89244e038eaae661be28113bfe289b7997a75681b00e"
+    }
+  ]
+}

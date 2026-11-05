@@ -1,0 +1,192 @@
+{
+  "version": "0.8.0",
+  "characters": [
+    {
+      "id": "warrior",
+      "frames": 12,
+      "size": [
+        512,
+        512
+      ],
+      "foot": [
+        256,
+        480
+      ],
+      "renderer": "painted-sprite",
+      "raw": "素材库/08_生成原稿/v008/warrior_original.png"
+    },
+    {
+      "id": "archer",
+      "frames": 12,
+      "size": [
+        512,
+        512
+      ],
+      "foot": [
+        256,
+        480
+      ],
+      "renderer": "painted-sprite",
+      "raw": "素材库/08_生成原稿/v008/archer_original.png"
+    },
+    {
+      "id": "mage",
+      "frames": 12,
+      "size": [
+        512,
+        512
+      ],
+      "foot": [
+        256,
+        480
+      ],
+      "renderer": "painted-sprite",
+      "raw": "素材库/08_生成原稿/v008/mage_original.png"
+    },
+    {
+      "id": "tank",
+      "frames": 12,
+      "size": [
+        512,
+        512
+      ],
+      "foot": [
+        256,
+        480
+      ],
+      "renderer": "painted-sprite",
+      "raw": "素材库/08_生成原稿/v008/tank_original.png"
+    },
+    {
+      "id": "assassin",
+      "frames": 12,
+      "size": [
+        512,
+        512
+      ],
+      "foot": [
+        256,
+        480
+      ],
+      "renderer": "painted-sprite",
+      "raw": "素材库/08_生成原稿/v008/assassin_original.png"
+    },
+    {
+      "id": "enemies",
+      "frames": 12,
+      "size": [
+        512,
+        512
+      ],
+      "foot": [
+        256,
+        480
+      ],
+      "renderer": "painted-sprite",
+      "raw": "素材库/08_生成原稿/v008/enemies_original.png"
+    }
+  ],
+  "files": [
+    {
+      "path": "chapter.webp",
+      "sha256": "2366939f1e8e92c8eb37f3a7b05e248826803fc30d86cbcc841e1eef8c45c7ef",
+      "bytes": 716268
+    },
+    {
+      "path": "portrait-archer.webp",
+      "sha256": "713a4ced5b3db1bc1aca3f46e1984d76d141d4cd5e7ec268f4bb47b191dcc9f4",
+      "bytes": 50630
+    },
+    {
+      "path": "portrait-assassin.webp",
+      "sha256": "a783da21be25b2aff48c26d34c69ce870b20fc7a6d4b507968e72151a0f1e8a5",
+      "bytes": 47284
+    },
+    {
+      "path": "portrait-mage.webp",
+      "sha256": "672a6418e090bf6941226ee2456a1218b13baa8f8588e711aa0a718ad337526c",
+      "bytes": 51942
+    },
+    {
+      "path": "portrait-tank.webp",
+      "sha256": "0ab34a94659028ab64a13ed17f67738c49af49355d8e242265ba12e717aaf226",
+      "bytes": 52700
+    },
+    {
+      "path": "portrait-warrior.webp",
+      "sha256": "400676d7a8455e5a147924c1cee9e86cb84f5e09aebf99f7f2333558395da8fa",
+      "bytes": 57216
+    },
+    {
+      "path": "props.webp",
+      "sha256": "e8d8419fdca78b767f2ffa4908a59f56c72d567b7fbb6118ecbf82c29974eb3e",
+      "bytes": 510688
+    },
+    {
+      "path": "scene-abbey.webp",
+      "sha256": "b111886530f69e19f405cc119483cd446ed322d0301c26e0309b4b3d81c7dd6e",
+      "bytes": 509084
+    },
+    {
+      "path": "scene-ash.webp",
+      "sha256": "5b8a76b7da3cbc342520717d88f6250ac3adb3c1d723f9c7fe738bdfe1d13b72",
+      "bytes": 450490
+    },
+    {
+      "path": "scene-crypt.webp",
+      "sha256": "85e4cdc7a7f8162ac69f242f84401ff4a076bca6aa5b606775aeabeeabb78f10",
+      "bytes": 374692
+    },
+    {
+      "path": "scene-forest.webp",
+      "sha256": "032674487e3886610c9b970cc17b1bb15b4afb0b3d941a3faa96022d87fc31ab",
+      "bytes": 499914
+    },
+    {
+      "path": "scene-fortress.webp",
+      "sha256": "b4adbcc7115a314cb15b22acf47b0f46705c02bee07eff4038ec466ed5d1d0dd",
+      "bytes": 424980
+    },
+    {
+      "path": "sheet-archer.webp",
+      "sha256": "9feafee8ccce1a41a504ce12c73343b240f7741d6a001a5461b0b270f60821e1",
+      "bytes": 604198
+    },
+    {
+      "path": "sheet-assassin.webp",
+      "sha256": "efe36c3e5b3279be22f95b89a4d14ffc301284cef89249b73ffe9c824af270c8",
+      "bytes": 528954
+    },
+    {
+      "path": "sheet-enemies.webp",
+      "sha256": "6eb58e8341230e18219902debe229e01e61ee911cb72fa3147a3f028f4aeebda",
+      "bytes": 875416
+    },
+    {
+      "path": "sheet-mage.webp",
+      "sha256": "76d531bba7c94b5aaee20625999afdf58775122be56add0bf6e737af0a84343f",
+      "bytes": 592006
+    },
+    {
+      "path": "sheet-tank.webp",
+      "sha256": "d8dac29470c1e1f59757e981da0d9aab3556dc027cf6312e726b3890e1fcff7c",
+      "bytes": 532598
+    },
+    {
+      "path": "sheet-warrior.webp",
+      "sha256": "6b41e1047e3e30f9938347b4cdd8fa5a4877ba3a45ac4a659465171ff4687180",
+      "bytes": 588712
+    }
+  ],
+  "props": {
+    "frames": 8,
+    "size": [
+      512,
+      512
+    ],
+    "foot": [
+      256,
+      480
+    ]
+  }
+}

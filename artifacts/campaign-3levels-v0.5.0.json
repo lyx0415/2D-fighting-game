@@ -1,0 +1,19 @@
+{
+  "version": "0.5.0",
+  "date": "2026-10-30",
+  "method": "真实鼠标操作，仅观察状态，未注入伤害或资源",
+  "records": [
+    {
+      "level": 1,
+      "seconds": 69
+    },
+    {
+      "level": 2,
+      "seconds": 76
+    },
+    {
+      "level": 3,
+      "seconds": 75
+    }
+  ]
+}

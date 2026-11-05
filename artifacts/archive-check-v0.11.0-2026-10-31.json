@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-31",
+  "version": "0.11.0",
+  "assets": 1389,
+  "historicalAssetsChecked": 1754,
+  "runtimePaintedTextures": 25,
+  "runtimeAudioFiles": 100,
+  "audioProfiles": 3,
+  "perProfileAudioFiles": 52,
+  "svgFiles": 1018,
+  "ok": true,
+  "errors": [],
+  "legacyRigs": 15,
+  "legacyRigLayers": 219,
+  "audioFiles": 238
+}

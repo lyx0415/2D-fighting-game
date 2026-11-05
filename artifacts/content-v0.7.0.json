@@ -1,0 +1,637 @@
+{
+  "version": "0.7.0",
+  "date": "2026-10-30",
+  "maxLevel": 10,
+  "xpThresholds": [
+    60,
+    90,
+    120,
+    150,
+    190,
+    240,
+    300,
+    370,
+    450
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "name": "灰烬村道",
+      "subtitle": "旧日的家园，只剩风中的余烬。",
+      "theme": "ash",
+      "waves": [
+        [
+          "zombie",
+          "zombie"
+        ],
+        [
+          "zombie",
+          "zombie",
+          "zombie"
+        ],
+        [
+          "zombie",
+          "zombie",
+          "crossbow",
+          "raider"
+        ]
+      ],
+      "xp": 60,
+      "gold": 80,
+      "intro": "押送队伍穿过了村庄。雷恩在灰烬中发现了一枚属于王室的断裂徽章。",
+      "outro": "薇拉：囚车往雾林去了。我认得那条路，让我和你一起。",
+      "hint": "点地面移动，点敌人锁定。靠近后自动攻击，右下角施放技能。",
+      "guarantee": {
+        "slot": "weapon",
+        "quality": "green",
+        "hero": "warrior"
+      },
+      "reinforcements": [
+        [
+          "zombie",
+          "zombie"
+        ],
+        [
+          "zombie",
+          "crossbow"
+        ],
+        [
+          "zombie",
+          "zombie",
+          "crossbow"
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "雾林囚车",
+      "subtitle": "迷雾之中，有人仍在等待黎明。",
+      "theme": "forest",
+      "waves": [
+        [
+          "zombie",
+          "zombie",
+          "zombie",
+          "crossbow"
+        ],
+        [
+          "wolf",
+          "wolf",
+          "crossbow",
+          "crossbow"
+        ],
+        [
+          "zombie",
+          "zombie",
+          "priest"
+        ],
+        [
+          "wolf",
+          "wolf",
+          "guard"
+        ]
+      ],
+      "xp": 90,
+      "gold": 120,
+      "intro": "腐败的树根缠住了囚车。铁笼里的学者正在用最后一点魔力抵挡黑潮。",
+      "outro": "布兰：公主还活着。他们把她带向黑石哨站。我的盾，愿为你们开路。",
+      "hint": "点击上方头像切换角色。优先处理弩手和会治疗的祭司。",
+      "guarantee": {
+        "slot": "armor",
+        "quality": "green"
+      },
+      "reinforcements": [
+        [
+          "zombie",
+          "wolf",
+          "crossbow"
+        ],
+        [
+          "wolf",
+          "zombie",
+          "crossbow"
+        ],
+        [
+          "zombie",
+          "crossbow",
+          "fanatic"
+        ],
+        [
+          "zombie",
+          "wolf",
+          "crossbow"
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "黑石哨站",
+      "subtitle": "锁链尽头，是被刻意掩埋的真相。",
+      "theme": "fortress",
+      "waves": [
+        [
+          "zombie",
+          "zombie",
+          "crossbow",
+          "crossbow"
+        ],
+        [
+          "wolf",
+          "wolf",
+          "priest",
+          "guard"
+        ],
+        [
+          "boss"
+        ]
+      ],
+      "xp": 130,
+      "gold": 200,
+      "intro": "哨站深处传来锁链声。灰烬典狱长站在监牢门前，而公主的声音已经消失。",
+      "outro": "赛芙：你们来晚了一步。公主被转移到了修道院。教团要的不是赎金……是她手中的王印。",
+      "hint": "留意红色地面预警，点空地躲避。典狱长半血后会加快攻击。",
+      "guarantee": {
+        "slot": "charm",
+        "quality": "blue"
+      },
+      "reinforcements": [
+        [
+          "zombie",
+          "wolf",
+          "crossbow"
+        ],
+        [
+          "fanatic",
+          "crossbow",
+          "zombie"
+        ],
+        []
+      ]
+    },
+    {
+      "id": 4,
+      "name": "朝圣者旧道",
+      "subtitle": "修道院钟声，已不再迎接生者。",
+      "theme": "forest",
+      "waves": [
+        [
+          "wolf",
+          "wolf",
+          "fanatic"
+        ],
+        [
+          "crossbow",
+          "crossbow",
+          "fanatic",
+          "fanatic"
+        ],
+        [
+          "guard",
+          "priest",
+          "fanatic",
+          "wolf"
+        ]
+      ],
+      "xp": 150,
+      "gold": 240,
+      "intro": "赛芙展开密信：教团会在下一次钟响时转移王印。小队沿废弃朝圣道赶往修道院。",
+      "outro": "薇拉：这些人不是被黑潮驱使，他们是自愿拥抱它的。钟楼就在前面。",
+      "hint": "狂信徒行动迅速，保护后排，用范围技能压制聚集敌人。",
+      "guarantee": {
+        "slot": "weapon",
+        "quality": "blue",
+        "hero": "archer"
+      },
+      "reinforcements": [
+        [
+          "fanatic",
+          "wolf",
+          "crossbow"
+        ],
+        [
+          "fanatic",
+          "fanatic",
+          "zombie",
+          "crossbow"
+        ],
+        [
+          "wolf",
+          "fanatic",
+          "crossbow"
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "name": "无声回廊",
+      "subtitle": "石像的目光，指向禁闭的钟楼。",
+      "theme": "abbey",
+      "waves": [
+        [
+          "fanatic",
+          "fanatic",
+          "crossbow"
+        ],
+        [
+          "wraith",
+          "zombie",
+          "zombie"
+        ],
+        [
+          "wraith",
+          "priest",
+          "guard"
+        ]
+      ],
+      "xp": 175,
+      "gold": 280,
+      "intro": "修道院中没有祈祷声。破裂的王印符文中，游荡着被仪式束缚的灵魂。",
+      "outro": "伊诺：王印留下了回响。公主来过这里，她试着破坏这场仪式。",
+      "hint": "怨灵会在目标脚下留下诅咒预警。离开红圈，优先击破施法者。",
+      "guarantee": {
+        "slot": "weapon",
+        "quality": "blue",
+        "hero": "mage"
+      },
+      "reinforcements": [
+        [
+          "fanatic",
+          "zombie",
+          "crossbow"
+        ],
+        [
+          "wraith",
+          "fanatic",
+          "crossbow"
+        ],
+        [
+          "fanatic",
+          "zombie",
+          "crossbow"
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "name": "钟楼封锁",
+      "subtitle": "让沉默已久的钟声，再次响起。",
+      "theme": "abbey",
+      "waves": [
+        [
+          "crossbow",
+          "crossbow",
+          "guard",
+          "fanatic"
+        ],
+        [
+          "wraith",
+          "fanatic",
+          "fanatic",
+          "priest"
+        ],
+        [
+          "guard",
+          "raider",
+          "wraith",
+          "priest"
+        ]
+      ],
+      "xp": 200,
+      "gold": 320,
+      "intro": "钟楼被精英教卫封锁。布兰发现一条通向地下墓道的旧阶梯，必须先夺回钟楼。",
+      "outro": "布兰：钟声会掩盖我们的脚步。走地下，公主留下的记号还没有消失。",
+      "hint": "这是精英封锁战。集火祭司和怨灵，保留坦克大招应对围攻。",
+      "guarantee": {
+        "slot": "armor",
+        "quality": "blue"
+      },
+      "reinforcements": [
+        [
+          "guard",
+          "fanatic",
+          "crossbow"
+        ],
+        [
+          "wraith",
+          "fanatic",
+          "crossbow"
+        ],
+        [
+          "fanatic",
+          "fanatic",
+          "crossbow",
+          "zombie"
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "name": "遗骨墓道",
+      "subtitle": "每一盏烛火，都在替失踪者守夜。",
+      "theme": "crypt",
+      "waves": [
+        [
+          "zombie",
+          "zombie",
+          "wraith"
+        ],
+        [
+          "wolf",
+          "wolf",
+          "wraith",
+          "fanatic"
+        ],
+        [
+          "wraith",
+          "wraith",
+          "guard"
+        ]
+      ],
+      "xp": 230,
+      "gold": 360,
+      "intro": "地下墓道的墙壁刻满了失踪者的名字。赛芙认出了王室密探使用的暗记。",
+      "outro": "赛芙：公主在提醒后来的人——王印不是献祭的钥匙，而是关闭裂隙的钥匙。",
+      "hint": "多个诅咒可能同时出现。别只顾输出，为队伍留出移动空间。",
+      "guarantee": {
+        "slot": "weapon",
+        "quality": "blue",
+        "hero": "assassin"
+      },
+      "reinforcements": [
+        [
+          "zombie",
+          "wolf",
+          "wraith"
+        ],
+        [
+          "fanatic",
+          "crossbow",
+          "zombie",
+          "wolf"
+        ],
+        [
+          "wraith",
+          "zombie",
+          "fanatic"
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "name": "逆誓祭坛",
+      "subtitle": "被扭曲的祷词，正在唤醒深处的裂隙。",
+      "theme": "crypt",
+      "waves": [
+        [
+          "fanatic",
+          "fanatic",
+          "priest",
+          "wraith"
+        ],
+        [
+          "guard",
+          "crossbow",
+          "crossbow",
+          "wraith"
+        ],
+        [
+          "raider",
+          "guard",
+          "wraith",
+          "fanatic"
+        ]
+      ],
+      "xp": 260,
+      "gold": 400,
+      "intro": "教团把守护誓词倒刻在祭坛上。伊诺必须夺回符文拓本，找到中断仪式的方法。",
+      "outro": "伊诺：主教把所有黑潮引向自己。击碎他的仪式，我们就能打开内殿。",
+      "hint": "先压制远程施法，再处理重甲。切换刺客可更快接近后排。",
+      "guarantee": {
+        "slot": "weapon",
+        "quality": "blue",
+        "hero": "tank"
+      },
+      "reinforcements": [
+        [
+          "fanatic",
+          "zombie",
+          "crossbow"
+        ],
+        [
+          "wraith",
+          "wolf",
+          "fanatic"
+        ],
+        [
+          "guard",
+          "fanatic",
+          "crossbow"
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "name": "黎明前庭",
+      "subtitle": "最后一道门后，是王印的微光。",
+      "theme": "abbey",
+      "waves": [
+        [
+          "fanatic",
+          "fanatic",
+          "crossbow",
+          "priest"
+        ],
+        [
+          "wraith",
+          "wraith",
+          "guard",
+          "wolf"
+        ],
+        [
+          "guard",
+          "raider",
+          "priest",
+          "fanatic",
+          "crossbow"
+        ]
+      ],
+      "xp": 300,
+      "gold": 450,
+      "intro": "小队从墓道重返地面。公主的徽记留在内殿门前，证明她仍在抵抗。",
+      "outro": "雷恩：走过来的每一条路，都不是徒劳。最后这道门，我们一起推开。",
+      "hint": "最后的综合战。装备可以在营地强化到+3，合理切换和集火。",
+      "guarantee": {
+        "slot": "charm",
+        "quality": "blue"
+      },
+      "reinforcements": [
+        [
+          "fanatic",
+          "wolf",
+          "crossbow",
+          "zombie"
+        ],
+        [
+          "wraith",
+          "fanatic",
+          "crossbow"
+        ],
+        [
+          "guard",
+          "fanatic",
+          "zombie",
+          "crossbow"
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "name": "黑潮圣殿",
+      "subtitle": "灰烬之中，守护之火将重新燃起。",
+      "theme": "abbey",
+      "waves": [
+        [
+          "fanatic",
+          "fanatic",
+          "wraith",
+          "priest"
+        ],
+        [
+          "guard",
+          "wraith",
+          "raider",
+          "crossbow"
+        ],
+        [
+          "bishop"
+        ]
+      ],
+      "xp": 400,
+      "gold": 600,
+      "intro": "主教莫尔站在裂隙前，王印的光芒从祭坛后透出。仪式即将完成，这是阻止黑潮的最后机会。",
+      "outro": "莫尔倒下，裂隙暂时闭合。祭坛后只有公主留下的王印碎片与一封信：“去寒铁王城，真正的背叛者还在那里。”第一章·灰烬边境 完。",
+      "hint": "章节Boss会锁定脚下的黑潮圆阵、释放直线裂隙并召唤怨灵。离开预警区域再输出。",
+      "guarantee": {
+        "slot": "weapon",
+        "quality": "blue",
+        "hero": "warrior"
+      },
+      "reinforcements": [
+        [
+          "fanatic",
+          "fanatic",
+          "crossbow",
+          "zombie"
+        ],
+        [
+          "wraith",
+          "fanatic",
+          "crossbow"
+        ],
+        []
+      ]
+    }
+  ],
+  "enemies": {
+    "zombie": {
+      "name": "蹒跚尸兵",
+      "hp": 120,
+      "atk": 22,
+      "armor": 3,
+      "range": 62,
+      "interval": 1.6,
+      "speed": 110,
+      "rank": "normal"
+    },
+    "wolf": {
+      "name": "腐狼",
+      "hp": 110,
+      "atk": 24,
+      "armor": 2,
+      "range": 58,
+      "interval": 1.2,
+      "speed": 195,
+      "rank": "normal"
+    },
+    "crossbow": {
+      "name": "教团弩手",
+      "hp": 105,
+      "atk": 26,
+      "armor": 4,
+      "range": 285,
+      "interval": 1.8,
+      "speed": 115,
+      "rank": "normal"
+    },
+    "priest": {
+      "name": "黑潮祭司",
+      "hp": 165,
+      "atk": 22,
+      "armor": 8,
+      "range": 250,
+      "interval": 2,
+      "speed": 100,
+      "rank": "normal"
+    },
+    "raider": {
+      "name": "精英掠夺者",
+      "hp": 350,
+      "atk": 38,
+      "armor": 12,
+      "range": 78,
+      "interval": 1.6,
+      "speed": 120,
+      "rank": "elite"
+    },
+    "guard": {
+      "name": "精英盾卫",
+      "hp": 440,
+      "atk": 32,
+      "armor": 24,
+      "range": 72,
+      "interval": 1.7,
+      "speed": 100,
+      "rank": "elite"
+    },
+    "boss": {
+      "name": "灰烬典狱长",
+      "hp": 3600,
+      "atk": 48,
+      "armor": 16,
+      "range": 100,
+      "interval": 1.8,
+      "speed": 80,
+      "rank": "boss"
+    },
+    "wraith": {
+      "name": "缚印怨灵",
+      "hp": 200,
+      "atk": 30,
+      "armor": 9,
+      "range": 245,
+      "interval": 2,
+      "speed": 115,
+      "rank": "elite"
+    },
+    "fanatic": {
+      "name": "黑誓狂信徒",
+      "hp": 160,
+      "atk": 30,
+      "armor": 7,
+      "range": 60,
+      "interval": 1.15,
+      "speed": 180,
+      "rank": "normal"
+    },
+    "bishop": {
+      "name": "黑潮主教·莫尔",
+      "hp": 7600,
+      "atk": 58,
+      "armor": 22,
+      "range": 260,
+      "interval": 2,
+      "speed": 70,
+      "rank": "boss"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "kind": "wolf",
+  "width": 128,
+  "height": 160,
+  "footX": 64,
+  "footY": 150,
+  "parts": [
+    {
+      "id": "tail",
+      "parent": "body",
+      "pivotX": 29,
+      "pivotY": 102,
+      "path": "rig_wolf_tail_v006.svg"
+    },
+    {
+      "id": "rearFarThigh",
+      "pivotX": 37,
+      "pivotY": 107,
+      "path": "rig_wolf_rearFarThigh_v006.svg"
+    },
+    {
+      "id": "rearFarShin",
+      "parent": "rearFarThigh",
+      "pivotX": 29,
+      "pivotY": 129,
+      "path": "rig_wolf_rearFarShin_v006.svg"
+    },
+    {
+      "id": "frontFarThigh",
+      "pivotX": 87,
+      "pivotY": 107,
+      "path": "rig_wolf_frontFarThigh_v006.svg"
+    },
+    {
+      "id": "frontFarShin",
+      "parent": "frontFarThigh",
+      "pivotX": 83,
+      "pivotY": 129,
+      "path": "rig_wolf_frontFarShin_v006.svg"
+    },
+    {
+      "id": "rearNearThigh",
+      "pivotX": 45,
+      "pivotY": 109,
+      "path": "rig_wolf_rearNearThigh_v006.svg"
+    },
+    {
+      "id": "rearNearShin",
+      "parent": "rearNearThigh",
+      "pivotX": 42,
+      "pivotY": 129,
+      "path": "rig_wolf_rearNearShin_v006.svg"
+    },
+    {
+      "id": "frontNearThigh",
+      "pivotX": 97,
+      "pivotY": 106,
+      "path": "rig_wolf_frontNearThigh_v006.svg"
+    },
+    {
+      "id": "frontNearShin",
+      "parent": "frontNearThigh",
+      "pivotX": 96,
+      "pivotY": 129,
+      "path": "rig_wolf_frontNearShin_v006.svg"
+    },
+    {
+      "id": "body",
+      "pivotX": 64,
+      "pivotY": 107,
+      "path": "rig_wolf_body_v006.svg"
+    },
+    {
+      "id": "head",
+      "parent": "body",
+      "pivotX": 99,
+      "pivotY": 88,
+      "path": "rig_wolf_head_v006.svg"
+    }
+  ]
+}

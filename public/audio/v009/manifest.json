@@ -1,0 +1,414 @@
+{
+  "date": "2026-10-31",
+  "method": "Original physical DSP + 6 layers rendered by vendored grumdrig/jsfxr (Unlicense); no voice recordings",
+  "repository": "https://github.com/grumdrig/jsfxr",
+  "license": "tools/vendor/jsfxr/UNLICENSE",
+  "sampleRate": 22050,
+  "files": [
+    {
+      "id": "click",
+      "file": "click.wav",
+      "duration": 0.054965986394557825,
+      "peak": 0.4844915445549008,
+      "rms": 0.0901310746408706,
+      "sha256": "b479e6a8744d2fa13242a532b37def06fc640ad8a06ba51005fbf28bdafc47be",
+      "source": "original DSP"
+    },
+    {
+      "id": "bladeSwing",
+      "file": "bladeSwing.wav",
+      "duration": 0.28,
+      "peak": 0.8199999999999998,
+      "rms": 0.1446504419774783,
+      "sha256": "439f9fefac73dedc6537d2d69d3f846d69dfa283e95248d58e3781e2dfadf87b",
+      "source": "original DSP"
+    },
+    {
+      "id": "bowRelease",
+      "file": "bowRelease.wav",
+      "duration": 0.34997732426303857,
+      "peak": 0.5284729588253336,
+      "rms": 0.0847483362846116,
+      "sha256": "b4eb630de32efc93fac08766b96061d82d015d0ffb8905eb94b6ce7083aa2440",
+      "source": "original DSP"
+    },
+    {
+      "id": "arcaneBolt",
+      "file": "arcaneBolt.wav",
+      "duration": 0.37501133786848073,
+      "peak": 0.82,
+      "rms": 0.2641478408014639,
+      "sha256": "d4bc4641af20039ffec2d3af1e9b64a4d7dc3c9b5cb1b0693c0e3524c1083a76",
+      "source": "original DSP + jsfxr"
+    },
+    {
+      "id": "hammerSwing",
+      "file": "hammerSwing.wav",
+      "duration": 0.38,
+      "peak": 0.7607834281634842,
+      "rms": 0.13516830373073999,
+      "sha256": "4c95a32385d91c112905bce6ba8245dcef74aa54a6b49dc3068f8bc9b4d95a49",
+      "source": "original DSP"
+    },
+    {
+      "id": "daggerSwing",
+      "file": "daggerSwing.wav",
+      "duration": 0.12997732426303854,
+      "peak": 0.772885166388358,
+      "rms": 0.11538984432831463,
+      "sha256": "832a47bc21683760671e3945c1a76558624985a2776e7b9eff1070464139c237",
+      "source": "original DSP"
+    },
+    {
+      "id": "claw",
+      "file": "claw.wav",
+      "duration": 0.16,
+      "peak": 0.82,
+      "rms": 0.12825565194748703,
+      "sha256": "8e1f6c09319a4f3943775b038a11208a9274e2a32ae0c0a5b4f64ee3cb8cd8e4",
+      "source": "original DSP"
+    },
+    {
+      "id": "bite",
+      "file": "bite.wav",
+      "duration": 0.24,
+      "peak": 0.8200000000000001,
+      "rms": 0.14119647605943444,
+      "sha256": "531bfb683d920df730cc274cf9bd55531a443bb36e46ea2564a7176765ccf504",
+      "source": "original DSP"
+    },
+    {
+      "id": "crossbow",
+      "file": "crossbow.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.6827762939899761,
+      "rms": 0.09969273063132808,
+      "sha256": "a174f948ac5a264ee8f04dca41e19f8e4a6e82541e112ea21f1a10c526ed9379",
+      "source": "original DSP"
+    },
+    {
+      "id": "chant",
+      "file": "chant.wav",
+      "duration": 0.6999546485260771,
+      "peak": 0.82,
+      "rms": 0.20061797006100404,
+      "sha256": "37034aabda9434ed4c86f33e8b2548011f15b5d6851666dd04c0f1947cd64120",
+      "source": "original DSP"
+    },
+    {
+      "id": "cleave",
+      "file": "cleave.wav",
+      "duration": 0.4,
+      "peak": 0.7757109626127298,
+      "rms": 0.1291542032506818,
+      "sha256": "5c680851eb05b8f577ffc9a84fb9d4815b9fd51bd6821afa5da379fdf445342e",
+      "source": "original DSP"
+    },
+    {
+      "id": "doom",
+      "file": "doom.wav",
+      "duration": 1.1,
+      "peak": 0.8200000000000001,
+      "rms": 0.24105732122089235,
+      "sha256": "d38581df631c449ae57b587110b47b26a33af5367162f49346d5c445bf4ac17b",
+      "source": "original DSP"
+    },
+    {
+      "id": "sweep",
+      "file": "sweep.wav",
+      "duration": 0.42,
+      "peak": 0.6356970501915501,
+      "rms": 0.10906838189729648,
+      "sha256": "3cf7f1ac0c2950295dbd691359a027715037df2fb1e87161107a42dbeebbcdb6",
+      "source": "original DSP"
+    },
+    {
+      "id": "ward",
+      "file": "ward.wav",
+      "duration": 0.6999546485260771,
+      "peak": 0.82,
+      "rms": 0.10731138730273311,
+      "sha256": "b30ad9f3dfffb31c84fd5a6e979a4d0e6b3202e247aa61f42597f99686b4f64d",
+      "source": "original DSP + jsfxr"
+    },
+    {
+      "id": "volley",
+      "file": "volley.wav",
+      "duration": 0.4,
+      "peak": 0.8199999999999998,
+      "rms": 0.15289407530468205,
+      "sha256": "cabc197c5dbba8333d04f01e96d0d2eae6f62fc394ac27e461f97af6469e8223",
+      "source": "original DSP"
+    },
+    {
+      "id": "arrowRain",
+      "file": "arrowRain.wav",
+      "duration": 0.5299773242630386,
+      "peak": 0.82,
+      "rms": 0.14434793551153008,
+      "sha256": "45edbbe5899e3201447366b981d6320d2526783ef08bea644e68a413f9f5f1ad",
+      "source": "original DSP"
+    },
+    {
+      "id": "frost",
+      "file": "frost.wav",
+      "duration": 0.6,
+      "peak": 0.82,
+      "rms": 0.11040366228706874,
+      "sha256": "e3eda29a6318ccdf4c653fe76c51687a613f94cf17e67b472f62087fb79aac12",
+      "source": "original DSP + jsfxr"
+    },
+    {
+      "id": "meteorCast",
+      "file": "meteorCast.wav",
+      "duration": 0.8,
+      "peak": 0.82,
+      "rms": 0.1841163484603335,
+      "sha256": "b7261ebd9aeadac5f94d91e52cadd5491b140b705fde088bc5098561a36c915a",
+      "source": "original DSP + jsfxr"
+    },
+    {
+      "id": "shieldBash",
+      "file": "shieldBash.wav",
+      "duration": 0.34997732426303857,
+      "peak": 0.8110644123671739,
+      "rms": 0.12796852668950046,
+      "sha256": "deee2de682024d1faefa6c06a6634f94399a8d471ece77036cdfdadd58f036ae",
+      "source": "original DSP"
+    },
+    {
+      "id": "oath",
+      "file": "oath.wav",
+      "duration": 1.0049886621315194,
+      "peak": 0.7196241067472102,
+      "rms": 0.22331339656036348,
+      "sha256": "0fadc3f86e5d1fa8fc0b6f23160186d85e9c8601ce98798477ad67dcd881a789",
+      "source": "original DSP + jsfxr"
+    },
+    {
+      "id": "shadow",
+      "file": "shadow.wav",
+      "duration": 0.45501133786848075,
+      "peak": 0.82,
+      "rms": 0.1338355012658932,
+      "sha256": "1bc6332753b480f45167035a2b853f15b72ad6707577a46af7189bdfbaba02d6",
+      "source": "original DSP + jsfxr"
+    },
+    {
+      "id": "execute",
+      "file": "execute.wav",
+      "duration": 0.2549659863945578,
+      "peak": 0.7563470319634701,
+      "rms": 0.1028573214653758,
+      "sha256": "ee9b77984523134cec27d3f076044b1a455a8b3cca5ba9d6adc8cac013830d04",
+      "source": "original DSP"
+    },
+    {
+      "id": "metalHit",
+      "file": "metalHit.wav",
+      "duration": 0.16,
+      "peak": 0.6626323277306132,
+      "rms": 0.12838652178489607,
+      "sha256": "de3d7c3240846d27bc04e435a0183dfcf1dd770d3058d3f3c6649ee7185d54cb",
+      "source": "original DSP"
+    },
+    {
+      "id": "fleshHit",
+      "file": "fleshHit.wav",
+      "duration": 0.14,
+      "peak": 0.691259456306425,
+      "rms": 0.19589500161342183,
+      "sha256": "4710be14e439cc89b918c9d2e4d09eea90075a9a1c0ab918295a599b2c1197e1",
+      "source": "original DSP"
+    },
+    {
+      "id": "arrowHit",
+      "file": "arrowHit.wav",
+      "duration": 0.12997732426303854,
+      "peak": 0.6103196347031964,
+      "rms": 0.1349563572205323,
+      "sha256": "105c2c195b989babe64844414e754fc914f078280177afd75be096a42c086af8",
+      "source": "original DSP"
+    },
+    {
+      "id": "frostHit",
+      "file": "frostHit.wav",
+      "duration": 0.22,
+      "peak": 0.82,
+      "rms": 0.13904697418296327,
+      "sha256": "7ef4a0335a856ca24f61711803f87ed248274c4c6acf185d88f467871d9ed352",
+      "source": "original DSP"
+    },
+    {
+      "id": "fireHit",
+      "file": "fireHit.wav",
+      "duration": 0.8,
+      "peak": 0.82,
+      "rms": 0.10696102281227858,
+      "sha256": "d5653ecd66c15c938706bbcc87adda1a08df2a5fe4502fa400b11cd2c4529a21",
+      "source": "original DSP"
+    },
+    {
+      "id": "bladeHit",
+      "file": "bladeHit.wav",
+      "duration": 0.14,
+      "peak": 0.67053346876577,
+      "rms": 0.11725240836834444,
+      "sha256": "1b34ec9fcd112a052a0a36d8680849bcc34ba082a5db2769cda6547db4c23966",
+      "source": "original DSP"
+    },
+    {
+      "id": "magicHit",
+      "file": "magicHit.wav",
+      "duration": 0.3,
+      "peak": 0.82,
+      "rms": 0.11432957886880338,
+      "sha256": "ad1a592318f49958e76c056b6f95e376594ba7d8338891e7f11ae8d86f6e1c04",
+      "source": "original DSP"
+    },
+    {
+      "id": "loot",
+      "file": "loot.wav",
+      "duration": 0.22997732426303855,
+      "peak": 0.4175062441487032,
+      "rms": 0.06556272933507058,
+      "sha256": "f3b7337feecf0d0f7d7e615a4d440efa463c0426e1cd708b876dec1752b59b23",
+      "source": "original DSP"
+    },
+    {
+      "id": "death",
+      "file": "death.wav",
+      "duration": 0.44997732426303855,
+      "peak": 0.8199999999999998,
+      "rms": 0.16306561783978507,
+      "sha256": "383f373317a937fe8e305154022118589c61f0a4a94cc04b4eeb33ca43f487d8",
+      "source": "original DSP"
+    },
+    {
+      "id": "won",
+      "file": "won.wav",
+      "duration": 0.9499773242630386,
+      "peak": 0.8199999999999998,
+      "rms": 0.22643355479041083,
+      "sha256": "6de826185173f58ee14f89244e038eaae661be28113bfe289b7997a75681b00e",
+      "source": "original DSP"
+    },
+    {
+      "id": "lost",
+      "file": "lost.wav",
+      "duration": 0.8,
+      "peak": 0.7959378891036746,
+      "rms": 0.24238408673734377,
+      "sha256": "edd4424c8874e05a1cf2ce2705bf0666f9abd4d7cde0d1e1f2a150d9f3b02187",
+      "source": "original DSP"
+    },
+    {
+      "id": "entry",
+      "file": "entry.wav",
+      "duration": 0.8,
+      "peak": 0.82,
+      "rms": 0.1789374335450394,
+      "sha256": "49abbdb94281d0c34f6484842daceb6dd40164203aec35e112a746dd09c93186",
+      "source": "original DSP"
+    },
+    {
+      "id": "warriorHurt",
+      "file": "warriorHurt.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.6384133618905166,
+      "rms": 0.16038798094804468,
+      "sha256": "39316f793cd4230fa37ae60065f1aac252ae1c587e2e2a723385f34faa86beff",
+      "source": "original DSP"
+    },
+    {
+      "id": "archerHurt",
+      "file": "archerHurt.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.6581559154297922,
+      "rms": 0.150634618980706,
+      "sha256": "ab3ca45861a79d8a9af58ffb4dbc0612fdfaa4bd6523c07537688affca18451d",
+      "source": "original DSP"
+    },
+    {
+      "id": "mageHurt",
+      "file": "mageHurt.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.6110257207211512,
+      "rms": 0.13628442856695136,
+      "sha256": "7c2f2f50b0b2af9a4aa6e0ad573c09dd2ed05ceed808f92fdd0626222e5e0b2b",
+      "source": "original DSP"
+    },
+    {
+      "id": "tankHurt",
+      "file": "tankHurt.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.7699767806867464,
+      "rms": 0.1634298224289751,
+      "sha256": "ab019e4355ca5d862b95d648de2ff3afe70359d98fc0ee5873dfbaa12104dcf1",
+      "source": "original DSP"
+    },
+    {
+      "id": "assassinHurt",
+      "file": "assassinHurt.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.7048073997987961,
+      "rms": 0.1570421832112329,
+      "sha256": "cb7581786f22232846e8b9c6238c02fb0c919570caf61c7ea67d421175d57212",
+      "source": "original DSP"
+    },
+    {
+      "id": "ambient-camp",
+      "file": "ambient-camp.wav",
+      "duration": 16.0,
+      "peak": 0.37999999999999995,
+      "rms": 0.08583078770987955,
+      "sha256": "85d21bdbabca1b41710d6d0e5cd693c8f87ee8cf9c9e36e7c5d2166ecbf60535",
+      "source": "original DSP"
+    },
+    {
+      "id": "ambient-ash",
+      "file": "ambient-ash.wav",
+      "duration": 16.0,
+      "peak": 0.38,
+      "rms": 0.07930362493124289,
+      "sha256": "ceb0735e839d8f7a281e478e93091d02a2057916aacbe62b0ed54332c562de72",
+      "source": "original DSP"
+    },
+    {
+      "id": "ambient-forest",
+      "file": "ambient-forest.wav",
+      "duration": 16.0,
+      "peak": 0.38,
+      "rms": 0.07258381173928985,
+      "sha256": "4668187fcb25b0c9f793f22677df6119003b42eec723df0ad68921de4298cb40",
+      "source": "original DSP"
+    },
+    {
+      "id": "ambient-fortress",
+      "file": "ambient-fortress.wav",
+      "duration": 16.0,
+      "peak": 0.38,
+      "rms": 0.07691414664944758,
+      "sha256": "c4d803c6b0dcf588bff4ad1f3466c14b5e52e70da846f4ecda7088e521a4d673",
+      "source": "original DSP"
+    },
+    {
+      "id": "ambient-abbey",
+      "file": "ambient-abbey.wav",
+      "duration": 16.0,
+      "peak": 0.38,
+      "rms": 0.08173802834745418,
+      "sha256": "6d8e68c69aef8e5226e490dc5e54d8e139ed544e6557317f0eb9d4808cc15e6f",
+      "source": "original DSP"
+    },
+    {
+      "id": "ambient-crypt",
+      "file": "ambient-crypt.wav",
+      "duration": 16.0,
+      "peak": 0.37999999999999995,
+      "rms": 0.06861226498619959,
+      "sha256": "9c32e52b22f21ceded8505ed9245bae1019e8c4227a9405bb6f34495895d700f",
+      "source": "original DSP"
+    }
+  ]
+}

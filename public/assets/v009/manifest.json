@@ -1,0 +1,46 @@
+{
+  "version": "0.9.0",
+  "date": "2026-10-31",
+  "source": "built-in image_gen, identity-preserving edit",
+  "frames": 10,
+  "frameSize": [
+    512,
+    512
+  ],
+  "foot": [
+    256,
+    480
+  ],
+  "files": [
+    {
+      "path": "portrait-archer.webp",
+      "sha256": "ae20fb4c3edd9600a4a59b99132ddfe9b260f3aa24acd3dce054c8477e9d8965",
+      "bytes": 63642
+    },
+    {
+      "path": "portrait-assassin.webp",
+      "sha256": "e81015c292012648de58380eba0efc1f90a4a0414159d52cc15b3b9300625591",
+      "bytes": 62522
+    },
+    {
+      "path": "portrait-mage.webp",
+      "sha256": "e13fb1e47e76a3dd1231997248075d08f8da6044c3bddcd32d32dcc25c3e22fe",
+      "bytes": 71550
+    },
+    {
+      "path": "portrait-tank.webp",
+      "sha256": "7a85859c00e7368d6966824906a1240137feb1087565f2557d750cc28cd50b46",
+      "bytes": 84624
+    },
+    {
+      "path": "portrait-warrior.webp",
+      "sha256": "d5ddeacad804fce6101bc6a99305bd9e41caa2dccd56763f2e2d331208dd4ca5",
+      "bytes": 72028
+    },
+    {
+      "path": "stances.webp",
+      "sha256": "3c54ea8c262ca3786e11dca29fb7073cb09d72807cf3761f15d5e91d6d28419e",
+      "bytes": 682720
+    }
+  ]
+}

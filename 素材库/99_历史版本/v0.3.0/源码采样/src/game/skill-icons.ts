@@ -1,0 +1,8 @@
+export const HERO_SPECIALTIES:Record<string,string>={warrior:'钢刃横扫 · 护盾自保',archer:'穿林连射 · 区域箭雨',mage:'寒霜减速 · 陨火爆发',tank:'重盾震击 · 嘲讽守护',assassin:'影步突进 · 残血处决'};
+export function skillIconSvg(hero:string,index:number):string {
+ const color=({warrior:'#d9b878',archer:'#b1d0a1',mage:'#9cd6e7',tank:'#abcce3',assassin:'#c5addf'} as Record<string,string>)[hero]??'#d9b878';
+ const sword='<path d="M27 40V13L32 7L37 13V40M21 42H43M32 43V56"/>';
+ const shield='<path d="M12 14L32 7L52 14L49 39Q43 51 32 57Q21 51 15 39Z"/><path d="M32 15V46M21 29H43"/>';
+ let shape=hero==='warrior'?(index?shield:sword+`<g transform="rotate(70 32 32)">${sword}</g>`):hero==='tank'?(index?shield+'<path d="M9 46L4 52M55 46L60 52M32 2V0"/>':shield+'<path d="M4 25H10M54 25H60M8 5L14 10M50 10L56 5"/>'):hero==='archer'?(index?'<path d="M13 8V43M32 8V54M51 8V43M7 37L13 45L19 37M26 48L32 56L38 48M45 37L51 45L57 37"/>':'<path d="M13 8Q57 31 13 56M13 8L23 32L13 56M7 32H55M48 25L56 32L48 39"/>'):hero==='mage'?(index?'<path d="M48 7L25 27M57 13L33 36M45 3L15 32M38 7L8 35"/><circle cx="25" cy="43" r="14"/><path d="M20 38L30 48M30 38L20 48"/>':'<path d="M32 6V58M9 19L55 45M9 45L55 19M25 12L32 19L39 12M25 52L32 45L39 52M10 27L20 25L19 15M45 49L44 39L54 37M10 37L20 39L19 49M45 15L44 25L54 27"/>'):(index?sword+'<path d="M12 16L18 22M46 16L52 10M11 49L18 43M47 44L54 51"/>':'<path d="M44 8Q10 26 33 55Q4 47 9 24Q16 4 44 8ZM34 30L55 17L48 40Z"/>');
+ return `<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><g stroke="${color}" fill="none" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">${shape}</g></svg>`;
+}

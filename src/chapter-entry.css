@@ -1,0 +1,13 @@
+.chapter-loading{position:absolute;inset:0;z-index:2200;display:grid;place-content:center;justify-items:center;text-align:center;color:#e2cc9f;background:linear-gradient(#06101ae8,#07111af5),var(--entry-scene) center/cover;pointer-events:all;animation:entry-reveal .3s ease-out;padding:24px}
+.entry-emblem{width:84px;height:94px;position:relative;margin-bottom:18px;animation:entry-breathe 1.2s ease-in-out infinite}
+.entry-emblem img{width:100%;height:100%;filter:drop-shadow(0 0 14px #b7985b44)}
+.chapter-loading .eyebrow{font:10px Georgia,serif;letter-spacing:5px;color:#b99d6b}
+.chapter-loading h2{font:32px var(--serif);font-weight:400;letter-spacing:5px;margin:15px 0 10px}
+.chapter-loading p{font:13px var(--serif);letter-spacing:2px;max-width:580px;color:#a8b4ba;line-height:1.8;margin:0 0 24px}
+.entry-track{height:2px;width:min(360px,65vw);background:#72849233;overflow:hidden}
+.entry-track i{display:block;width:100%;height:100%;transform:scaleX(var(--load-progress,0));transform-origin:left;background:#c8a76b;transition:transform .12s linear;box-shadow:0 0 12px #d2ae72}
+.chapter-loading small{font:9px sans-serif;color:#8499aa;letter-spacing:2px;margin-top:14px}
+@keyframes entry-reveal{from{opacity:.2}to{opacity:1}}
+@keyframes entry-breathe{50%{filter:brightness(1.18);transform:translateY(-2px)}}
+@media(max-height:500px){.entry-emblem{width:50px;height:58px;margin-bottom:10px}.chapter-loading h2{font-size:23px;margin:10px 0 7px}.chapter-loading p{font-size:10px;margin-bottom:18px}.chapter-loading .eyebrow{font-size:8px}}
+@media(prefers-reduced-motion:reduce){.chapter-loading,.entry-emblem{animation:none}}

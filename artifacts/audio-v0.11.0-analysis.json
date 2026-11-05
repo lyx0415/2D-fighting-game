@@ -1,0 +1,731 @@
+{
+  "version": "0.11.0",
+  "date": "2026-10-31",
+  "ok": true,
+  "count": 72,
+  "loopFiles": 6,
+  "uniqueHashes": 72,
+  "method": "Independent PCM read, not human listening",
+  "files": [
+    {
+      "id": "sweep",
+      "profile": "grounded",
+      "seconds": 1.32,
+      "peak": 0.709991455078125,
+      "rms": 0.08365304627006222,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "6ba9b9e337ea3f658598d58bbc9b2ba145220db02b08fef15b0c3282232a9603"
+    },
+    {
+      "id": "ward",
+      "profile": "grounded",
+      "seconds": 1.7899773242630386,
+      "peak": 0.709991455078125,
+      "rms": 0.11404259073436994,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "85a2431766f701a5a9305057e2a33d120f34c8c805caeffa527ea681a4effbef"
+    },
+    {
+      "id": "volley",
+      "profile": "grounded",
+      "seconds": 1.1,
+      "peak": 0.709991455078125,
+      "rms": 0.11272643711600112,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "191d329ddcefe8dc230b85efa3baf127c09ba4172fb3e44e2facdca9b6aad566"
+    },
+    {
+      "id": "arrowRain",
+      "profile": "grounded",
+      "seconds": 1.3699773242630386,
+      "peak": 0.709991455078125,
+      "rms": 0.1280530346187921,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "2ebf5dca1a85b3729e6d151629b63e4848cbd3efde157ea7e24394188e717c0f"
+    },
+    {
+      "id": "frost",
+      "profile": "grounded",
+      "seconds": 1.7,
+      "peak": 0.709991455078125,
+      "rms": 0.07591942002313636,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "1182e94961b013ab79157d27a2683083852aef534eff5d8fa5affea51f5a1fab"
+    },
+    {
+      "id": "meteorCast",
+      "profile": "grounded",
+      "seconds": 1.66,
+      "peak": 0.709991455078125,
+      "rms": 0.08134162060017944,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "e6898c605de497d4841cb4aae38cdcc60b2a1357fc3405d14a431030a899927b"
+    },
+    {
+      "id": "shieldBash",
+      "profile": "grounded",
+      "seconds": 1.16,
+      "peak": 0.561187744140625,
+      "rms": 0.10005628557212781,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "1aeef864e05ee9d76c2901c196199675fd26bf70fedabf3ab0b34370696d717b"
+    },
+    {
+      "id": "oath",
+      "profile": "grounded",
+      "seconds": 1.96,
+      "peak": 0.661529541015625,
+      "rms": 0.12772536336490017,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "2ba862ecb6ea91f426f627f39fc9e98e64165fe0c1ebe32a7ec5eaaafef0caee"
+    },
+    {
+      "id": "shadow",
+      "profile": "grounded",
+      "seconds": 1.2899773242630386,
+      "peak": 0.709991455078125,
+      "rms": 0.07514257415630991,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "7c926c3abd1c4c02ba071a4b9dd5edc8443bb853019b6af38e31a4d7058df35e"
+    },
+    {
+      "id": "execute",
+      "profile": "grounded",
+      "seconds": 1.0500226757369615,
+      "peak": 0.709991455078125,
+      "rms": 0.09031282083477267,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "cff1501cc3fdcf853c03fb04c95a2a2caad00acab86acbce6f1ee952be05a257"
+    },
+    {
+      "id": "metalHit",
+      "profile": "grounded",
+      "seconds": 0.8099773242630386,
+      "peak": 0.46124267578125,
+      "rms": 0.05125491489561409,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "417f492bb8f66fd91077e9f15b26cfc699b07def89a17c6cb962e19bcd0e24da"
+    },
+    {
+      "id": "fleshHit",
+      "profile": "grounded",
+      "seconds": 0.74,
+      "peak": 0.600189208984375,
+      "rms": 0.08322483257958739,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "2e35cd488df8395cd00f36324f6ea11e0e51147b10c8dfe52da4a9fd066ca5f1"
+    },
+    {
+      "id": "arrowHit",
+      "profile": "grounded",
+      "seconds": 0.7499773242630385,
+      "peak": 0.4644775390625,
+      "rms": 0.05652804210337019,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "131207d307ece7d33a0d8f47e1284498eab7edca4d672842d26df7080e57eb41"
+    },
+    {
+      "id": "frostHit",
+      "profile": "grounded",
+      "seconds": 0.96,
+      "peak": 0.709991455078125,
+      "rms": 0.06491490227546734,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "e5b98e26f69b1c4e4a45b13a3ce7c6d9a58c17dee08f6448061f93bf584ca31e"
+    },
+    {
+      "id": "fireHit",
+      "profile": "grounded",
+      "seconds": 1.8100226757369615,
+      "peak": 0.709991455078125,
+      "rms": 0.08170933332912397,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "19494e71e616b6326cac69da007154f4aa6d326f0fd002a9b505ff32109df794"
+    },
+    {
+      "id": "bladeHit",
+      "profile": "grounded",
+      "seconds": 0.76,
+      "peak": 0.548980712890625,
+      "rms": 0.06117615082558909,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "d498bfe2017f36b2c651a354ce226116e84800e96e2399f9b22ee9a2b63fb2ee"
+    },
+    {
+      "id": "magicHit",
+      "profile": "grounded",
+      "seconds": 1.14,
+      "peak": 0.584197998046875,
+      "rms": 0.07601353761110365,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "525ef479b9918b3c66a9f3fe6a041c2d756e28b4b0066f3284f05225ac97f852"
+    },
+    {
+      "id": "warriorExert",
+      "profile": "grounded",
+      "seconds": 0.38,
+      "peak": 0.220001220703125,
+      "rms": 0.03418784211331254,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "d5eec547bb6f4a8cb3031a010a25731e82071ff6ccb8e7139d66a061d257969a"
+    },
+    {
+      "id": "archerExert",
+      "profile": "grounded",
+      "seconds": 0.28997732426303857,
+      "peak": 0.1690673828125,
+      "rms": 0.05198845957189554,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "8a2b3a5568dfac5fe9cd88684aa4e6b4611f59a9ccbe39d66fb39e7c9375ec99"
+    },
+    {
+      "id": "mageExert",
+      "profile": "grounded",
+      "seconds": 0.42,
+      "peak": 0.220001220703125,
+      "rms": 0.04711150195052212,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "7dc5539af94758070b264ce10241a27cee6f6bc07d6937956d05839557932fd2"
+    },
+    {
+      "id": "tankExert",
+      "profile": "grounded",
+      "seconds": 0.46,
+      "peak": 0.220001220703125,
+      "rms": 0.03357133341689335,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "31891ab111c4fecd8e56bcdd5cf71acdb62ad2058ac3f13fe591477ca5d76ec0"
+    },
+    {
+      "id": "assassinExert",
+      "profile": "grounded",
+      "seconds": 0.24997732426303854,
+      "peak": 0.220001220703125,
+      "rms": 0.04931234205286061,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "ce2fe671166596bb4d37f7051e96d211549901b389c10f89503b75eaeea03007"
+    },
+    {
+      "id": "wardSustain",
+      "profile": "grounded",
+      "seconds": 2.0,
+      "peak": 0.149078369140625,
+      "rms": 0.042998667350549795,
+      "loop": true,
+      "seamJump": 0.0,
+      "sha256": "2ee4de83968d2ab8d54f5bc6dcda147a7a634c5b0dd7354cc0196e1cd28b64e5"
+    },
+    {
+      "id": "oathSustain",
+      "profile": "grounded",
+      "seconds": 2.0,
+      "peak": 0.16729736328125,
+      "rms": 0.04299865852621134,
+      "loop": true,
+      "seamJump": 3.0517578125e-05,
+      "sha256": "4fc08724effda3b3382e774722646849cbd9876fb7957dcf744d5ddc2be7fe8f"
+    },
+    {
+      "id": "sweep",
+      "profile": "feral",
+      "seconds": 1.32,
+      "peak": 0.709991455078125,
+      "rms": 0.1013114367836503,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "a8036b4112d3e11a0d51cd7797ac4e11f727fca40a67b2f88e14723003be172a"
+    },
+    {
+      "id": "ward",
+      "profile": "feral",
+      "seconds": 1.7899773242630386,
+      "peak": 0.621795654296875,
+      "rms": 0.10106223621543066,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "7bfb7587339fc3c6a33280944d1b518502c61cc853ed0df7b405a485e778a000"
+    },
+    {
+      "id": "volley",
+      "profile": "feral",
+      "seconds": 1.1,
+      "peak": 0.709991455078125,
+      "rms": 0.128986596850781,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "d9e24c1334decf97bd0aab1e8e89b1f10d7568df27bd14c4e16119df71018336"
+    },
+    {
+      "id": "arrowRain",
+      "profile": "feral",
+      "seconds": 1.3699773242630386,
+      "peak": 0.709991455078125,
+      "rms": 0.13265874320241763,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "54c9fe713d01669554984b28e58e55cb122f069a1ec9d1c5343e38d2097584d9"
+    },
+    {
+      "id": "frost",
+      "profile": "feral",
+      "seconds": 1.7,
+      "peak": 0.709991455078125,
+      "rms": 0.08887526970385566,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "6b7925803ef86db747359b25550197afb944eeeea8156416b1d2ebfce6d9ba65"
+    },
+    {
+      "id": "meteorCast",
+      "profile": "feral",
+      "seconds": 1.66,
+      "peak": 0.709991455078125,
+      "rms": 0.0662614606081229,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "b785b18d0102db3afaed935ac9efdc0c8f0eef8d2c577110dd71a19359b5f98c"
+    },
+    {
+      "id": "shieldBash",
+      "profile": "feral",
+      "seconds": 1.16,
+      "peak": 0.709991455078125,
+      "rms": 0.11173500842106653,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "45007a78e00eb25386400603a2336a36dbea55145345cd1d7ace50c58691ef83"
+    },
+    {
+      "id": "oath",
+      "profile": "feral",
+      "seconds": 1.96,
+      "peak": 0.59259033203125,
+      "rms": 0.1379047090230459,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "7747a19eb2d9c51b68dd789e0cf36e7a7e59566e8610e995415e1e3ff014dd37"
+    },
+    {
+      "id": "shadow",
+      "profile": "feral",
+      "seconds": 1.2899773242630386,
+      "peak": 0.709991455078125,
+      "rms": 0.08332066529231606,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "df190969f7a575991489c430226b90a2c22b4ec41ae3971c7851b4e220a29910"
+    },
+    {
+      "id": "execute",
+      "profile": "feral",
+      "seconds": 1.0500226757369615,
+      "peak": 0.709991455078125,
+      "rms": 0.08789417787428803,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "e64f63f034e30693462b14d52aefff09d9c52b7e3eb3369493cd7e7de3b36a39"
+    },
+    {
+      "id": "metalHit",
+      "profile": "feral",
+      "seconds": 0.8099773242630386,
+      "peak": 0.51568603515625,
+      "rms": 0.061151903530725006,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "6bc1de1f465d517b1f969e1eacffe0dd329beadc13eda2065732f7c030f746a9"
+    },
+    {
+      "id": "fleshHit",
+      "profile": "feral",
+      "seconds": 0.74,
+      "peak": 0.709991455078125,
+      "rms": 0.09755264032214309,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "dc91ca55a85143c30cdcdb5d92a2f646181e3f41b9368809f50bbd513b6bc765"
+    },
+    {
+      "id": "arrowHit",
+      "profile": "feral",
+      "seconds": 0.7499773242630385,
+      "peak": 0.538970947265625,
+      "rms": 0.06590923532564046,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "107632199b5b564886554b3d5cb1952f0153ccbad571c46d893720a5d7212648"
+    },
+    {
+      "id": "frostHit",
+      "profile": "feral",
+      "seconds": 0.96,
+      "peak": 0.709991455078125,
+      "rms": 0.08081574255861777,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "5e138522eda6708db3c7d6c0228287eda88bb8e8e75c3513dc4c5d3d44bb8b85"
+    },
+    {
+      "id": "fireHit",
+      "profile": "feral",
+      "seconds": 1.8100226757369615,
+      "peak": 0.69189453125,
+      "rms": 0.09001326596488964,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "2a34c8ebac24bbecf66d0dbfba68ed7f3135396f8219afe30b66fc5e2c2a9085"
+    },
+    {
+      "id": "bladeHit",
+      "profile": "feral",
+      "seconds": 0.76,
+      "peak": 0.55902099609375,
+      "rms": 0.06233122065245969,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "6e9455bfffab0ac53f0cb76e8172d0c0eb0f4132e6ae97014c30c0fe3d3315c8"
+    },
+    {
+      "id": "magicHit",
+      "profile": "feral",
+      "seconds": 1.14,
+      "peak": 0.709991455078125,
+      "rms": 0.0769828302861531,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "65642f6aeb9d63301330dc3ddca5765e1592c9e3612ec6ab6c28948b57bb427e"
+    },
+    {
+      "id": "warriorExert",
+      "profile": "feral",
+      "seconds": 0.425578231292517,
+      "peak": 0.220001220703125,
+      "rms": 0.037367022795859774,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "450bc8e92f0ed557e1b5e524d8391fa99ec0ac6e273a199a562110e3cad8e527"
+    },
+    {
+      "id": "archerExert",
+      "profile": "feral",
+      "seconds": 0.3248072562358277,
+      "peak": 0.18963623046875,
+      "rms": 0.051990873941192714,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "4196dd601091bd9b57430daef39cb967394a2c01784ba8d15fcbdb0acefdcad0"
+    },
+    {
+      "id": "mageExert",
+      "profile": "feral",
+      "seconds": 0.4703854875283447,
+      "peak": 0.21826171875,
+      "rms": 0.05199148722769167,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "48a3f584b3262606d35a6cde9e0a8624e50cea4bd99caa2f014aa8e8686b1326"
+    },
+    {
+      "id": "tankExert",
+      "profile": "feral",
+      "seconds": 0.5151927437641723,
+      "peak": 0.220001220703125,
+      "rms": 0.036591946820717314,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "5682f19f1984b49a4682faa9ac91880529ec605bd5bd89d2ef770c3468339f3b"
+    },
+    {
+      "id": "assassinExert",
+      "profile": "feral",
+      "seconds": 0.28,
+      "peak": 0.220001220703125,
+      "rms": 0.04775947215626667,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "589c1e620d86ca28aa5667572cb43dc03e467f3cd42e753bbc75b93cfcccd9d8"
+    },
+    {
+      "id": "wardSustain",
+      "profile": "feral",
+      "seconds": 2.0,
+      "peak": 0.155548095703125,
+      "rms": 0.042998669132410766,
+      "loop": true,
+      "seamJump": 0.0,
+      "sha256": "b7ec1cab6518c956ab248994ec2d078a4ddf9f49b398e69276d318be60546619"
+    },
+    {
+      "id": "oathSustain",
+      "profile": "feral",
+      "seconds": 2.0,
+      "peak": 0.162994384765625,
+      "rms": 0.042998629926049886,
+      "loop": true,
+      "seamJump": 0.0,
+      "sha256": "274fa80f8a7ef9671e8c5f4be64a73b890a565347079bfe48f8578cd7118099e"
+    },
+    {
+      "id": "sweep",
+      "profile": "mystic",
+      "seconds": 1.32,
+      "peak": 0.709991455078125,
+      "rms": 0.08619453737675221,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "82be8fb3ae84773015e1aab5a76c8195e1eab00b4b6b266c93b12db4ad67f3ed"
+    },
+    {
+      "id": "ward",
+      "profile": "mystic",
+      "seconds": 1.7899773242630386,
+      "peak": 0.709991455078125,
+      "rms": 0.0852550709857232,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "444ba87aa03edad42f335a381f4f6ec22cba0fda9246b3f9ae0696aafd0d8a85"
+    },
+    {
+      "id": "volley",
+      "profile": "mystic",
+      "seconds": 1.1,
+      "peak": 0.709991455078125,
+      "rms": 0.10499043595499336,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "4ae33a6a29d91a770bbed362074f7537a665e9e95b3a4a98fe36baf2a0141a0f"
+    },
+    {
+      "id": "arrowRain",
+      "profile": "mystic",
+      "seconds": 1.3699773242630386,
+      "peak": 0.709991455078125,
+      "rms": 0.11686634076237369,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "dddcc281c731ec9101fef6d361633a8f9493d8e12b9a83ac9f274571086c279b"
+    },
+    {
+      "id": "frost",
+      "profile": "mystic",
+      "seconds": 1.7,
+      "peak": 0.709991455078125,
+      "rms": 0.06840330734369501,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "b96e832d79a3519c8f783bcd972fdbebfc12288e5f245b0a09fcc56e0772d8cf"
+    },
+    {
+      "id": "meteorCast",
+      "profile": "mystic",
+      "seconds": 1.66,
+      "peak": 0.709991455078125,
+      "rms": 0.08548032632692647,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "256eb0f2e2d992c498ad3aa0d3db9e9c71222f537ae7f8833152a6dceff0867c"
+    },
+    {
+      "id": "shieldBash",
+      "profile": "mystic",
+      "seconds": 1.16,
+      "peak": 0.552520751953125,
+      "rms": 0.07784621592936627,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "7f00ff5d45b933267d4b0fc3a6a815ff83d48a2c131323ffa3679900abcb63c3"
+    },
+    {
+      "id": "oath",
+      "profile": "mystic",
+      "seconds": 1.96,
+      "peak": 0.703125,
+      "rms": 0.13807316269258246,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "5d646b466e5f094d0c7fa85e328000ddfa7332c988b4a0e39925e2ea3423e918"
+    },
+    {
+      "id": "shadow",
+      "profile": "mystic",
+      "seconds": 1.2899773242630386,
+      "peak": 0.709991455078125,
+      "rms": 0.08526906732588688,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "9afdae2428240a4a347c5546f4512cb9b4a6010817e74b7d569ef590bbfb4311"
+    },
+    {
+      "id": "execute",
+      "profile": "mystic",
+      "seconds": 1.0500226757369615,
+      "peak": 0.709991455078125,
+      "rms": 0.07914102373340813,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "4b894efe140747cb60cbbea0f8cca72414ce094b08c2f95193f4cc6cd9fff740"
+    },
+    {
+      "id": "metalHit",
+      "profile": "mystic",
+      "seconds": 0.8099773242630386,
+      "peak": 0.6185302734375,
+      "rms": 0.04374890417667002,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "7665ce938872e6ea43f6598930bfaaf9ffb4ded0ddc98b8cd3ccb7fea0e4400d"
+    },
+    {
+      "id": "fleshHit",
+      "profile": "mystic",
+      "seconds": 0.74,
+      "peak": 0.59600830078125,
+      "rms": 0.06084709921755038,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "0fe6969190c0f293838eaafa4b89b4a1ba275b5f4065a18994d476e3426c06d0"
+    },
+    {
+      "id": "arrowHit",
+      "profile": "mystic",
+      "seconds": 0.7499773242630385,
+      "peak": 0.548858642578125,
+      "rms": 0.05179115681546735,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "522b8ba6695d44ed0b75a9010c4f0a900bd482dc81ee6253a79bc04cfa1d678a"
+    },
+    {
+      "id": "frostHit",
+      "profile": "mystic",
+      "seconds": 0.96,
+      "peak": 0.709991455078125,
+      "rms": 0.057740097751457005,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "7f512c98c7cb9a0d15a463c9977d37d9e53361a44956f2b61c4958f607a3911a"
+    },
+    {
+      "id": "fireHit",
+      "profile": "mystic",
+      "seconds": 1.8100226757369615,
+      "peak": 0.709991455078125,
+      "rms": 0.08350654537352695,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "76867791f3b734cb8d0f2238b5363d4924608f09d414d93f3d1f1cbace43bcc5"
+    },
+    {
+      "id": "bladeHit",
+      "profile": "mystic",
+      "seconds": 0.76,
+      "peak": 0.599151611328125,
+      "rms": 0.043066503760052624,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "1e8eb20d6c094148eb0bb64dcdb6660408627103c6f1197ac460a64219b9210b"
+    },
+    {
+      "id": "magicHit",
+      "profile": "mystic",
+      "seconds": 1.14,
+      "peak": 0.65692138671875,
+      "rms": 0.06772936941866026,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "991251dcd5f32239d8bd7b0b3f42a4a0d49d8de5b9815787dccb1597007b8f85"
+    },
+    {
+      "id": "warriorExert",
+      "profile": "mystic",
+      "seconds": 0.5327891156462585,
+      "peak": 0.220001220703125,
+      "rms": 0.03246253272264019,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "b39f3ab58e8f93d4554fb2979ec30f40c0faca14c8c3adfcabc9c20ea01bcd64"
+    },
+    {
+      "id": "archerExert",
+      "profile": "mystic",
+      "seconds": 0.43736961451247164,
+      "peak": 0.220001220703125,
+      "rms": 0.04927441243650562,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "f7a3f0183f6d69b3abf096d7415afc19cd01df85a7323fc1c822531e9e5491b1"
+    },
+    {
+      "id": "mageExert",
+      "profile": "mystic",
+      "seconds": 0.5751927437641723,
+      "peak": 0.220001220703125,
+      "rms": 0.04718043616544736,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "5a1d18ed95cac97a8b7a038876a30f7b1a288ef34bfeba6a55d9a88b48fa4043"
+    },
+    {
+      "id": "tankExert",
+      "profile": "mystic",
+      "seconds": 0.6175963718820862,
+      "peak": 0.220001220703125,
+      "rms": 0.02979776905871452,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "434e530076a56538029075f83b1fdb663188e20fda72d0d4ad12f0e96a459e33"
+    },
+    {
+      "id": "assassinExert",
+      "profile": "mystic",
+      "seconds": 0.3949659863945578,
+      "peak": 0.220001220703125,
+      "rms": 0.04368553186311466,
+      "loop": false,
+      "seamJump": null,
+      "sha256": "2a44cb84b635e488cbe48d3370a2fb714ae72a65f3fbcda00b18ed73ff6a42e6"
+    },
+    {
+      "id": "wardSustain",
+      "profile": "mystic",
+      "seconds": 2.0,
+      "peak": 0.15020751953125,
+      "rms": 0.04299868704998131,
+      "loop": true,
+      "seamJump": 3.0517578125e-05,
+      "sha256": "4c3bdc40d2f17781d62f6c3fbc2c0564dd136527482c62ab21c14d6ae96a0bfa"
+    },
+    {
+      "id": "oathSustain",
+      "profile": "mystic",
+      "seconds": 2.0,
+      "peak": 0.16741943359375,
+      "rms": 0.042998692758023684,
+      "loop": true,
+      "seamJump": 0.0,
+      "sha256": "6e1649e9fca4cb593c405a50f8caace85cecc6c90f6075e9dac5c5df0e6d63d1"
+    }
+  ]
+}

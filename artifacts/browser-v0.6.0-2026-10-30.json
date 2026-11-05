@@ -1,0 +1,414 @@
+{
+  "version": "0.6.0",
+  "date": "2026-10-30",
+  "kind": "latest result per test and engine across recorded runs; not a single clean matrix invocation",
+  "runs": [
+    "browser-v0.6.0-matrix-initial-diagnostic.json",
+    "browser-v0.6.0-focused-2026-10-30.json",
+    "browser-v0.6.0-touch-2026-10-30.json",
+    "browser-v0.6.0-pointer-diagnostic.json",
+    "browser-v0.6.0-pointer-followup-diagnostic.json",
+    "browser-v0.6.0-native-drag-diagnostic.json",
+    "browser-v0.6.0-final-2026-10-30.json"
+  ],
+  "counts": {
+    "passed": 55,
+    "failed": 0,
+    "skipped": 1,
+    "timedOut": 0
+  },
+  "checks": [
+    {
+      "project": "chromium",
+      "file": "chapter.spec.ts",
+      "title": "旧版第三关存档自动续接第四关，地图展示十关",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "chapter.spec.ts",
+      "title": "修道院与墓道可开战，新增敌人资源无加载错误",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "chapter.spec.ts",
+      "title": "章节Boss独立名称、圆阵预警与结尾展示",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "chapter.spec.ts",
+      "title": "生产版修道院可实际加载并开战",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "chapter.spec.ts",
+      "title": "旧版第三关存档自动续接第四关，地图展示十关",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "chapter.spec.ts",
+      "title": "修道院与墓道可开战，新增敌人资源无加载错误",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "chapter.spec.ts",
+      "title": "章节Boss独立名称、圆阵预警与结尾展示",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "chapter.spec.ts",
+      "title": "生产版修道院可实际加载并开战",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "game.spec.ts",
+      "title": "布局与基础流程 1280x720",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "game.spec.ts",
+      "title": "布局与基础流程 1920x1080",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "game.spec.ts",
+      "title": "布局与基础流程 844x390",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "game.spec.ts",
+      "title": "布局与基础流程 915x412",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "game.spec.ts",
+      "title": "编队、装备、金币强化与隔离存档",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "game.spec.ts",
+      "title": "四人切换、UI不穿透、Boss预警与结果幂等",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "game.spec.ts",
+      "title": "竖屏与切后台暂停",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "game.spec.ts",
+      "title": "布局与基础流程 1280x720",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "game.spec.ts",
+      "title": "布局与基础流程 1920x1080",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "game.spec.ts",
+      "title": "布局与基础流程 844x390",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "game.spec.ts",
+      "title": "布局与基础流程 915x412",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "game.spec.ts",
+      "title": "编队、装备、金币强化与隔离存档",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "game.spec.ts",
+      "title": "四人切换、UI不穿透、Boss预警与结果幂等",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "game.spec.ts",
+      "title": "竖屏与切后台暂停",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "hero-art.spec.ts",
+      "title": "五职业80帧矢量均可解码，画布边缘没有姿态裁切",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "hero-art.spec.ts",
+      "title": "五职业80帧矢量均可解码，画布边缘没有姿态裁切",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "production.spec.ts",
+      "title": "生产包真实开战，无调试入口、无运行错误",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "webkit",
+      "file": "production.spec.ts",
+      "title": "生产包真实开战，无调试入口、无运行错误",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "chromium",
+      "file": "redesign.spec.ts",
+      "title": "舆图为十个连线节点，Boss更大且可用触屏选关",
+      "status": "passed",
+      "source": "browser-v0.6.0-touch-2026-10-30.json"
+    },
+    {
+      "project": "chromium",
+      "file": "redesign.spec.ts",
+      "title": "精细英雄与十个职业技能图形加载，造型与技能标签可辨",
+      "status": "passed",
+      "source": "browser-v0.6.0-touch-2026-10-30.json"
+    },
+    {
+      "project": "webkit",
+      "file": "redesign.spec.ts",
+      "title": "舆图为十个连线节点，Boss更大且可用触屏选关",
+      "status": "passed",
+      "source": "browser-v0.6.0-touch-2026-10-30.json"
+    },
+    {
+      "project": "webkit",
+      "file": "redesign.spec.ts",
+      "title": "精细英雄与十个职业技能图形加载，造型与技能标签可辨",
+      "status": "passed",
+      "source": "browser-v0.6.0-touch-2026-10-30.json"
+    },
+    {
+      "project": "chromium",
+      "file": "v005.spec.ts",
+      "title": "十五种连续动作离线图鉴可播放和暂停",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "v005.spec.ts",
+      "title": "地图主界面与次级整备 1280",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "v005.spec.ts",
+      "title": "地图主界面与次级整备 844",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "v005.spec.ts",
+      "title": "连续关节实际播放，敌人动作与反馈，暂停冻结",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "v005.spec.ts",
+      "title": "差异音效离线渲染有波形且无削波，导出试听WAV",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "v005.spec.ts",
+      "title": "十五种连续动作离线图鉴可播放和暂停",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "v005.spec.ts",
+      "title": "地图主界面与次级整备 1280",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "v005.spec.ts",
+      "title": "地图主界面与次级整备 844",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "v005.spec.ts",
+      "title": "连续关节实际播放，敌人动作与反馈，暂停冻结",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "v005.spec.ts",
+      "title": "差异音效离线渲染有波形且无削波，导出试听WAV",
+      "status": "skipped",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "v006.spec.ts",
+      "title": "宽幅舆图、半屏入口与平移 1280",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "chromium",
+      "file": "v006.spec.ts",
+      "title": "宽幅舆图、半屏入口与平移 1920",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "chromium",
+      "file": "v006.spec.ts",
+      "title": "宽幅舆图、半屏入口与平移 844",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "chromium",
+      "file": "v006.spec.ts",
+      "title": "宽幅舆图、半屏入口与平移 915",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "chromium",
+      "file": "v006.spec.ts",
+      "title": "五英雄十五种独立角度面容与运行头部同源",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "webkit",
+      "file": "v006.spec.ts",
+      "title": "宽幅舆图、半屏入口与平移 1280",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "webkit",
+      "file": "v006.spec.ts",
+      "title": "宽幅舆图、半屏入口与平移 1920",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "webkit",
+      "file": "v006.spec.ts",
+      "title": "宽幅舆图、半屏入口与平移 844",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "webkit",
+      "file": "v006.spec.ts",
+      "title": "宽幅舆图、半屏入口与平移 915",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "webkit",
+      "file": "v006.spec.ts",
+      "title": "五英雄十五种独立角度面容与运行头部同源",
+      "status": "passed",
+      "source": "browser-v0.6.0-final-2026-10-30.json"
+    },
+    {
+      "project": "chromium",
+      "file": "workshop.spec.ts",
+      "title": "工坊角色切换、组合筛选、换装和转交 1280",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "workshop.spec.ts",
+      "title": "工坊角色切换、组合筛选、换装和转交 844",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "chromium",
+      "file": "workshop.spec.ts",
+      "title": "五职业技能徽印、冷却与切换，手机点按不穿透",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "workshop.spec.ts",
+      "title": "工坊角色切换、组合筛选、换装和转交 1280",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "workshop.spec.ts",
+      "title": "工坊角色切换、组合筛选、换装和转交 844",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    },
+    {
+      "project": "webkit",
+      "file": "workshop.spec.ts",
+      "title": "五职业技能徽印、冷却与切换，手机点按不穿透",
+      "status": "passed",
+      "source": "browser-v0.6.0-matrix-initial-diagnostic.json"
+    }
+  ]
+}

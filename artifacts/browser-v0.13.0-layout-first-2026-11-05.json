@@ -1,0 +1,678 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\playwright.config.ts",
+    "rootDir": "C:/Users/lyx/Desktop/test/游戏制作/2D横板格斗/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/browser-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/lyx/Desktop/test/游戏制作/2D横板格斗/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/lyx/Desktop/test/游戏制作/2D横板格斗/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/lyx/Desktop/test/游戏制作/2D横板格斗/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/lyx/Desktop/test/游戏制作/2D横板格斗/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "production.spec.ts",
+      "file": "production.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "生产包真实开战，无调试入口、无运行错误",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3522,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:30:55.175Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ed69554c53210704c98c-b04f858c8428c5cb1e0c",
+          "file": "production.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "生产包真实开战，无调试入口、无运行错误",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3942,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:28.563Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ed69554c53210704c98c-65eccc0df0de53dead59",
+          "file": "production.spec.ts",
+          "line": 2,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "release-v013.spec.ts",
+      "file": "release-v013.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "发布触控与契约 844",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2615,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:30:58.913Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19303daf171f063361d2-e2dcb739107173175516",
+          "file": "release-v013.spec.ts",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "发布触控与契约 915",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2612,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:01.536Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19303daf171f063361d2-2a46ef48848ceb2df108",
+          "file": "release-v013.spec.ts",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "发布触控与契约 1280",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1367,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m720\u001b[39m\nReceived:    \u001b[31m804.96875\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m720\u001b[39m\nReceived:    \u001b[31m804.96875\u001b[39m\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts:8:107",
+                    "location": {
+                      "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts",
+                      "column": 107,
+                      "line": 8
+                    },
+                    "snippet": "   6 |  await expect(page.locator('[data-act=progress]')).toBeVisible();await page.locator('[data-act=new]').click();await page.locator('[data-act=skip-story]').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await expect(page.locator('[data-contract=nightfall]')).toBeDisabled();await page.locator('.modal-close').click();\n   7 |  await page.evaluate(s=>localStorage.setItem('ashen-oath.v1',JSON.stringify(s)),fixture('squad'));await page.reload();await page.locator('[data-act=continue]').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await page.locator('[data-contract=veteran]').click();await expect(page.locator('[data-contract=veteran]')).toHaveAttribute('aria-pressed','true');\n>  8 |  const startBox=await page.locator('[data-act=start]').boundingBox();expect(startBox!.y+startBox!.height).toBeLessThanOrEqual(size.height);await expect(page.locator('.prepare-grid .hero-card').first()).toBeInViewport();await page.screenshot({path:`artifacts/${info.project.name}-v013-contract-${size.width}.png`});await page.locator('[data-act=start]').click();await expect(page.locator('.chapter-loading')).toHaveCount(0);await expect(page.locator('.party-button')).toHaveCount(4);await page.locator('[data-act=pause]').click();await expect(page.locator('.pause-modal')).toBeVisible();expect(errors).toEqual([]);\n     |                                                                                                           ^\n   9 | });\n  10 | test('战役档案、左手设置保存和技能位置',async({page},info)=>{await page.goto('/');await page.evaluate(s=>localStorage.setItem('ashen-oath.v1',JSON.stringify(s)),fixture('squad'));await page.reload();await page.locator('[data-act=settings]').click();await page.locator('[data-act=left-hand]').click();await expect(page.locator('body')).toHaveAttribute('data-hand','left');await page.locator('[data-act=close]').last().click();await page.locator('[data-act=continue]').click();await page.locator('[data-act=ledger]').click();await expect(page.locator('.ledger-levels article')).toHaveCount(3);await expect(page.locator('.enemy-card-art').first()).toBeVisible();await page.screenshot({path:`artifacts/${info.project.name}-v013-ledger.png`});await page.locator('.modal-close').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await page.locator('[data-act=start]').click();await expect(page.locator('.chapter-loading')).toHaveCount(0);await expect(page.locator('.battle-bottom')).toHaveCSS('flex-direction','row-reverse');await page.screenshot({path:`artifacts/${info.project.name}-v013-left-hand.png`});});\n  11 | test('存档文件导入确认、取消、导出及无效文件不破坏进度',async({page})=>{"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts",
+                        "column": 107,
+                        "line": 8
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m720\u001b[39m\nReceived:    \u001b[31m804.96875\u001b[39m\n\n   6 |  await expect(page.locator('[data-act=progress]')).toBeVisible();await page.locator('[data-act=new]').click();await page.locator('[data-act=skip-story]').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await expect(page.locator('[data-contract=nightfall]')).toBeDisabled();await page.locator('.modal-close').click();\n   7 |  await page.evaluate(s=>localStorage.setItem('ashen-oath.v1',JSON.stringify(s)),fixture('squad'));await page.reload();await page.locator('[data-act=continue]').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await page.locator('[data-contract=veteran]').click();await expect(page.locator('[data-contract=veteran]')).toHaveAttribute('aria-pressed','true');\n>  8 |  const startBox=await page.locator('[data-act=start]').boundingBox();expect(startBox!.y+startBox!.height).toBeLessThanOrEqual(size.height);await expect(page.locator('.prepare-grid .hero-card').first()).toBeInViewport();await page.screenshot({path:`artifacts/${info.project.name}-v013-contract-${size.width}.png`});await page.locator('[data-act=start]').click();await expect(page.locator('.chapter-loading')).toHaveCount(0);await expect(page.locator('.party-button')).toHaveCount(4);await page.locator('[data-act=pause]').click();await expect(page.locator('.pause-modal')).toBeVisible();expect(errors).toEqual([]);\n     |                                                                                                           ^\n   9 | });\n  10 | test('战役档案、左手设置保存和技能位置',async({page},info)=>{await page.goto('/');await page.evaluate(s=>localStorage.setItem('ashen-oath.v1',JSON.stringify(s)),fixture('squad'));await page.reload();await page.locator('[data-act=settings]').click();await page.locator('[data-act=left-hand]').click();await expect(page.locator('body')).toHaveAttribute('data-hand','left');await page.locator('[data-act=close]').last().click();await page.locator('[data-act=continue]').click();await page.locator('[data-act=ledger]').click();await expect(page.locator('.ledger-levels article')).toHaveCount(3);await expect(page.locator('.enemy-card-art').first()).toBeVisible();await page.screenshot({path:`artifacts/${info.project.name}-v013-ledger.png`});await page.locator('.modal-close').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await page.locator('[data-act=start]').click();await expect(page.locator('.chapter-loading')).toHaveCount(0);await expect(page.locator('.battle-bottom')).toHaveCSS('flex-direction','row-reverse');await page.screenshot({path:`artifacts/${info.project.name}-v013-left-hand.png`});});\n  11 | test('存档文件导入确认、取消、导出及无效文件不破坏进度',async({page})=>{\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts:8:107"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:04.155Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\release-v013-发布触控与契约-1280-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\release-v013-发布触控与契约-1280-chromium\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\release-v013-发布触控与契约-1280-chromium\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts",
+                    "column": 107,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "19303daf171f063361d2-6e64f5d25a4907a30da1",
+          "file": "release-v013.spec.ts",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "战役档案、左手设置保存和技能位置",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2992,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:16.379Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19303daf171f063361d2-c6c550b9326b5f683a0d",
+          "file": "release-v013.spec.ts",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "存档文件导入确认、取消、导出及无效文件不破坏进度",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5717,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:19.555Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19303daf171f063361d2-7d1a6e85e7cebe867b4a",
+          "file": "release-v013.spec.ts",
+          "line": 71,
+          "column": 1
+        },
+        {
+          "title": "生产PWA完整缓存后断网刷新并实际开战",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2387,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:25.278Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19303daf171f063361d2-7a3b39e2df656bb957b4",
+          "file": "release-v013.spec.ts",
+          "line": 98,
+          "column": 1
+        },
+        {
+          "title": "发布触控与契约 844",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3294,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:32.580Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19303daf171f063361d2-eb7c8517d6ac8c33e649",
+          "file": "release-v013.spec.ts",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "发布触控与契约 915",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3320,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:35.879Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19303daf171f063361d2-896867fbc85031d19e3b",
+          "file": "release-v013.spec.ts",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "发布触控与契约 1280",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 2369,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m720\u001b[39m\nReceived:    \u001b[31m800\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m720\u001b[39m\nReceived:    \u001b[31m800\u001b[39m\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts:8:107",
+                    "location": {
+                      "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts",
+                      "column": 107,
+                      "line": 8
+                    },
+                    "snippet": "   6 |  await expect(page.locator('[data-act=progress]')).toBeVisible();await page.locator('[data-act=new]').click();await page.locator('[data-act=skip-story]').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await expect(page.locator('[data-contract=nightfall]')).toBeDisabled();await page.locator('.modal-close').click();\n   7 |  await page.evaluate(s=>localStorage.setItem('ashen-oath.v1',JSON.stringify(s)),fixture('squad'));await page.reload();await page.locator('[data-act=continue]').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await page.locator('[data-contract=veteran]').click();await expect(page.locator('[data-contract=veteran]')).toHaveAttribute('aria-pressed','true');\n>  8 |  const startBox=await page.locator('[data-act=start]').boundingBox();expect(startBox!.y+startBox!.height).toBeLessThanOrEqual(size.height);await expect(page.locator('.prepare-grid .hero-card').first()).toBeInViewport();await page.screenshot({path:`artifacts/${info.project.name}-v013-contract-${size.width}.png`});await page.locator('[data-act=start]').click();await expect(page.locator('.chapter-loading')).toHaveCount(0);await expect(page.locator('.party-button')).toHaveCount(4);await page.locator('[data-act=pause]').click();await expect(page.locator('.pause-modal')).toBeVisible();expect(errors).toEqual([]);\n     |                                                                                                           ^\n   9 | });\n  10 | test('战役档案、左手设置保存和技能位置',async({page},info)=>{await page.goto('/');await page.evaluate(s=>localStorage.setItem('ashen-oath.v1',JSON.stringify(s)),fixture('squad'));await page.reload();await page.locator('[data-act=settings]').click();await page.locator('[data-act=left-hand]').click();await expect(page.locator('body')).toHaveAttribute('data-hand','left');await page.locator('[data-act=close]').last().click();await page.locator('[data-act=continue]').click();await page.locator('[data-act=ledger]').click();await expect(page.locator('.ledger-levels article')).toHaveCount(3);await expect(page.locator('.enemy-card-art').first()).toBeVisible();await page.screenshot({path:`artifacts/${info.project.name}-v013-ledger.png`});await page.locator('.modal-close').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await page.locator('[data-act=start]').click();await expect(page.locator('.chapter-loading')).toHaveCount(0);await expect(page.locator('.battle-bottom')).toHaveCSS('flex-direction','row-reverse');await page.screenshot({path:`artifacts/${info.project.name}-v013-left-hand.png`});});\n  11 | test('存档文件导入确认、取消、导出及无效文件不破坏进度',async({page})=>{"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts",
+                        "column": 107,
+                        "line": 8
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeLessThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: <= \u001b[32m720\u001b[39m\nReceived:    \u001b[31m800\u001b[39m\n\n   6 |  await expect(page.locator('[data-act=progress]')).toBeVisible();await page.locator('[data-act=new]').click();await page.locator('[data-act=skip-story]').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await expect(page.locator('[data-contract=nightfall]')).toBeDisabled();await page.locator('.modal-close').click();\n   7 |  await page.evaluate(s=>localStorage.setItem('ashen-oath.v1',JSON.stringify(s)),fixture('squad'));await page.reload();await page.locator('[data-act=continue]').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await page.locator('[data-contract=veteran]').click();await expect(page.locator('[data-contract=veteran]')).toHaveAttribute('aria-pressed','true');\n>  8 |  const startBox=await page.locator('[data-act=start]').boundingBox();expect(startBox!.y+startBox!.height).toBeLessThanOrEqual(size.height);await expect(page.locator('.prepare-grid .hero-card').first()).toBeInViewport();await page.screenshot({path:`artifacts/${info.project.name}-v013-contract-${size.width}.png`});await page.locator('[data-act=start]').click();await expect(page.locator('.chapter-loading')).toHaveCount(0);await expect(page.locator('.party-button')).toHaveCount(4);await page.locator('[data-act=pause]').click();await expect(page.locator('.pause-modal')).toBeVisible();expect(errors).toEqual([]);\n     |                                                                                                           ^\n   9 | });\n  10 | test('战役档案、左手设置保存和技能位置',async({page},info)=>{await page.goto('/');await page.evaluate(s=>localStorage.setItem('ashen-oath.v1',JSON.stringify(s)),fixture('squad'));await page.reload();await page.locator('[data-act=settings]').click();await page.locator('[data-act=left-hand]').click();await expect(page.locator('body')).toHaveAttribute('data-hand','left');await page.locator('[data-act=close]').last().click();await page.locator('[data-act=continue]').click();await page.locator('[data-act=ledger]').click();await expect(page.locator('.ledger-levels article')).toHaveCount(3);await expect(page.locator('.enemy-card-art').first()).toBeVisible();await page.screenshot({path:`artifacts/${info.project.name}-v013-ledger.png`});await page.locator('.modal-close').click();await page.locator('.chapter-node[data-level=\"1\"]').click();await page.locator('[data-act=start]').click();await expect(page.locator('.chapter-loading')).toHaveCount(0);await expect(page.locator('.battle-bottom')).toHaveCSS('flex-direction','row-reverse');await page.screenshot({path:`artifacts/${info.project.name}-v013-left-hand.png`});});\n  11 | test('存档文件导入确认、取消、导出及无效文件不破坏进度',async({page})=>{\n    at C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts:8:107"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:39.207Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\release-v013-发布触控与契约-1280-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\release-v013-发布触控与契约-1280-webkit\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\test-results\\release-v013-发布触控与契约-1280-webkit\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts",
+                    "column": 107,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "19303daf171f063361d2-5d80ddfaf6a597e4a077",
+          "file": "release-v013.spec.ts",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "战役档案、左手设置保存和技能位置",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3938,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:42.377Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19303daf171f063361d2-d67c8de7dd2854426442",
+          "file": "release-v013.spec.ts",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "存档文件导入确认、取消、导出及无效文件不破坏进度",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1038,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:46.387Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19303daf171f063361d2-b0a788fd51d35760e055",
+          "file": "release-v013.spec.ts",
+          "line": 71,
+          "column": 1
+        },
+        {
+          "title": "生产PWA完整缓存后断网刷新并实际开战",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Windows WebKit无serviceWorker，实现不等于iPhone真机验收",
+                  "location": {
+                    "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts",
+                    "line": 15,
+                    "column": 7
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 122,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-05T06:31:47.433Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Windows WebKit无serviceWorker，实现不等于iPhone真机验收",
+                      "location": {
+                        "file": "C:\\Users\\lyx\\Desktop\\test\\游戏制作\\2D横板格斗\\e2e\\release-v013.spec.ts",
+                        "line": 15,
+                        "column": 7
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "19303daf171f063361d2-879bdc045d366519030c",
+          "file": "release-v013.spec.ts",
+          "line": 98,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-05T06:30:52.430Z",
+    "duration": 55467.842000000004,
+    "expected": 11,
+    "skipped": 1,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

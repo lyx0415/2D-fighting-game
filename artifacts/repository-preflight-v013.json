@@ -1,0 +1,6 @@
+{
+  "trackedPaths": 4700,
+  "credentialPatternHits": [],
+  "note": "Known credential prefix patterns only; not proof of exhaustive secret detection",
+  "gitAttributes": "all bytes preserved for asset hashes"
+}

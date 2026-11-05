@@ -1,0 +1,16 @@
+import {it,expect} from 'vitest';
+import {Battle} from '../src/core/battle';
+import {fixture} from '../src/core/progression';
+import {validSave} from '../src/core/save';
+import {planEffect,effectStyle} from '../src/game/effect-plan';
+import {audioUrl,VARIANT_CUES,AUDIO_PROFILES} from '../src/game/audio-assets';
+import {unitScale} from '../src/game/unit-presentation';
+import {newWorkshopView,visibleEquipment,workshopContent} from '../src/ui/workshop';
+
+it('三种混音模式均使用当前Foley，包含公共环境',()=>{expect(VARIANT_CUES).toHaveLength(24);for(const profile of Object.keys(AUDIO_PROFILES) as (keyof typeof AUDIO_PROFILES)[])for(const cue of VARIANT_CUES)expect(audioUrl(cue,profile)).toBe(`/audio/v012/${cue}.wav`);expect(audioUrl('ambient-forest','feral')).toBe('/audio/v012/ambient-forest.wav');});
+it('旧偏好有效，非法音色和发力开关拒绝读取',()=>{const s=fixture('growth');expect(validSave(s)).toBe(true);s.settings.audioProfile='mystic';s.settings.exertions=false;expect(validSave(s)).toBe(true);s.settings.audioProfile='missing' as never;expect(validSave(s)).toBe(false);s.settings.audioProfile='grounded';s.settings.exertions=1 as never;expect(validSave(s)).toBe(false);});
+it('新比例缩小英雄和小兵，精英和Boss仍有体型层次',()=>{expect(unitScale({kind:'warrior',side:'hero'})).toBeLessThan(.225);expect(unitScale({kind:'zombie',side:'enemy'})).toBeLessThan(.21);expect(unitScale({kind:'tank',side:'hero'})).toBeGreaterThan(unitScale({kind:'mage',side:'hero'}));expect(unitScale({kind:'boss',side:'enemy'})).toBeGreaterThan(unitScale({kind:'guard',side:'enemy'})*1.7);});
+it('陨火预示只显示飞行体，实际命中才显示火焰',()=>{expect(effectStyle({type:'skill',x:0,y:0,sourceKind:'mage',skillIndex:1,phase:'telegraph'})).toBe('meteor');expect(effectStyle({type:'skill',x:0,y:0,sourceKind:'mage',skillIndex:1,phase:'impact'})).toBe('fire');});
+it('箭雨和寒霜中心在目标而非施法者，技能VFX不改变状态',()=>{const b=new Battle(fixture('growth'),1),enemy=b.enemies[0],before=JSON.stringify(b.units);const fx=planEffect({type:'skill',phase:'cast',sourceKind:'archer',skillIndex:1,target:enemy.id,x:20,y:30},b.units,0)!;expect([fx.x,fx.y,fx.radius]).toEqual([enemy.x,enemy.y,140]);expect(planEffect({type:'skill',phase:'cast',sourceKind:'mage',skillIndex:0,target:enemy.id,x:20,y:30},b.units,0)!.duration).toBe(2);expect(JSON.stringify(b.units)).toBe(before);});
+it('Boss攻击生效传递锁定形状，视觉与伤害使用同一个预警',()=>{const b=new Battle(fixture('growth'),3);b.debugNextWave();b.active.x=b.stageEnd-50;b.step();b.debugNextWave();b.active.x=b.stageEnd-50;b.step();const boss=b.enemies[0];expect(boss.kind).toBe('boss');b.hazards=[{id:55,source:boss.id,x:400,y:460,shape:'rect',radius:160,length:380,width:105,angle:1.2,start:0,end:.01,multiplier:1.5,name:'裂地斩'}];b.step();expect(b.events.find(e=>e.kind==='impact')).toMatchObject({shape:'rect',length:380,width:105,angle:1.2,x:400,y:460});});
+it('仓库名称搜索、品质排序与组合筛选一致，搜索内容转义',()=>{const s=fixture('growth'),view=newWorkshopView();view.query='夜行';expect(visibleEquipment(s,'assassin',view).every(i=>i.hero==='assassin')).toBe(true);view.query='';expect(visibleEquipment(s,'warrior',view)[0].quality).toBe('blue');view.quality='white';view.ownership='free';expect(visibleEquipment(s,'warrior',view)).toHaveLength(0);view.query='"><img src=x onerror=alert(1)>';expect(workshopContent(s,'warrior',view)).toContain('&quot;&gt;&lt;img');});

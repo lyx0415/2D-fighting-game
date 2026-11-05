@@ -1,0 +1,134 @@
+{
+  "kind": "warrior",
+  "width": 256,
+  "height": 320,
+  "footX": 128,
+  "footY": 300,
+  "parts": [
+    {
+      "id": "pelvis",
+      "pivotX": 128,
+      "pivotY": 194,
+      "path": "rig_warrior_pelvis_v007.svg"
+    },
+    {
+      "id": "cape",
+      "parent": "pelvis",
+      "pivotX": 112,
+      "pivotY": 100,
+      "path": "rig_warrior_cape_v007.svg"
+    },
+    {
+      "id": "rearThigh",
+      "parent": "pelvis",
+      "pivotX": 116,
+      "pivotY": 198,
+      "path": "rig_warrior_rearThigh_v007.svg"
+    },
+    {
+      "id": "rearShin",
+      "parent": "rearThigh",
+      "pivotX": 109,
+      "pivotY": 239,
+      "path": "rig_warrior_rearShin_v007.svg"
+    },
+    {
+      "id": "rearFoot",
+      "parent": "rearShin",
+      "pivotX": 104,
+      "pivotY": 282,
+      "path": "rig_warrior_rearFoot_v007.svg"
+    },
+    {
+      "id": "frontThigh",
+      "parent": "pelvis",
+      "pivotX": 143,
+      "pivotY": 198,
+      "path": "rig_warrior_frontThigh_v007.svg"
+    },
+    {
+      "id": "frontShin",
+      "parent": "frontThigh",
+      "pivotX": 153,
+      "pivotY": 238,
+      "path": "rig_warrior_frontShin_v007.svg"
+    },
+    {
+      "id": "frontFoot",
+      "parent": "frontShin",
+      "pivotX": 147,
+      "pivotY": 277,
+      "path": "rig_warrior_frontFoot_v007.svg"
+    },
+    {
+      "id": "torso",
+      "parent": "pelvis",
+      "pivotX": 128,
+      "pivotY": 190,
+      "path": "rig_warrior_torso_v007.svg"
+    },
+    {
+      "id": "breastplate",
+      "parent": "torso",
+      "pivotX": 128,
+      "pivotY": 190,
+      "path": "rig_warrior_breastplate_v007.svg"
+    },
+    {
+      "id": "rearUpperArm",
+      "parent": "torso",
+      "pivotX": 87,
+      "pivotY": 130,
+      "path": "rig_warrior_rearUpperArm_v007.svg"
+    },
+    {
+      "id": "rearForearm",
+      "parent": "rearUpperArm",
+      "pivotX": 87,
+      "pivotY": 161,
+      "path": "rig_warrior_rearForearm_v007.svg"
+    },
+    {
+      "id": "rearHand",
+      "parent": "rearForearm",
+      "pivotX": 77,
+      "pivotY": 189,
+      "path": "rig_warrior_rearHand_v007.svg"
+    },
+    {
+      "id": "frontUpperArm",
+      "parent": "torso",
+      "pivotX": 165,
+      "pivotY": 129,
+      "path": "rig_warrior_frontUpperArm_v007.svg"
+    },
+    {
+      "id": "frontForearm",
+      "parent": "frontUpperArm",
+      "pivotX": 179,
+      "pivotY": 157,
+      "path": "rig_warrior_frontForearm_v007.svg"
+    },
+    {
+      "id": "frontHand",
+      "parent": "frontForearm",
+      "pivotX": 198,
+      "pivotY": 179,
+      "path": "rig_warrior_frontHand_v007.svg"
+    },
+    {
+      "id": "frontWeapon",
+      "parent": "frontHand",
+      "pivotX": 198,
+      "pivotY": 179,
+      "path": "rig_warrior_frontWeapon_v007.svg"
+    },
+    {
+      "id": "head",
+      "parent": "torso",
+      "pivotX": 126,
+      "pivotY": 91,
+      "path": "rig_warrior_head_v007.svg"
+    }
+  ]
+}

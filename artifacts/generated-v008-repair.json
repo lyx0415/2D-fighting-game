@@ -1,0 +1,7 @@
+{
+  "id": "warrior",
+  "path": "C:\\Users\\lyx\\.codex\\generated_images\\01a1875b-95bc-7131-87fe-7c7beb40e26a\\exec-3bfca6b9-c8df-44c5-acb7-e149f3bc32b6.png",
+  "type": "hero",
+  "note": "Same-identity edit to constrain weapon/glow within grid cells.",
+  "prompt": "Edit this knight sprite sheet for game asset usability. Keep exactly the SAME knight identity, armor, painterly realistic style, transparent background and 4x3 layout. Correct ALL cell overflows: twelve figures, each fully contained within its own equal square cell with at least 10% transparent margin on all four edges. The sword in middle-row third cell MUST NOT extend into fourth cell: use a compact down-and-forward diagonal follow-through, bending elbow, blade pointing upward or diagonally inside cell. The fourth cell sweeping sword must also fully fit, no truncated limbs/weapons at outer image edges. Shield glow in bottom-left must fit its own cell without entering row above. Make all figures 15% smaller to achieve margins. Preserve original idle/walk/attack/guard/hit/dead pose ordering. No text or borders."
+}

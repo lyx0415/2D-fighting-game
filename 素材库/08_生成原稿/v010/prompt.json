@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-31",
+  "useCase": "stylized-concept",
+  "prompt": "Use case: stylized-concept. Production game texture asset for Ashen Oath, a dark medieval fantasy 2D side-scrolling party RPG. Generate ONE seamless horizontally tileable painted stone paving ground texture, landscape 1536x1024 or wider. The ENTIRE image is walkable ground, no sky, horizon, buildings, columns, stairs, walls, characters, objects, text, UI, borders, grid, symbols or edge vegetation. Low oblique camera looking at the floor of an ancient ruined European medieval road: small irregular slate cobbles and worn flat stone slabs, dusty charcoal gray and restrained brown, faint moss within fine cracks, scattered tiny grit, subtle damp patches, very muted diffuse warm/cool lighting so it works under many environments. Matte hand-painted high-end dark fantasy game background finish matching realistic painterly ruins. Crisp readable natural small-scale stone texture with no out-of-focus areas and no huge boulders. All paving remains level with no raised obstacles. Uniform scale and brightness across width, no bright central spotlight. Left/right edges must seamlessly match. Suitable for extracting 260-pixel-high bands without vertical stretching.",
+  "output": "ground-original.png",
+  "runtime": "public/assets/v010/ground.webp",
+  "notes": "Original generated texture retained; WebP format conversion only. Phaser crops a 260px band at original scale."
+}

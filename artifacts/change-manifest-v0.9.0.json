@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-31",
+  "baseline": "artifacts/v008-before-v009",
+  "runtimeSourceChanges": [
+    {
+      "path": "src/chapter-entry.css",
+      "sha256": "ac4488d76f7351972ef5dcc6c265bd736b3fe107ff32dd57d1cf09a0dfa79676"
+    },
+    {
+      "path": "src/game/audio-assets.ts",
+      "sha256": "20ceb1fac985d05ade14f24a94d36ee358670497ca7554d962e43ffebf3b25d6"
+    },
+    {
+      "path": "src/game/audio-cues.ts",
+      "sha256": "978f7f748a9cb6685fefb51922475cdd333ca45d8c1e74feffbc13bfff9ebcab"
+    },
+    {
+      "path": "src/game/audio.ts",
+      "sha256": "9f2424cee78e87664838a70778ab16b4062963f5b8c5be1c90266c1123a54a92"
+    },
+    {
+      "path": "src/game/painted-character.ts",
+      "sha256": "9b4cc4a7accd49cfca0644e8d458962d9cdffa2048fe28973f93b3e9deb49ab7"
+    },
+    {
+      "path": "src/game/raster-art.ts",
+      "sha256": "2cec124037ad1b84da63df59325fc7efebe19b81028864127eb511c28f7973fd"
+    },
+    {
+      "path": "src/game/scene.ts",
+      "sha256": "e98551932438a26ccf79d753224c94cd49fd33280b8ae89071cde9c9a501bbed"
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "ed8cd636f4279112732e20de8f3f833f2f305a7d5da27e61b286e37581b44f1a"
+    }
+  ],
+  "note": "No git repository; original source sample and previous catalog retained."
+}

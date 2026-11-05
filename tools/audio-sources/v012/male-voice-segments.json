@@ -1,0 +1,149 @@
+{
+  "selectionMethod": "Short nonverbal recordings selected by source labels, visible onset/envelope and duration; not certified by human listening",
+  "roles": {
+    "warrior": {
+      "Exert": [
+        {
+          "file": "male-yelling-sounds/yelling sounds/1yell1.wav",
+          "cut": [
+            0.27,
+            0.65
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/1yell15.wav",
+          "cut": [
+            0.23,
+            0.52
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/1yell16.wav",
+          "cut": [
+            0.5,
+            0.88
+          ]
+        }
+      ],
+      "Hurt": [
+        {
+          "file": "male-yelling-sounds/yelling sounds/1yell2.wav",
+          "cut": [
+            0.1,
+            0.63
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/1yell6.wav",
+          "cut": [
+            0.45,
+            0.95
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/1yell7.wav",
+          "cut": [
+            0.48,
+            0.96
+          ]
+        }
+      ]
+    },
+    "mage": {
+      "Exert": [
+        {
+          "file": "male-yelling-sounds/yelling sounds/3grunt1.wav",
+          "cut": [
+            0.48,
+            0.91
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/3grunt3.wav",
+          "cut": [
+            0,
+            0.49
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/3grunt4.wav",
+          "cut": [
+            0.22,
+            0.5
+          ]
+        }
+      ],
+      "Hurt": [
+        {
+          "file": "male-yelling-sounds/yelling sounds/3grunt2.wav",
+          "cut": [
+            0.3,
+            0.92
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/3grunt5.wav",
+          "cut": [
+            0.1,
+            0.56
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/3grunt6.wav",
+          "cut": [
+            0.39,
+            1.15
+          ]
+        }
+      ]
+    },
+    "tank": {
+      "Exert": [
+        {
+          "file": "male-yelling-sounds/yelling sounds/2yell1.wav",
+          "cut": [
+            0.36,
+            0.84
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/2yell9.wav",
+          "cut": [
+            0.3,
+            1.0
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/2yell10.wav",
+          "cut": [
+            0.05,
+            0.71
+          ]
+        }
+      ],
+      "Hurt": [
+        {
+          "file": "male-yelling-sounds/yelling sounds/2yell11.wav",
+          "cut": [
+            0.28,
+            1.07
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/2yell2.wav",
+          "cut": [
+            0.32,
+            1.06
+          ]
+        },
+        {
+          "file": "male-yelling-sounds/yelling sounds/2yell7.wav",
+          "cut": [
+            0.57,
+            1.21
+          ]
+        }
+      ]
+    }
+  }
+}

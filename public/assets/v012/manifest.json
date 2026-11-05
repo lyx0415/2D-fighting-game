@@ -1,0 +1,14 @@
+{
+  "version": "0.12.0",
+  "date": "2026-11-04",
+  "source": "素材库\\08_生成原稿\\v012\\menu-camp-original.png",
+  "sourceSha256": "70715b9795075c220c22137676dd9ea5d9a15e44b8e8bc4455dda18e8204ffe4",
+  "files": [
+    {
+      "path": "menu-camp.webp",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3cce5fd856d7ae1f00487cd903880d764d4d59e330134df89ac5907b71081d74"
+    }
+  ]
+}
