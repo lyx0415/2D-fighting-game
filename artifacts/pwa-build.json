@@ -1,9 +1,9 @@
 {
-  "cache": "e78ebabbaf43",
+  "cache": "712eacc80624",
   "files": [
-    "./assets/index-CGbz-ZtF.js",
+    "./assets/index-BLZgS1F2.js",
     "./assets/index-tL6thSBt.css",
-    "./assets/phaser-0YPJO2g1.js",
+    "./assets/phaser-DXXWZowi.js",
     "./assets/v008/chapter.webp",
     "./assets/v008/portrait-archer.webp",
     "./assets/v008/portrait-assassin.webp",
@@ -107,5 +107,5 @@
     "./index.html",
     "./manifest.webmanifest"
   ],
-  "bytes": 16323167
+  "bytes": 16050644
 }

@@ -19,7 +19,7 @@ describe('成长与奖励',()=>{
 class MemoryStorage{map=new Map<string,string>();getItem(k:string){return this.map.get(k)??null;}setItem(k:string,v:string){this.map.set(k,v);}removeItem(k:string){this.map.delete(k);}}
 describe('存档',()=>{
  it('正常保存读取，保留上一份有效备份',()=>{const m=new MemoryStorage(),s=newSave();expect(writeSave(m,s)).toBeNull();s.gold=80;writeSave(m,s);expect(loadSave(m).save?.gold).toBe(80);expect(JSON.parse(m.getItem(`${SAVE_KEY}.backup`)!).gold).toBe(0);});
- it('主档损坏从备份恢复，且不覆盖原始坏档',()=>{const m=new MemoryStorage();writeSave(m,newSave());writeSave(m,newSave());m.setItem(SAVE_KEY,'broken');const x=loadSave(m);expect(x.notice).toContain('备份');expect(x.save).not.toBeNull();expect(m.getItem(SAVE_KEY)).toBe('broken');});
+ it('主档损坏从备份恢复，且不覆盖原始坏档',()=>{const m=new MemoryStorage();writeSave(m,newSave());writeSave(m,{...newSave(),gold:80});m.setItem(SAVE_KEY,'broken');const x=loadSave(m);expect(x.notice).toContain('备份');expect(x.save?.gold).toBe(0);expect(m.getItem(SAVE_KEY)).toBe('broken');});
  it('两份坏档提示重建，不静默覆盖',()=>{const m=new MemoryStorage();m.setItem(SAVE_KEY,'bad');expect(loadSave(m).notice).toContain('无法读取');expect(loadSave(m).save).toBeNull();expect(m.getItem(SAVE_KEY)).toBe('bad');});
  it('存储拒绝读写仍有可解释错误',()=>{const m={getItem(){throw Error('denied');},setItem(){throw Error('denied');},removeItem(){}};expect(loadSave(m).notice).toContain('存储');expect(writeSave(m,newSave())).toContain('保存失败');});
  it('拒绝重复装备归属和无效队伍',()=>{const s=fixture('squad');s.heroes[1].equipment.armor=s.heroes[0].equipment.armor;expect(validSave(s)).toBe(false);const t=newSave();t.party=[];expect(validSave(t)).toBe(false);});
