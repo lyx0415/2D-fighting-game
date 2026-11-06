@@ -1,0 +1,14 @@
+import { mkdir, writeFile, readFile } from 'node:fs/promises';
+import { HEROES, ENEMIES, LEVELS, MAX_LEVEL, XP_THRESHOLDS, QUALITY, WEAPON_NAMES, SLOT_NAMES } from '../src/core/data.ts';
+const date='2026-11-05',version=JSON.parse(await readFile('package.json','utf8')).version;
+const rows=(list)=>list.map(row=>'| '+row.join(' | ')+' |').join('\n');
+let md=`# 当前章节与数值快照\n\n版本${version}，${date}。由scripts/export-design.mjs读取src/core/data.ts生成；调整配置后重新运行，避免手工维护重复表。\n\n第一章${LEVELS.length}关，${LEVELS.reduce((n,l)=>n+l.waves.length,0)}个战区，${Object.keys(ENEMIES).length}类敌人，角色上限${MAX_LEVEL}级。战区长2200、石道y360～620；全章${LEVELS.reduce((n,l)=>n+l.waves.length+(l.reinforcements?.filter(w=>w.length).length??0),0)}次遭遇、${LEVELS.reduce((n,l)=>n+l.waves.flat().length+(l.reinforcements?.flat().length??0),0)}名固定敌人，召唤物另计。\n\n## 关卡、波次与奖励\n\n| 关卡 | 场景 | 各战区敌人 | 全员经验 | 通关额外金币 | 首通保底 |\n|---|---|---|---:|---:|---|\n`;
+md+=rows(LEVELS.map(l=>{const i=l.guarantee;return[`1-${l.id} ${l.name}`,l.theme,l.waves.map((w,n)=>`${n+1}：前阵${w.map(e=>ENEMIES[e].name).join('、')}${l.reinforcements?.[n]?.length?'；后阵'+l.reinforcements[n].map(e=>ENEMIES[e].name).join('、'):''}`).join('<br>'),l.xp,l.gold,QUALITY[i.quality].name+'·'+(i.slot==='weapon'?WEAPON_NAMES[i.hero]:SLOT_NAMES[i.slot])];}));
+md+='\n\n## 剧情进出\n\n';
+for(const l of LEVELS)md+=`### 1-${l.id} ${l.name}\n\n开场：${l.intro}\n\n结尾：${l.outro}\n\n教学：${l.hint}\n\n`;
+md+='## 敌人基础属性\n\n| 敌人 | 生命 | 攻击 | 护甲 | 射程 | 间隔 | 移速 | 类型 |\n|---|---:|---:|---:|---:|---:|---:|---|\n'+rows(Object.values(ENEMIES).map(e=>[e.name,e.hp,e.atk,e.armor,e.range,e.interval,e.speed,e.rank]));
+md+='\n\n非Boss前三关生命/攻击倍率1、1.25、1.6；后续生命为1.6+0.18×(关号−3)，攻击为1.6+0.10×(关号−3)。护甲不乘倍率，两个Boss使用独立基础值。\n\n## 职业基础属性\n\n| 职业 | 生命 | 攻击 | 护甲 | 射程 | 间隔 | 移速 |\n|---|---:|---:|---:|---:|---:|---:|\n'+rows(Object.values(HEROES).map(h=>[h.role,h.hp,h.atk,h.armor,h.range,h.interval,h.speed]));
+md+='\n\n天赋点总预算level−1；技能点总预算floor(level/2)。三天赋各上限5，技能追加各上限3；技能效力+8%/点，基础CD−4%/点。完整规则见设计档案04。\n';
+md+='\n\n升级经验：'+XP_THRESHOLDS.join(' / ')+'。没有变更三个装备槽、白绿蓝品质、强化+3规则。普通清节回复8%生命，Boss前余火休整回复35%。所有值仍是可迭代测试起点，不代表最终平衡。\n';
+await writeFile('docs/章节与数值快照.md',md);await mkdir('artifacts',{recursive:true});await writeFile(`artifacts/content-v${version}.json`,JSON.stringify({version,date,maxLevel:MAX_LEVEL,xpThresholds:XP_THRESHOLDS,levels:LEVELS,enemies:ENEMIES},null,2));
+console.log(`Exported chapter documentation: ${LEVELS.length} levels`);

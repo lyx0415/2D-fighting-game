@@ -1,0 +1,14 @@
+{
+  "version": "0.10.0",
+  "date": "2026-10-31",
+  "source": "素材库\\08_生成原稿\\v010\\ground-original.png",
+  "sourceSha256": "7c5ce2c8eedbae81ff30ff64b7691ea0edc33c4842a647607e6fc74ad4956d65",
+  "files": [
+    {
+      "path": "ground.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "92a6ea553a25651d3d786a738e3a5e9f8a8dce842b51c7bd927922b8a6a3f41e"
+    }
+  ]
+}

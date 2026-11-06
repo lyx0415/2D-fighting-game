@@ -1,0 +1,97 @@
+{
+  "kind": "bishop",
+  "width": 128,
+  "height": 160,
+  "footX": 64,
+  "footY": 150,
+  "parts": [
+    {
+      "id": "cape",
+      "parent": "body",
+      "pivotX": 64,
+      "pivotY": 58,
+      "path": "rig_bishop_cape_v005.svg"
+    },
+    {
+      "id": "rearThigh",
+      "pivotX": 53,
+      "pivotY": 97,
+      "path": "rig_bishop_rearThigh_v005.svg"
+    },
+    {
+      "id": "rearShin",
+      "parent": "rearThigh",
+      "pivotX": 47,
+      "pivotY": 121,
+      "path": "rig_bishop_rearShin_v005.svg"
+    },
+    {
+      "id": "frontThigh",
+      "pivotX": 73,
+      "pivotY": 97,
+      "path": "rig_bishop_frontThigh_v005.svg"
+    },
+    {
+      "id": "frontShin",
+      "parent": "frontThigh",
+      "pivotX": 77,
+      "pivotY": 121,
+      "path": "rig_bishop_frontShin_v005.svg"
+    },
+    {
+      "id": "body",
+      "pivotX": 64,
+      "pivotY": 98,
+      "path": "rig_bishop_body_v005.svg"
+    },
+    {
+      "id": "chest",
+      "parent": "body",
+      "pivotX": 64,
+      "pivotY": 98,
+      "path": "rig_bishop_chest_v005.svg"
+    },
+    {
+      "id": "rearUpperArm",
+      "parent": "body",
+      "pivotX": 44,
+      "pivotY": 66,
+      "path": "rig_bishop_rearUpperArm_v005.svg"
+    },
+    {
+      "id": "rearForearm",
+      "parent": "rearUpperArm",
+      "pivotX": 36,
+      "pivotY": 87,
+      "path": "rig_bishop_rearForearm_v005.svg"
+    },
+    {
+      "id": "frontUpperArm",
+      "parent": "body",
+      "pivotX": 80,
+      "pivotY": 63,
+      "path": "rig_bishop_frontUpperArm_v005.svg"
+    },
+    {
+      "id": "frontForearm",
+      "parent": "frontUpperArm",
+      "pivotX": 88,
+      "pivotY": 84,
+      "path": "rig_bishop_frontForearm_v005.svg"
+    },
+    {
+      "id": "weapon",
+      "parent": "frontForearm",
+      "pivotX": 100,
+      "pivotY": 96,
+      "path": "rig_bishop_weapon_v005.svg"
+    },
+    {
+      "id": "head",
+      "parent": "body",
+      "pivotX": 67,
+      "pivotY": 55,
+      "path": "rig_bishop_head_v005.svg"
+    }
+  ]
+}

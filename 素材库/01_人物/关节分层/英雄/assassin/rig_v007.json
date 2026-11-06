@@ -1,0 +1,141 @@
+{
+  "kind": "assassin",
+  "width": 256,
+  "height": 320,
+  "footX": 128,
+  "footY": 300,
+  "parts": [
+    {
+      "id": "pelvis",
+      "pivotX": 128,
+      "pivotY": 194,
+      "path": "rig_assassin_pelvis_v007.svg"
+    },
+    {
+      "id": "cape",
+      "parent": "pelvis",
+      "pivotX": 112,
+      "pivotY": 100,
+      "path": "rig_assassin_cape_v007.svg"
+    },
+    {
+      "id": "rearThigh",
+      "parent": "pelvis",
+      "pivotX": 117,
+      "pivotY": 196,
+      "path": "rig_assassin_rearThigh_v007.svg"
+    },
+    {
+      "id": "rearShin",
+      "parent": "rearThigh",
+      "pivotX": 103,
+      "pivotY": 236,
+      "path": "rig_assassin_rearShin_v007.svg"
+    },
+    {
+      "id": "rearFoot",
+      "parent": "rearShin",
+      "pivotX": 92,
+      "pivotY": 280,
+      "path": "rig_assassin_rearFoot_v007.svg"
+    },
+    {
+      "id": "frontThigh",
+      "parent": "pelvis",
+      "pivotX": 141,
+      "pivotY": 194,
+      "path": "rig_assassin_frontThigh_v007.svg"
+    },
+    {
+      "id": "frontShin",
+      "parent": "frontThigh",
+      "pivotX": 154,
+      "pivotY": 230,
+      "path": "rig_assassin_frontShin_v007.svg"
+    },
+    {
+      "id": "frontFoot",
+      "parent": "frontShin",
+      "pivotX": 147,
+      "pivotY": 278,
+      "path": "rig_assassin_frontFoot_v007.svg"
+    },
+    {
+      "id": "torso",
+      "parent": "pelvis",
+      "pivotX": 128,
+      "pivotY": 190,
+      "path": "rig_assassin_torso_v007.svg"
+    },
+    {
+      "id": "breastplate",
+      "parent": "torso",
+      "pivotX": 128,
+      "pivotY": 190,
+      "path": "rig_assassin_breastplate_v007.svg"
+    },
+    {
+      "id": "rearUpperArm",
+      "parent": "torso",
+      "pivotX": 91,
+      "pivotY": 139,
+      "path": "rig_assassin_rearUpperArm_v007.svg"
+    },
+    {
+      "id": "rearForearm",
+      "parent": "rearUpperArm",
+      "pivotX": 94,
+      "pivotY": 162,
+      "path": "rig_assassin_rearForearm_v007.svg"
+    },
+    {
+      "id": "rearHand",
+      "parent": "rearForearm",
+      "pivotX": 83,
+      "pivotY": 186,
+      "path": "rig_assassin_rearHand_v007.svg"
+    },
+    {
+      "id": "rearWeapon",
+      "parent": "rearHand",
+      "pivotX": 83,
+      "pivotY": 186,
+      "path": "rig_assassin_rearWeapon_v007.svg"
+    },
+    {
+      "id": "frontUpperArm",
+      "parent": "torso",
+      "pivotX": 154,
+      "pivotY": 131,
+      "path": "rig_assassin_frontUpperArm_v007.svg"
+    },
+    {
+      "id": "frontForearm",
+      "parent": "frontUpperArm",
+      "pivotX": 172,
+      "pivotY": 151,
+      "path": "rig_assassin_frontForearm_v007.svg"
+    },
+    {
+      "id": "frontHand",
+      "parent": "frontForearm",
+      "pivotX": 206,
+      "pivotY": 154,
+      "path": "rig_assassin_frontHand_v007.svg"
+    },
+    {
+      "id": "frontWeapon",
+      "parent": "frontHand",
+      "pivotX": 206,
+      "pivotY": 154,
+      "path": "rig_assassin_frontWeapon_v007.svg"
+    },
+    {
+      "id": "head",
+      "parent": "torso",
+      "pivotX": 126,
+      "pivotY": 91,
+      "path": "rig_assassin_head_v007.svg"
+    }
+  ]
+}

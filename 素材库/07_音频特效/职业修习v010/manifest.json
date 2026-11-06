@@ -1,0 +1,542 @@
+{
+  "date": "2026-10-31",
+  "version": "v010",
+  "sampleRate": 22050,
+  "channels": 1,
+  "format": "PCM signed 16-bit WAV",
+  "seed": 100131,
+  "method": "Original DSP + inherited v009/jsfxr layers; optional local Windows SAPI exertions; no human voice recordings",
+  "licenseNotes": [
+    "Original project-generated DSP; jsfxr inherited layers Unlicense (tools/vendor/jsfxr/UNLICENSE)",
+    "SAPI voices are locally installed Microsoft software, no voice model or engine is redistributed; WAVs are offline synthesized nonverbal output, not human recordings.",
+    "No third-party downloaded audio was used."
+  ],
+  "sourceFiles": [
+    {
+      "file": "source/archerExert-sapi.wav",
+      "sha256": "d8d070716bed68023de4bb94fee77eb8c3c1d9ed24d35bcf8ebfcb531fd03383"
+    },
+    {
+      "file": "source/assassinExert-sapi.wav",
+      "sha256": "4d8d4475a97eb9bac8d8a078d5d06c3ee29922131e00160212f46d49bd97fe06"
+    },
+    {
+      "file": "source/mageExert-sapi.wav",
+      "sha256": "f9f1fdd5bb2e46ac6dc747dffcc8805970497aa3a91a6180c7e8ffe9a0896598"
+    },
+    {
+      "file": "source/sapi-sources.json",
+      "sha256": "f0f6eb54f1f3321958274a9b11c2d7ed33b0603e8ea4d5610545be27774f1d05"
+    },
+    {
+      "file": "source/tankExert-sapi.wav",
+      "sha256": "8107c66163fb2b7c6e6e3f45255e77efb171a4db801113ba519a9deb4d796dce"
+    },
+    {
+      "file": "source/warriorExert-sapi.wav",
+      "sha256": "2c643a01e68b4c4b17359a92d4b07c21ad994f75b60f3a111d199d5150e8335e"
+    }
+  ],
+  "files": [
+    {
+      "id": "click",
+      "file": "click.wav",
+      "duration": 0.054965986394557825,
+      "peak": 0.484466552734375,
+      "rms": 0.09011950081542483,
+      "sha256": "b479e6a8744d2fa13242a532b37def06fc640ad8a06ba51005fbf28bdafc47be",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "bladeSwing",
+      "file": "bladeSwing.wav",
+      "duration": 0.28,
+      "peak": 0.8199462890625,
+      "rms": 0.14463571274546935,
+      "sha256": "439f9fefac73dedc6537d2d69d3f846d69dfa283e95248d58e3781e2dfadf87b",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "bowRelease",
+      "file": "bowRelease.wav",
+      "duration": 0.34997732426303857,
+      "peak": 0.5284423828125,
+      "rms": 0.08473540468541496,
+      "sha256": "b4eb630de32efc93fac08766b96061d82d015d0ffb8905eb94b6ce7083aa2440",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "arcaneBolt",
+      "file": "arcaneBolt.wav",
+      "duration": 0.37501133786848073,
+      "peak": 0.8199462890625,
+      "rms": 0.2641277699102471,
+      "sha256": "d4bc4641af20039ffec2d3af1e9b64a4d7dc3c9b5cb1b0693c0e3524c1083a76",
+      "source": "Unmodified v009: original DSP + jsfxr",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "hammerSwing",
+      "file": "hammerSwing.wav",
+      "duration": 0.38,
+      "peak": 0.7607421875,
+      "rms": 0.13515529754990863,
+      "sha256": "4c95a32385d91c112905bce6ba8245dcef74aa54a6b49dc3068f8bc9b4d95a49",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "daggerSwing",
+      "file": "daggerSwing.wav",
+      "duration": 0.12997732426303854,
+      "peak": 0.772857666015625,
+      "rms": 0.1153759081564836,
+      "sha256": "832a47bc21683760671e3945c1a76558624985a2776e7b9eff1070464139c237",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "claw",
+      "file": "claw.wav",
+      "duration": 0.16,
+      "peak": 0.8199462890625,
+      "rms": 0.12824165795701992,
+      "sha256": "8e1f6c09319a4f3943775b038a11208a9274e2a32ae0c0a5b4f64ee3cb8cd8e4",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "bite",
+      "file": "bite.wav",
+      "duration": 0.24,
+      "peak": 0.8199462890625,
+      "rms": 0.14118291593902718,
+      "sha256": "531bfb683d920df730cc274cf9bd55531a443bb36e46ea2564a7176765ccf504",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "crossbow",
+      "file": "crossbow.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.6827392578125,
+      "rms": 0.09967910921917578,
+      "sha256": "a174f948ac5a264ee8f04dca41e19f8e4a6e82541e112ea21f1a10c526ed9379",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "chant",
+      "file": "chant.wav",
+      "duration": 0.6999546485260771,
+      "peak": 0.8199462890625,
+      "rms": 0.20060047565463338,
+      "sha256": "37034aabda9434ed4c86f33e8b2548011f15b5d6851666dd04c0f1947cd64120",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "cleave",
+      "file": "cleave.wav",
+      "duration": 0.4,
+      "peak": 0.775665283203125,
+      "rms": 0.12914138899505215,
+      "sha256": "5c680851eb05b8f577ffc9a84fb9d4815b9fd51bd6821afa5da379fdf445342e",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "doom",
+      "file": "doom.wav",
+      "duration": 1.1,
+      "peak": 0.8199462890625,
+      "rms": 0.24103832610207576,
+      "sha256": "d38581df631c449ae57b587110b47b26a33af5367162f49346d5c445bf4ac17b",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "sweep",
+      "file": "sweep.wav",
+      "duration": 1.4699773242630385,
+      "peak": 0.719970703125,
+      "rms": 0.0817195488764246,
+      "sha256": "a67df50cbe2464515e2aacc930e8638f7dde2e5fcf49750c33d9267d301917fb",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "ward",
+      "file": "ward.wav",
+      "duration": 2.1,
+      "peak": 0.719970703125,
+      "rms": 0.09126352736040202,
+      "sha256": "57490efba780d84e693b822501847120b136c324ccd94df404e38554b6908949",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP + jsfxr)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "volley",
+      "file": "volley.wav",
+      "duration": 0.72,
+      "peak": 0.719970703125,
+      "rms": 0.1313016813192259,
+      "sha256": "861f8ac2a491e93bbd9e72dd71cd339c7d2d6e81fb2f7a35837c4b8658733cf5",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "arrowRain",
+      "file": "arrowRain.wav",
+      "duration": 1.3300226757369615,
+      "peak": 0.719970703125,
+      "rms": 0.1326396212270975,
+      "sha256": "b0feecfb0720a211dd0d59c8c716efebf9dc7f9c53a764482ed7a9a58be5fc04",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "frost",
+      "file": "frost.wav",
+      "duration": 1.7499773242630385,
+      "peak": 0.719970703125,
+      "rms": 0.0818898715656521,
+      "sha256": "e30f8bab8ccb61fafab138a36ee0ea5f1b0dd2671edc886a9cab1374c34f9d94",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP + jsfxr)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "meteorCast",
+      "file": "meteorCast.wav",
+      "duration": 1.3300226757369615,
+      "peak": 0.719970703125,
+      "rms": 0.08619098685962594,
+      "sha256": "b396f97c916fd4f58b7a484d81d7a0088a27e97d0abd77c21872a75902a9474e",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP + jsfxr)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "shieldBash",
+      "file": "shieldBash.wav",
+      "duration": 1.26,
+      "peak": 0.551666259765625,
+      "rms": 0.07669241575926446,
+      "sha256": "bdd383becf21f8bf1322dc86618e45a8f9fabab2da890b8d498c910baa2e7971",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "oath",
+      "file": "oath.wav",
+      "duration": 2.46,
+      "peak": 0.719970703125,
+      "rms": 0.09472445005235736,
+      "sha256": "1e3dbb1f5de7098101010555b9a3a392e88d616f3fdb09f7486dda072f2b7d8e",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP + jsfxr)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "shadow",
+      "file": "shadow.wav",
+      "duration": 1.3500226757369616,
+      "peak": 0.719970703125,
+      "rms": 0.07010510221350771,
+      "sha256": "35946334cff731b1040c8f21ecc6b9cf8ca2e06476e406ed99cb08d53190ba67",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP + jsfxr)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "execute",
+      "file": "execute.wav",
+      "duration": 1.02,
+      "peak": 0.719970703125,
+      "rms": 0.06783863615672832,
+      "sha256": "5e94ad8e81663dbf3e0cc4a8a2b1d764a57f1122bd355ed5e8bb545ac1264bd6",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "metalHit",
+      "file": "metalHit.wav",
+      "duration": 0.28,
+      "peak": 0.719970703125,
+      "rms": 0.08066237253721044,
+      "sha256": "d2795e0939d7a47856d6590c62e8e455f2f6b4bd8670ee0d569d20ed4486f1ed",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "fleshHit",
+      "file": "fleshHit.wav",
+      "duration": 0.18,
+      "peak": 0.63385009765625,
+      "rms": 0.12783253875043565,
+      "sha256": "eeff305b9453938389a21125cf7ef1e38c512847e9fdfed1d760006c5af4cd40",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "arrowHit",
+      "file": "arrowHit.wav",
+      "duration": 0.24997732426303854,
+      "peak": 0.697662353515625,
+      "rms": 0.10898183941869433,
+      "sha256": "3a20a54fad881b698c7cda51aaf050cc15773c79cd1dcf1be67c0453a210c78e",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "frostHit",
+      "file": "frostHit.wav",
+      "duration": 0.6100226757369615,
+      "peak": 0.68304443359375,
+      "rms": 0.07456964306001407,
+      "sha256": "d9c987d3a1b4aae6b1457ec338dc403152d4c764379ecb343b1db56c9c2e8120",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "fireHit",
+      "file": "fireHit.wav",
+      "duration": 1.76,
+      "peak": 0.719970703125,
+      "rms": 0.07543422878945931,
+      "sha256": "d06b84c6a62dff1f0d844649a2256c65e0318b0c96b26491a019eb1a877325c6",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "bladeHit",
+      "file": "bladeHit.wav",
+      "duration": 0.24,
+      "peak": 0.49359130859375,
+      "rms": 0.06990542257497366,
+      "sha256": "8c8868713865ba3e912cb019934c214091a81aaef1e936aba827593f1e211c16",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "magicHit",
+      "file": "magicHit.wav",
+      "duration": 1.02,
+      "peak": 0.706573486328125,
+      "rms": 0.06782587182999891,
+      "sha256": "fd4d3a34d87a49567da1bb23d07e200700bbe6f550dd0a70161208a3d94d0fc0",
+      "source": "Original deterministic v010 DSP; selected v009 source layers (original DSP)",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "loot",
+      "file": "loot.wav",
+      "duration": 0.22997732426303855,
+      "peak": 0.41748046875,
+      "rms": 0.06555320321642898,
+      "sha256": "f3b7337feecf0d0f7d7e615a4d440efa463c0426e1cd708b876dec1752b59b23",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "death",
+      "file": "death.wav",
+      "duration": 0.44997732426303855,
+      "peak": 0.8199462890625,
+      "rms": 0.16305133535191693,
+      "sha256": "383f373317a937fe8e305154022118589c61f0a4a94cc04b4eeb33ca43f487d8",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "won",
+      "file": "won.wav",
+      "duration": 0.9499773242630386,
+      "peak": 0.8199462890625,
+      "rms": 0.22641507476821612,
+      "sha256": "6de826185173f58ee14f89244e038eaae661be28113bfe289b7997a75681b00e",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "lost",
+      "file": "lost.wav",
+      "duration": 0.8,
+      "peak": 0.7958984375,
+      "rms": 0.24236516314479326,
+      "sha256": "edd4424c8874e05a1cf2ce2705bf0666f9abd4d7cde0d1e1f2a150d9f3b02187",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "entry",
+      "file": "entry.wav",
+      "duration": 0.8,
+      "peak": 0.8199462890625,
+      "rms": 0.1789221646782056,
+      "sha256": "49abbdb94281d0c34f6484842daceb6dd40164203aec35e112a746dd09c93186",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "warriorHurt",
+      "file": "warriorHurt.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.63836669921875,
+      "rms": 0.1603723663548855,
+      "sha256": "39316f793cd4230fa37ae60065f1aac252ae1c587e2e2a723385f34faa86beff",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "archerHurt",
+      "file": "archerHurt.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.658111572265625,
+      "rms": 0.15061953352319837,
+      "sha256": "ab3ca45861a79d8a9af58ffb4dbc0612fdfaa4bd6523c07537688affca18451d",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "mageHurt",
+      "file": "mageHurt.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.610992431640625,
+      "rms": 0.13626966376305522,
+      "sha256": "7c2f2f50b0b2af9a4aa6e0ad573c09dd2ed05ceed808f92fdd0626222e5e0b2b",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "tankHurt",
+      "file": "tankHurt.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.769927978515625,
+      "rms": 0.16341408210524816,
+      "sha256": "ab019e4355ca5d862b95d648de2ff3afe70359d98fc0ee5873dfbaa12104dcf1",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "assassinHurt",
+      "file": "assassinHurt.wav",
+      "duration": 0.20997732426303856,
+      "peak": 0.70477294921875,
+      "rms": 0.15702668295798022,
+      "sha256": "cb7581786f22232846e8b9c6238c02fb0c919570caf61c7ea67d421175d57212",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "ambient-camp",
+      "file": "ambient-camp.wav",
+      "duration": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.08581614971131063,
+      "sha256": "85d21bdbabca1b41710d6d0e5cd693c8f87ee8cf9c9e36e7c5d2166ecbf60535",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "ambient-ash",
+      "file": "ambient-ash.wav",
+      "duration": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.0792891769764279,
+      "sha256": "ceb0735e839d8f7a281e478e93091d02a2057916aacbe62b0ed54332c562de72",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "ambient-forest",
+      "file": "ambient-forest.wav",
+      "duration": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.0725695463570372,
+      "sha256": "4668187fcb25b0c9f793f22677df6119003b42eec723df0ad68921de4298cb40",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "ambient-fortress",
+      "file": "ambient-fortress.wav",
+      "duration": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.07689979205971566,
+      "sha256": "c4d803c6b0dcf588bff4ad1f3466c14b5e52e70da846f4ecda7088e521a4d673",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "ambient-abbey",
+      "file": "ambient-abbey.wav",
+      "duration": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.08172352282314184,
+      "sha256": "6d8e68c69aef8e5226e490dc5e54d8e139ed544e6557317f0eb9d4808cc15e6f",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "ambient-crypt",
+      "file": "ambient-crypt.wav",
+      "duration": 16.0,
+      "peak": 0.379974365234375,
+      "rms": 0.06859815487115836,
+      "sha256": "9c32e52b22f21ceded8505ed9245bae1019e8c4227a9405bb6f34495895d700f",
+      "source": "Unmodified v009: original DSP",
+      "license": "Original project DSP; inherited jsfxr layers are Unlicense, see tools/vendor/jsfxr/UNLICENSE"
+    },
+    {
+      "id": "warriorExert",
+      "file": "warriorExert.wav",
+      "duration": 0.3654421768707483,
+      "peak": 0.25,
+      "rms": 0.04056845486617085,
+      "sha256": "df903f4bfe97ee4f2557550e50213fe8b7f9f3d2bed5514c4d457b9c12b7e50a",
+      "source": "Local Windows SAPI synthesized syllable + original breath DSP; not human voice acting",
+      "license": "Local installed Windows SAPI output + original DSP; not downloaded media; Windows voice engine remains Microsoft software"
+    },
+    {
+      "id": "archerExert",
+      "file": "archerExert.wav",
+      "duration": 0.21963718820861677,
+      "peak": 0.25,
+      "rms": 0.039503859300948546,
+      "sha256": "17fd9300651e09ab88845c3b3714f971eec74de770391f5148c9bf8d3ebf9833",
+      "source": "Local Windows SAPI synthesized syllable + original breath DSP; not human voice acting",
+      "license": "Local installed Windows SAPI output + original DSP; not downloaded media; Windows voice engine remains Microsoft software"
+    },
+    {
+      "id": "mageExert",
+      "file": "mageExert.wav",
+      "duration": 0.316281179138322,
+      "peak": 0.25,
+      "rms": 0.04076599692737994,
+      "sha256": "3477a66b9940023673a7a5e040c1d17efff070d9c22e21752b76fa4316039054",
+      "source": "Local Windows SAPI synthesized syllable + original breath DSP; not human voice acting",
+      "license": "Local installed Windows SAPI output + original DSP; not downloaded media; Windows voice engine remains Microsoft software"
+    },
+    {
+      "id": "tankExert",
+      "file": "tankExert.wav",
+      "duration": 0.42848072562358275,
+      "peak": 0.25,
+      "rms": 0.04694889616987273,
+      "sha256": "94a3dc64646c952710b44d75c964cdeacc2f22ace58660876677a8202d378d24",
+      "source": "Local Windows SAPI synthesized syllable + original breath DSP; not human voice acting",
+      "license": "Local installed Windows SAPI output + original DSP; not downloaded media; Windows voice engine remains Microsoft software"
+    },
+    {
+      "id": "assassinExert",
+      "file": "assassinExert.wav",
+      "duration": 0.16167800453514738,
+      "peak": 0.25,
+      "rms": 0.04465213132632539,
+      "sha256": "19214f44b3dd8ac36e50d9a954950a9a58236954eb2420291cff683699114bc9",
+      "source": "Local Windows SAPI synthesized syllable + original breath DSP; not human voice acting",
+      "license": "Local installed Windows SAPI output + original DSP; not downloaded media; Windows voice engine remains Microsoft software"
+    }
+  ]
+}

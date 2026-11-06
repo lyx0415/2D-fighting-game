@@ -1,0 +1,78 @@
+{
+  "kind": "wraith",
+  "width": 128,
+  "height": 160,
+  "footX": 64,
+  "footY": 150,
+  "parts": [
+    {
+      "id": "cape",
+      "parent": "body",
+      "pivotX": 64,
+      "pivotY": 58,
+      "path": "rig_wraith_cape_v005.svg"
+    },
+    {
+      "id": "body",
+      "pivotX": 64,
+      "pivotY": 98,
+      "path": "rig_wraith_body_v005.svg"
+    },
+    {
+      "id": "chest",
+      "parent": "body",
+      "pivotX": 64,
+      "pivotY": 98,
+      "path": "rig_wraith_chest_v005.svg"
+    },
+    {
+      "id": "rearUpperArm",
+      "parent": "body",
+      "pivotX": 44,
+      "pivotY": 66,
+      "path": "rig_wraith_rearUpperArm_v005.svg"
+    },
+    {
+      "id": "rearForearm",
+      "parent": "rearUpperArm",
+      "pivotX": 36,
+      "pivotY": 87,
+      "path": "rig_wraith_rearForearm_v005.svg"
+    },
+    {
+      "id": "frontUpperArm",
+      "parent": "body",
+      "pivotX": 80,
+      "pivotY": 63,
+      "path": "rig_wraith_frontUpperArm_v005.svg"
+    },
+    {
+      "id": "frontForearm",
+      "parent": "frontUpperArm",
+      "pivotX": 88,
+      "pivotY": 84,
+      "path": "rig_wraith_frontForearm_v005.svg"
+    },
+    {
+      "id": "weapon",
+      "parent": "frontForearm",
+      "pivotX": 100,
+      "pivotY": 96,
+      "path": "rig_wraith_weapon_v005.svg"
+    },
+    {
+      "id": "chains",
+      "parent": "body",
+      "pivotX": 64,
+      "pivotY": 99,
+      "path": "rig_wraith_chains_v005.svg"
+    },
+    {
+      "id": "head",
+      "parent": "body",
+      "pivotX": 67,
+      "pivotY": 55,
+      "path": "rig_wraith_head_v005.svg"
+    }
+  ]
+}

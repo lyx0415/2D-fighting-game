@@ -1,0 +1,52 @@
+/* The map keeps one scale in both axes. The frame is a window over the landscape. */
+.campaign-hub .camp-content{max-width:2000px;padding-bottom:132px}
+.map-primary .chapter-atlas-scroll{height:clamp(250px,calc(100svh - 450px),650px);max-height:none;overscroll-behavior:contain;cursor:grab;touch-action:pan-x pan-y;scrollbar-width:thin;background:#091721}
+.map-primary .chapter-atlas{min-width:0;min-height:0;aspect-ratio:3000/680;user-select:none}
+.map-primary .atlas-art{object-fit:contain;-webkit-user-drag:none}
+.map-primary .chapter-atlas-scroll.dragging{cursor:grabbing}
+.atlas-browse{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 12px 0 20px;min-height:49px;background:linear-gradient(90deg,#1e3040,#101f2b);border-bottom:1px solid #8c77514d;color:#9daea9}
+.atlas-browse>span{font:11px var(--serif);letter-spacing:2px}
+.atlas-browse>div{display:flex;gap:5px;align-items:center}
+.atlas-browse button{min-width:48px;min-height:48px;padding:0 12px;color:#d8c294;font:12px var(--serif);border-left:1px solid #8c775133}
+.atlas-browse button:hover{background:#c5a86b20;color:#fff0ce}
+.map-primary .atlas-legend{min-height:36px;padding:8px 18px}
+.war-table{min-height:112px;gap:20px;padding-top:14px;padding-bottom:max(14px,env(safe-area-inset-bottom));justify-content:space-between}
+.war-table nav{display:grid;grid-template-columns:1.08fr 1fr 1fr 1fr;flex:0 0 50vw;width:50vw;gap:8px;margin-left:auto;margin-right:auto}
+.war-table .dock-action{--dock-accent:#b9a16d;--dock-deep:#152839;min-width:0;width:100%;min-height:78px;padding:10px 8px;gap:10px;border:1px solid color-mix(in srgb,var(--dock-accent) 37%,transparent);border-top:2px solid color-mix(in srgb,var(--dock-accent) 58%,transparent);background:linear-gradient(155deg,var(--dock-deep),#0a1723);box-shadow:inset 0 0 15px #030c1666,0 3px 6px #0004;color:#bac2c3;flex-direction:row}
+.war-table .dock-map{--dock-accent:#dbc08a;--dock-deep:#343426}
+.war-table .dock-heroes{--dock-accent:#91b3c9;--dock-deep:#213649}
+.war-table .dock-gear{--dock-accent:#c39471;--dock-deep:#342d2c}
+.war-table .dock-growth{--dock-accent:#91b4ac;--dock-deep:#203735}
+.war-table .dock-symbol{display:flex;flex:0 0 32px;width:32px;height:36px;color:var(--dock-accent);filter:drop-shadow(0 2px 2px #000a)}
+.dock-symbol svg{width:100%;height:100%}
+.war-table .dock-copy{display:flex;flex-direction:column;align-items:flex-start;gap:7px;letter-spacing:1px;white-space:nowrap}
+.dock-copy small{font:7px Georgia,serif;letter-spacing:1.4px;opacity:.66;color:var(--dock-accent)}
+.dock-copy strong{font:17px var(--serif);letter-spacing:2px}
+.war-table .dock-action:hover{border-color:var(--dock-accent);color:#f3e5ce}
+.war-table .dock-action.active{border-color:var(--dock-accent);color:#ffedc5;background:linear-gradient(145deg,color-mix(in srgb,var(--dock-accent) 23%,var(--dock-deep)),#172430);box-shadow:inset 0 0 18px #dbbe7d16,0 0 14px #c6a76414}
+.war-table .dock-action.active:after{left:24%;right:24%;background:var(--dock-accent);bottom:3px}
+.war-table .expedition-party{min-width:0;flex:1;max-width:270px}
+.war-table .embark-button{min-width:185px;min-height:76px;flex:1;max-width:260px}
+.management-shell{bottom:130px}
+@media(max-height:800px){.map-primary .expedition-brief{display:none}.map-primary .chapter-atlas-scroll{height:calc(100svh - 366px)}}
+@media(max-width:1100px){.war-table{gap:12px;padding-left:18px;padding-right:18px}.war-table nav{gap:5px}.war-table .dock-action{gap:6px}.dock-copy strong{font-size:14px;letter-spacing:1px}.dock-copy small{font-size:6px;letter-spacing:.8px}.war-table .dock-symbol{flex-basis:26px;width:26px;height:30px}.war-table .expedition-party{gap:6px}.war-table .embark-button{min-width:158px}}
+@media(max-height:500px) and (orientation:landscape){
+ .campaign-hub .camp-content{padding-bottom:104px}
+ .map-primary .chapter-chart{position:relative}
+ .map-primary .chapter-atlas-scroll{height:calc(100svh - 195px);min-height:170px;max-height:none}
+ .atlas-browse{position:absolute;z-index:4;top:0;left:0;right:0;min-height:48px;padding-left:12px;background:linear-gradient(90deg,#10212ee8,#10212eb0);backdrop-filter:blur(4px)}
+ .atlas-browse>span{font-size:9px;letter-spacing:1px}
+ .map-primary .atlas-legend{display:none}
+ .map-primary .atlas-legend>small{display:none}
+ .war-table{min-height:94px;padding-top:10px;padding-bottom:max(10px,env(safe-area-inset-bottom));gap:10px}
+ .war-table nav{gap:4px}
+ .war-table .dock-action{min-height:68px;padding:7px 4px;gap:6px}
+ .war-table .dock-copy{gap:6px}
+ .war-table .expedition-party{max-width:160px}
+ .war-table .expedition-party>span:last-child{font-size:10px;letter-spacing:0}
+ .war-table .dock-party-art{min-width:37px;max-width:52px}
+ .war-table .dock-party-art img{width:21px;margin-right:-12px}
+ .war-table .embark-button{min-width:150px;min-height:68px;max-width:200px;gap:12px}
+ .management-shell{bottom:104px}
+}
+@media(max-width:740px){.war-table .expedition-party{display:none}.war-table{flex-wrap:nowrap}.war-table nav{flex:1;width:auto}.war-table .dock-copy small{display:none}.war-table .dock-action{flex-direction:column;gap:4px}.dock-copy strong{font-size:12px}.war-table .embark-button{flex:0 0 130px;min-width:130px}.atlas-browse>span{font-size:8px}}

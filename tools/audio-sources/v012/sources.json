@@ -1,0 +1,47 @@
+[
+  {
+    "id": "kenney-rpg-audio",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/rpg-audio",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "archive": "rpg-audio.zip",
+    "archiveSha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
+    "method": "Public page download-link endpoint followed by returned signed download URL",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "id": "kenney-impact-sounds",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "archive": "impact-sounds.zip",
+    "archiveSha256": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
+    "method": "Public page download-link endpoint followed by returned signed download URL",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "id": "kenney-interface-sounds",
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/interface-sounds",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "archive": "interface-sounds.zip",
+    "archiveSha256": "f2193d072726d6758a5f7871b2dcc54dcce0d5c35c6f0a62f92549b327c81232",
+    "method": "Public page download-link endpoint followed by returned signed download URL",
+    "retrieved": "2026-11-04"
+  },
+  {
+    "id": "skyrae-female-warrior",
+    "author": "SkyRae",
+    "page": "https://opengameart.org/content/female-warrior-grunts",
+    "downloadUrl": "https://opengameart.org/sites/default/files/Grunts%20HD%20Deep.mp3",
+    "license": "CC-BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "file": "female-warrior-grunts.mp3",
+    "sha256": "daeefd70df7aca60e654933488449cb15f62852a7c2d43c8d3c930f0c68acce3",
+    "attribution": "Female Warrior Grunts by SkyRae, OpenGameArt.org, CC BY 3.0; edited, trimmed, equalized and mixed for Ashen Oath.",
+    "retrieved": "2026-11-04"
+  }
+]

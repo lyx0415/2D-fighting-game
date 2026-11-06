@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-06",
+  "registry": "https://registry.npmjs.org",
+  "before": {
+    "info": 0,
+    "low": 0,
+    "moderate": 1,
+    "high": 1,
+    "critical": 2,
+    "total": 4
+  },
+  "after": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "vite": "7.3.7",
+  "vitest": "4.1.12",
+  "scope": "current lockfile, runtime and development dependency graph",
+  "advisories": [
+    "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
+    "https://github.com/advisories/GHSA-587h-7wmj-h5pm",
+    "https://github.com/advisories/GHSA-5gmw-xhrv-c9v3",
+    "https://github.com/advisories/GHSA-5xrq-8626-4rwp",
+    "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
+    "https://github.com/advisories/GHSA-82fw-gwwq-j7x9",
+    "https://github.com/advisories/GHSA-85c8-ppgw-ccpr",
+    "https://github.com/advisories/GHSA-9jrq-w75r-8gcw",
+    "https://github.com/advisories/GHSA-fx2h-pf6j-xcff",
+    "https://github.com/advisories/GHSA-p9ff-h696-f583",
+    "https://github.com/advisories/GHSA-qxg6-89mg-rqv8",
+    "https://github.com/advisories/GHSA-r825-w8mm-5pxw",
+    "https://github.com/advisories/GHSA-rq7h-c2jc-7f22",
+    "https://github.com/advisories/GHSA-v2wj-q39q-566r",
+    "https://github.com/advisories/GHSA-v6wh-96g9-6wx3"
+  ]
+}

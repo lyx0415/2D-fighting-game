@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="160" viewBox="0 0 128 160" data-enemy="wraith" data-part="body"><defs>
+ <linearGradient id="e-wraith-steel" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#b6bdba"/><stop offset=".27" stop-color="#586c79"/><stop offset=".48" stop-color="#9aa8ad"/><stop offset=".55" stop-color="#354b5b"/><stop offset="1" stop-color="#1b2a3b"/></linearGradient>
+ <linearGradient id="e-wraith-iron" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5e7081"/><stop offset=".4" stop-color="#2a3b50"/><stop offset="1" stop-color="#101e30"/></linearGradient>
+ <linearGradient id="e-wraith-gold" x1="0" y1="0" x2="1" y2=".5"><stop stop-color="#d1bd89"/><stop offset=".45" stop-color="#907346"/><stop offset=".63" stop-color="#b7a16c"/><stop offset="1" stop-color="#493c33"/></linearGradient>
+ <linearGradient id="e-wraith-red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#86515c"/><stop offset=".45" stop-color="#512a3e"/><stop offset="1" stop-color="#211d30"/></linearGradient>
+ <linearGradient id="e-wraith-blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5c7389"/><stop offset=".5" stop-color="#32465f"/><stop offset="1" stop-color="#15233b"/></linearGradient>
+ <linearGradient id="e-wraith-leather" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8a725c"/><stop offset=".45" stop-color="#51483f"/><stop offset="1" stop-color="#252b34"/></linearGradient>
+ <linearGradient id="e-wraith-skin" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#788c99"/><stop offset=".55" stop-color="#8d796c"/><stop offset="1" stop-color="#4a4c4e"/></linearGradient>
+ <linearGradient id="e-wraith-bone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d3ceae"/><stop offset=".5" stop-color="#9c9f8e"/><stop offset="1" stop-color="#606c71"/></linearGradient>
+ <linearGradient id="e-wraith-fur" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#809071"/><stop offset=".4" stop-color="#4d6156"/><stop offset="1" stop-color="#253846"/></linearGradient>
+ <radialGradient id="e-wraith-gem"><stop stop-color="#eddcce"/><stop offset=".35" stop-color="#b0dce3"/><stop offset="1" stop-color="#326b8c"/></radialGradient>
+ </defs><path d="M64 98h.01" fill="none" stroke="none" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/></svg>

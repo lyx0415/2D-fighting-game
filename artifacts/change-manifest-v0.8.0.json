@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-31",
+  "version": "0.8.0",
+  "runtimeSourceChanges": [
+    {
+      "path": "src/game/art.ts",
+      "sha256": "f4660847d898808bf75b4547c65973f5767a79f798041d3e197c51c29473b843"
+    },
+    {
+      "path": "src/game/painted-character.ts",
+      "sha256": "73cd144ab9ffe1b66ef0a8de7e81ee283e17ab50d5e84cb900c5345ba54374eb"
+    },
+    {
+      "path": "src/game/raster-art.ts",
+      "sha256": "f42db7da521beaa3669d211a03f0cf7f77cddd44f21b15699b9f7e15e7cb73f3"
+    },
+    {
+      "path": "src/game/scene.ts",
+      "sha256": "129d352c4e04eb35613e37d9346a38583ad6667adf0db82a073018afa9634864"
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "e1db9399ba0b1a21f24d0d0b03e257253449a65f26c3ee97e6006c722d095966"
+    }
+  ],
+  "textures": 18,
+  "runtimeTextureBytes": 7467772,
+  "priorSourceSnapshot": "artifacts/v007-before-v008",
+  "note": "No git repository; source hashes compared against preserved source sample. Old SVG sources/files retained."
+}

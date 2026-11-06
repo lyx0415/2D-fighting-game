@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/grumdrig/jsfxr",
+  "commit": "62fbd7ab0705a62606fda36f1cb9bde7cabd2080",
+  "license": "Unlicense",
+  "use": "offline generation of six magic layers, layered with original physical DSP",
+  "files": {
+    "riffwave.js": "a3592b960a8f02ce716e1c54adb54e43067e26707896f6d23528d50c5ef4a8b5",
+    "sfxr.js": "78dbd6387c821de756b415b4a1c75f2b898055e96a467bec58aefa0abdb4c194",
+    "UNLICENSE": "7b30c10d168b77d43ddaa3269e7bef3e1a9dd68a54a5f23f1630a653d7e2e2f4"
+  }
+}

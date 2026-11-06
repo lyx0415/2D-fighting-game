@@ -1,0 +1,97 @@
+{
+  "kind": "crossbow",
+  "width": 128,
+  "height": 160,
+  "footX": 64,
+  "footY": 150,
+  "parts": [
+    {
+      "id": "cape",
+      "parent": "body",
+      "pivotX": 64,
+      "pivotY": 58,
+      "path": "rig_crossbow_cape_v006.svg"
+    },
+    {
+      "id": "rearThigh",
+      "pivotX": 53,
+      "pivotY": 97,
+      "path": "rig_crossbow_rearThigh_v006.svg"
+    },
+    {
+      "id": "rearShin",
+      "parent": "rearThigh",
+      "pivotX": 47,
+      "pivotY": 121,
+      "path": "rig_crossbow_rearShin_v006.svg"
+    },
+    {
+      "id": "frontThigh",
+      "pivotX": 73,
+      "pivotY": 97,
+      "path": "rig_crossbow_frontThigh_v006.svg"
+    },
+    {
+      "id": "frontShin",
+      "parent": "frontThigh",
+      "pivotX": 77,
+      "pivotY": 121,
+      "path": "rig_crossbow_frontShin_v006.svg"
+    },
+    {
+      "id": "body",
+      "pivotX": 64,
+      "pivotY": 98,
+      "path": "rig_crossbow_body_v006.svg"
+    },
+    {
+      "id": "chest",
+      "parent": "body",
+      "pivotX": 64,
+      "pivotY": 98,
+      "path": "rig_crossbow_chest_v006.svg"
+    },
+    {
+      "id": "rearUpperArm",
+      "parent": "body",
+      "pivotX": 44,
+      "pivotY": 66,
+      "path": "rig_crossbow_rearUpperArm_v006.svg"
+    },
+    {
+      "id": "rearForearm",
+      "parent": "rearUpperArm",
+      "pivotX": 36,
+      "pivotY": 87,
+      "path": "rig_crossbow_rearForearm_v006.svg"
+    },
+    {
+      "id": "frontUpperArm",
+      "parent": "body",
+      "pivotX": 80,
+      "pivotY": 63,
+      "path": "rig_crossbow_frontUpperArm_v006.svg"
+    },
+    {
+      "id": "frontForearm",
+      "parent": "frontUpperArm",
+      "pivotX": 86,
+      "pivotY": 80,
+      "path": "rig_crossbow_frontForearm_v006.svg"
+    },
+    {
+      "id": "weapon",
+      "parent": "frontForearm",
+      "pivotX": 103,
+      "pivotY": 81,
+      "path": "rig_crossbow_weapon_v006.svg"
+    },
+    {
+      "id": "head",
+      "parent": "body",
+      "pivotX": 67,
+      "pivotY": 55,
+      "path": "rig_crossbow_head_v006.svg"
+    }
+  ]
+}

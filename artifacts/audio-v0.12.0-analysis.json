@@ -1,0 +1,591 @@
+{
+  "version": "0.12.0",
+  "date": "2026-11-04",
+  "ok": true,
+  "runtimeFiles": 72,
+  "sourceReferencesChecked": 133,
+  "loops": 8,
+  "matchedPreviewRms": [
+    0.01999938979037877,
+    0.01999937791248225
+  ],
+  "files": [
+    {
+      "id": "click",
+      "peak": 0.049713134765625,
+      "rms": 0.016763100617720135,
+      "seconds": 0.010022675736961452,
+      "loop": false,
+      "sha256": "b4b2f7357b80b783aa19b331013038d3fc7d4a6db592c4ce225d7f4a0c1a4707"
+    },
+    {
+      "id": "bladeSwing",
+      "peak": 0.239990234375,
+      "rms": 0.04525951050299497,
+      "seconds": 0.28,
+      "loop": false,
+      "sha256": "e278c7162cd09e81d0a594423311f365daf1c96cb0dcc6febd2cd5f6a38309d1"
+    },
+    {
+      "id": "bowRelease",
+      "peak": 0.239990234375,
+      "rms": 0.03433190172495907,
+      "seconds": 0.2750113378684807,
+      "loop": false,
+      "sha256": "a995dee4f5733b5ffd50cc4eaef33ffcc793371282ad360ab7f35a53948db91e"
+    },
+    {
+      "id": "arcaneBolt",
+      "peak": 0.21435546875,
+      "rms": 0.009310672945828968,
+      "seconds": 0.38095238095238093,
+      "loop": false,
+      "sha256": "7de78c38a71e02d7cfcbbb23b57ad2bc47571f8defe325727bdf73212efe710a"
+    },
+    {
+      "id": "hammerSwing",
+      "peak": 0.239990234375,
+      "rms": 0.015482520438737105,
+      "seconds": 0.4450793650793651,
+      "loop": false,
+      "sha256": "dc60d7e92b63b11c5d52c54700b5982792d1656a51d84cf108b1808a18756b2f"
+    },
+    {
+      "id": "daggerSwing",
+      "peak": 0.239990234375,
+      "rms": 0.021844175782469184,
+      "seconds": 0.15002267573696146,
+      "loop": false,
+      "sha256": "7770f15b27de9729805486e41aee4b4ac5a59aca8fadc4a41713768ab59fe28b"
+    },
+    {
+      "id": "claw",
+      "peak": 0.239990234375,
+      "rms": 0.027668620092479616,
+      "seconds": 0.18290249433106576,
+      "loop": false,
+      "sha256": "550e2de1e7d83e3ded714cc317ba33edaa0ad9ba68826adb8951986537c90555"
+    },
+    {
+      "id": "bite",
+      "peak": 0.239990234375,
+      "rms": 0.03786651392266889,
+      "seconds": 0.2700226757369614,
+      "loop": false,
+      "sha256": "e39a4823a5c04b06d02db2e7d9215dceee0489fdf161127562f70b95193c0669"
+    },
+    {
+      "id": "crossbow",
+      "peak": 0.11724853515625,
+      "rms": 0.019219199584486254,
+      "seconds": 0.15156462585034014,
+      "loop": false,
+      "sha256": "2dabc04573747bd909849e35ce4086e9a753dc20fbaea63b7628284eab275664"
+    },
+    {
+      "id": "chant",
+      "peak": 0.569976806640625,
+      "rms": 0.05143377201213798,
+      "seconds": 1.0034467120181405,
+      "loop": false,
+      "sha256": "250abd3b7611aa561a18ad0ed0da0090cfb3c101e10ff3e0f52535c9ef90958a"
+    },
+    {
+      "id": "cleave",
+      "peak": 0.569976806640625,
+      "rms": 0.08344126429186469,
+      "seconds": 0.6196825396825397,
+      "loop": false,
+      "sha256": "5154828fe0f634f707b4787d2606d7825a03f738e3bcc100b0ae2c89c183e62d"
+    },
+    {
+      "id": "doom",
+      "peak": 0.569976806640625,
+      "rms": 0.10234767148759694,
+      "seconds": 1.9445804988662132,
+      "loop": false,
+      "sha256": "cb12c01e38ddfad9f46d4e20c8f5aa88eef193b8a83a2198628216a53775f5ac"
+    },
+    {
+      "id": "sweep",
+      "peak": 0.569976806640625,
+      "rms": 0.0857709775645192,
+      "seconds": 0.7078004535147392,
+      "loop": false,
+      "sha256": "f5f160db24dc2b68b4801133d688737bef41786de1bac0a10fc3b2b16e3af911"
+    },
+    {
+      "id": "ward",
+      "peak": 0.451873779296875,
+      "rms": 0.04194307503685397,
+      "seconds": 1.9278004535147393,
+      "loop": false,
+      "sha256": "d79b2999335170793e29190acd05f05307330eca1c5ae174047e654cd575a8ed"
+    },
+    {
+      "id": "volley",
+      "peak": 0.569976806640625,
+      "rms": 0.07485113341205371,
+      "seconds": 0.52,
+      "loop": false,
+      "sha256": "d4a81932b74788d1cc4e0453992287981b843a126a092a2091e492d7e9825038"
+    },
+    {
+      "id": "arrowRain",
+      "peak": 0.569976806640625,
+      "rms": 0.04932735017454391,
+      "seconds": 1.0878004535147392,
+      "loop": false,
+      "sha256": "2db0fa6897f7ecd65e2f990859c3d879429c80a630a2212f7f06539ed6aa22e9"
+    },
+    {
+      "id": "frost",
+      "peak": 0.569976806640625,
+      "rms": 0.03258454205901102,
+      "seconds": 2.107800453514739,
+      "loop": false,
+      "sha256": "bbb1496f46787965d0ef80833b27271137e15d3371eb4e3f7cfec1eedfc7ca7e"
+    },
+    {
+      "id": "meteorCast",
+      "peak": 0.569976806640625,
+      "rms": 0.08000186092077592,
+      "seconds": 1.5,
+      "loop": false,
+      "sha256": "12aa9d8fdf185ca055ccd328042024143863dc050b4770658771c092375edf27"
+    },
+    {
+      "id": "shieldBash",
+      "peak": 0.533050537109375,
+      "rms": 0.056805214403814586,
+      "seconds": 0.921859410430839,
+      "loop": false,
+      "sha256": "deca3cbfa62bf23e78c03922390b01fef2697ed2a394507bc07c277224e6b02f"
+    },
+    {
+      "id": "oath",
+      "peak": 0.50738525390625,
+      "rms": 0.06363877210586681,
+      "seconds": 1.8078004535147392,
+      "loop": false,
+      "sha256": "0ff47c14f41de3723d1cc21489f9f568d9a127146267b76e3feef48d8a9d4ddf"
+    },
+    {
+      "id": "shadow",
+      "peak": 0.569976806640625,
+      "rms": 0.03859903379648352,
+      "seconds": 1.8078004535147392,
+      "loop": false,
+      "sha256": "c83d3ddbd4fed812e6d395e380f69cb4c3045dcdc5a8aaf0e8e59d9152078bf7"
+    },
+    {
+      "id": "execute",
+      "peak": 0.569976806640625,
+      "rms": 0.07923162083173102,
+      "seconds": 0.7496145124716553,
+      "loop": false,
+      "sha256": "ff1185c2fb2de52e9c13d6a0c496f31caac3010815a97070487ffd99b80b4acf"
+    },
+    {
+      "id": "metalHit",
+      "peak": 0.319976806640625,
+      "rms": 0.053728872830484595,
+      "seconds": 0.2700226757369614,
+      "loop": false,
+      "sha256": "ff22453c45ac5658b37dfbb133bee207f5ec217a3103d96e585d300b02e25782"
+    },
+    {
+      "id": "fleshHit",
+      "peak": 0.319976806640625,
+      "rms": 0.048994504778140366,
+      "seconds": 0.2700226757369614,
+      "loop": false,
+      "sha256": "fae76e992912bf40edda0d843325e7246d527e0b43db9bdbfb39c1a335e81346"
+    },
+    {
+      "id": "arrowHit",
+      "peak": 0.18310546875,
+      "rms": 0.03359309392493185,
+      "seconds": 0.2700226757369614,
+      "loop": false,
+      "sha256": "3651b85097067f9c7d1c458448dc43b2c4815c1877faec1942a08a14f941c348"
+    },
+    {
+      "id": "frostHit",
+      "peak": 0.23260498046875,
+      "rms": 0.018234732673796317,
+      "seconds": 0.6887528344671202,
+      "loop": false,
+      "sha256": "abff6fd3a8be7b4c9bf31360fc7151813ad29b3063c617b38129c321788015e3"
+    },
+    {
+      "id": "fireHit",
+      "peak": 0.319976806640625,
+      "rms": 0.03378116051157334,
+      "seconds": 1.5577777777777777,
+      "loop": false,
+      "sha256": "76282c3da1dc2fdee96c4434d126432993ee7e48a9ce06e43ba11796dac8013b"
+    },
+    {
+      "id": "bladeHit",
+      "peak": 0.319976806640625,
+      "rms": 0.05049494554339441,
+      "seconds": 0.2700226757369614,
+      "loop": false,
+      "sha256": "682199e2c083c8fd397ed46e368219162766bd3aaa79459102feb661b37b593e"
+    },
+    {
+      "id": "magicHit",
+      "peak": 0.319976806640625,
+      "rms": 0.02999780578237683,
+      "seconds": 0.6887528344671202,
+      "loop": false,
+      "sha256": "e848ae6793e778bc07118bd10d5d72430c9c2886966439eb392cfc04a6f0db1d"
+    },
+    {
+      "id": "loot",
+      "peak": 0.239990234375,
+      "rms": 0.018942663701996737,
+      "seconds": 0.3036281179138322,
+      "loop": false,
+      "sha256": "ca63bfa0ab2f4c1bec2bc2b283b4f01a9645780371660ad1b9334cbd75bbb02c"
+    },
+    {
+      "id": "death",
+      "peak": 0.569976806640625,
+      "rms": 0.09879330675665009,
+      "seconds": 0.42934240362811793,
+      "loop": false,
+      "sha256": "1a38e95c07b471cd068a21925284afe549d0bb753527800e06b808c77e6d40f3"
+    },
+    {
+      "id": "won",
+      "peak": 0.239990234375,
+      "rms": 0.01282223704870651,
+      "seconds": 0.7301133786848073,
+      "loop": false,
+      "sha256": "19137b209ec0ff3e6b2ac2ad2f4ce477ae1a13046f6b1c0c53e3cf012e1beddd"
+    },
+    {
+      "id": "lost",
+      "peak": 0.239990234375,
+      "rms": 0.022021015699116474,
+      "seconds": 0.43315192743764175,
+      "loop": false,
+      "sha256": "e645d319809f0390d68ad12121cf277f1ccc74dd26e110f4bf049c00c512d73c"
+    },
+    {
+      "id": "entry",
+      "peak": 0.239990234375,
+      "rms": 0.01715040433841253,
+      "seconds": 0.7784126984126984,
+      "loop": false,
+      "sha256": "5d2e7609af10c30d1c8db7104e7b031c52af88aaacf41bcb857d736e9475c843"
+    },
+    {
+      "id": "wardSustain",
+      "peak": 0.08966064453125,
+      "rms": 0.021999440427947263,
+      "seconds": 2.0,
+      "loop": true,
+      "sha256": "b8f6a498639807a754f354fd5e496b0b5f165edfb4f98b8566b081c8cf82111e"
+    },
+    {
+      "id": "oathSustain",
+      "peak": 0.09368896484375,
+      "rms": 0.021999320624544336,
+      "seconds": 2.0,
+      "loop": true,
+      "sha256": "53868ad8baf73e32f1e65460f829cc3dfd65fd5ef3f8bc7b2f32092c17031b01"
+    },
+    {
+      "id": "warriorExert",
+      "peak": 0.25,
+      "rms": 0.04847071384275472,
+      "seconds": 0.36498866213151926,
+      "loop": false,
+      "sha256": "8152c40d9517a9b1fe6cf056424248bff6ac15851f357c9ed17664d2c8e31af6"
+    },
+    {
+      "id": "warriorExert__2",
+      "peak": 0.25,
+      "rms": 0.045862005266505745,
+      "seconds": 0.28997732426303857,
+      "loop": false,
+      "sha256": "76f75edaefb539e9e047cbe4035e9f8b77c766828cdfc80db73de7ca65660453"
+    },
+    {
+      "id": "warriorExert__3",
+      "peak": 0.25,
+      "rms": 0.037340442634931754,
+      "seconds": 0.3361451247165533,
+      "loop": false,
+      "sha256": "4af2b86ef8787fa6c9d1f035baaf1e87d17f7fb72e2732c925d46b11cf80f3c0"
+    },
+    {
+      "id": "warriorHurt",
+      "peak": 0.25,
+      "rms": 0.054877128503907045,
+      "seconds": 0.47859410430839,
+      "loop": false,
+      "sha256": "9b996e903e2549635ff0ee80fdcf726a7aa68c143493a01a7c39fbb5970b2fe6"
+    },
+    {
+      "id": "warriorHurt__2",
+      "peak": 0.25,
+      "rms": 0.060131268098168086,
+      "seconds": 0.45909297052154197,
+      "loop": false,
+      "sha256": "9954707a563e1f6cbe66ca2fef8483867436a8d86375cd1396e59edfd8c1d041"
+    },
+    {
+      "id": "warriorHurt__3",
+      "peak": 0.25,
+      "rms": 0.053562778598113564,
+      "seconds": 0.4341496598639456,
+      "loop": false,
+      "sha256": "7fd05eedaa7c85574730fdad2fcfa817683b91f8c406b135c2042982e521bf9b"
+    },
+    {
+      "id": "archerExert",
+      "peak": 0.232940673828125,
+      "rms": 0.06298741484474296,
+      "seconds": 0.25002267573696146,
+      "loop": false,
+      "sha256": "405c767e986f8c63bb15578cd7c1f28a6a80d724f8e189af7b99a226d3625c4b"
+    },
+    {
+      "id": "archerExert__2",
+      "peak": 0.25,
+      "rms": 0.06036589856523977,
+      "seconds": 0.18108843537414965,
+      "loop": false,
+      "sha256": "7b5592ed91d121d918bf7d70c911330485a776b0d11c443dbe30166f4559ab65"
+    },
+    {
+      "id": "archerExert__3",
+      "peak": 0.25,
+      "rms": 0.051348778793671244,
+      "seconds": 0.3310204081632653,
+      "loop": false,
+      "sha256": "01b3bac457661208fa01f4821a8ac82f28af74c0b20281b1a1c500d70af802df"
+    },
+    {
+      "id": "archerHurt",
+      "peak": 0.25,
+      "rms": 0.05906543538986529,
+      "seconds": 0.24589569160997732,
+      "loop": false,
+      "sha256": "5838d7e46ca237dc05700676c20e311fd0ba09531dc477d53776936694262407"
+    },
+    {
+      "id": "archerHurt__2",
+      "peak": 0.247283935546875,
+      "rms": 0.06271168131139243,
+      "seconds": 0.39791383219954646,
+      "loop": false,
+      "sha256": "d3b1ad1882c1741c1c1b0247c61f9e5b15ed9ea1263148830a2a4079369c919b"
+    },
+    {
+      "id": "archerHurt__3",
+      "peak": 0.25,
+      "rms": 0.05598310743938041,
+      "seconds": 0.35070294784580497,
+      "loop": false,
+      "sha256": "35fb9bc6108c02b4096fcfbdf1dc76e8b7249d19bd582e0c843a43046db3f257"
+    },
+    {
+      "id": "mageExert",
+      "peak": 0.1873779296875,
+      "rms": 0.06299805732964492,
+      "seconds": 0.39160997732426306,
+      "loop": false,
+      "sha256": "1fc569d27165a647d4e12a8769472805747f3b7da8899e681bc53e98853050e5"
+    },
+    {
+      "id": "mageExert__2",
+      "peak": 0.25,
+      "rms": 0.0617007046164555,
+      "seconds": 0.4899773242630385,
+      "loop": false,
+      "sha256": "15a1eebda6ee75097a2f5eb5c3d65a3a25cc33baf131771d018eeb312783fd25"
+    },
+    {
+      "id": "mageExert__3",
+      "peak": 0.25,
+      "rms": 0.058953753086959666,
+      "seconds": 0.24612244897959185,
+      "loop": false,
+      "sha256": "316ec3c6797ff20bdc927854f0999d620518f50e29320615063ca5e4724e2367"
+    },
+    {
+      "id": "mageHurt",
+      "peak": 0.25,
+      "rms": 0.030364899860321263,
+      "seconds": 0.62,
+      "loop": false,
+      "sha256": "39c822de0339d662e99f8255cea72204622f5399639be571dc03a6317d945f5f"
+    },
+    {
+      "id": "mageHurt__2",
+      "peak": 0.25,
+      "rms": 0.05467411059796386,
+      "seconds": 0.3566893424036281,
+      "loop": false,
+      "sha256": "492e957e2b6b6b3b23fa1fd179e409d749f43c26ea0d21bb701a94b872c29730"
+    },
+    {
+      "id": "mageHurt__3",
+      "peak": 0.25,
+      "rms": 0.03398816279639161,
+      "seconds": 0.7573696145124716,
+      "loop": false,
+      "sha256": "dd9d0b369b38812b4de4b33e7a51e5979380a402ec45d82db44194adb7be39b2"
+    },
+    {
+      "id": "tankExert",
+      "peak": 0.25,
+      "rms": 0.06238040811192322,
+      "seconds": 0.4293877551020408,
+      "loop": false,
+      "sha256": "4c488fc29d9859a42059593ecdc6f4651be1872926515f8aa95e3387a86959c4"
+    },
+    {
+      "id": "tankExert__2",
+      "peak": 0.222381591796875,
+      "rms": 0.0629978219572804,
+      "seconds": 0.7,
+      "loop": false,
+      "sha256": "f5a8e3043022047cdc4191ce55d0748e7b4760766e1bfc0b7fc3dcc1f0da37eb"
+    },
+    {
+      "id": "tankExert__3",
+      "peak": 0.25,
+      "rms": 0.05482247503274403,
+      "seconds": 0.6361904761904762,
+      "loop": false,
+      "sha256": "254bd401fc5d2e560f7ae5494c028bb5adaa135e9eaed90d022b5397b39a962f"
+    },
+    {
+      "id": "tankHurt",
+      "peak": 0.2462158203125,
+      "rms": 0.06299804655546712,
+      "seconds": 0.7475283446712018,
+      "loop": false,
+      "sha256": "5c96b9a25ea43768dafa1e71bc88539c02070fc90ae5ced957937e6419d0edd0"
+    },
+    {
+      "id": "tankHurt__2",
+      "peak": 0.243072509765625,
+      "rms": 0.06299713851846411,
+      "seconds": 0.688843537414966,
+      "loop": false,
+      "sha256": "0ca2f92b10134c6786e2fb5b1a14974c3d03814a89c2d530fd49b6c43f330098"
+    },
+    {
+      "id": "tankHurt__3",
+      "peak": 0.25,
+      "rms": 0.05394951215021711,
+      "seconds": 0.6252154195011338,
+      "loop": false,
+      "sha256": "b0c06de3989297f9dfeee952b58a05540eb1b1dee8c5c6e923821400ccd3606d"
+    },
+    {
+      "id": "assassinExert",
+      "peak": 0.25,
+      "rms": 0.051979559989298485,
+      "seconds": 0.31378684807256235,
+      "loop": false,
+      "sha256": "601b0fcc681792570dd40eb322f0a1b36489c70d2476ba8c36c308b93e1b8571"
+    },
+    {
+      "id": "assassinExert__2",
+      "peak": 0.25,
+      "rms": 0.05942163623108825,
+      "seconds": 0.2331065759637188,
+      "loop": false,
+      "sha256": "7a54b84dd3270b2e04a479d61918c3c8f5725edd298233576bd13c26a0bcc8b4"
+    },
+    {
+      "id": "assassinExert__3",
+      "peak": 0.248748779296875,
+      "rms": 0.06268691198610318,
+      "seconds": 0.37718820861678004,
+      "loop": false,
+      "sha256": "82c42c45ad4c554f20346cfa82b8a0661addc66cef993f518dac7e11904c8c1b"
+    },
+    {
+      "id": "assassinHurt",
+      "peak": 0.25,
+      "rms": 0.058779003503553154,
+      "seconds": 0.33242630385487526,
+      "loop": false,
+      "sha256": "0da163f253830391bc94dfecdbbded395d659272ab093d28dc1156d063c53c60"
+    },
+    {
+      "id": "assassinHurt__2",
+      "peak": 0.2344970703125,
+      "rms": 0.06298618120732463,
+      "seconds": 0.23700680272108843,
+      "loop": false,
+      "sha256": "3016ae0948d4e3de3d4b04a9e82f7244b8453118f6506a7cf35905ce7b2d41e2"
+    },
+    {
+      "id": "assassinHurt__3",
+      "peak": 0.25,
+      "rms": 0.06031356877693856,
+      "seconds": 0.17165532879818593,
+      "loop": false,
+      "sha256": "7875c1abd2179a8135a29da3f468d5e1241880922c10bff9b9e764c58a9508f6"
+    },
+    {
+      "id": "ambient-camp",
+      "peak": 0.1099853515625,
+      "rms": 0.009228130710468596,
+      "seconds": 12.0,
+      "loop": true,
+      "sha256": "8a1549bd99513c75231980268c99b7875122504686e1d87391d2cebeb6fe1bf5"
+    },
+    {
+      "id": "ambient-ash",
+      "peak": 0.1099853515625,
+      "rms": 0.020170866101446316,
+      "seconds": 12.0,
+      "loop": true,
+      "sha256": "e9e65d97bb28f9a45e8945ca199975ac5bca4731dcd644b1603aac716f1a6539"
+    },
+    {
+      "id": "ambient-forest",
+      "peak": 0.1099853515625,
+      "rms": 0.01931683253363119,
+      "seconds": 12.0,
+      "loop": true,
+      "sha256": "3a98f22a450b9c5ff93fa3a693ec7f216d4ee1846fa7803dabff0b6b6b1c3b1c"
+    },
+    {
+      "id": "ambient-fortress",
+      "peak": 0.1099853515625,
+      "rms": 0.020337378871424422,
+      "seconds": 12.0,
+      "loop": true,
+      "sha256": "dfe1a32ef9174ec542622abf30ece27e31d3c2441a27e2153863adca7e88556a"
+    },
+    {
+      "id": "ambient-abbey",
+      "peak": 0.1099853515625,
+      "rms": 0.020696856889008363,
+      "seconds": 12.0,
+      "loop": true,
+      "sha256": "5490d75d68e122122ee47485e73f1aad3a8655fb0e413e9711aee44ac0ac3efa"
+    },
+    {
+      "id": "ambient-crypt",
+      "peak": 0.10888671875,
+      "rms": 0.020837957430338453,
+      "seconds": 12.0,
+      "loop": true,
+      "sha256": "bd046c08b31908643ccac96fcca2ca89ce17d489aa1781e9124f23d14308b35e"
+    }
+  ],
+  "limit": "File checks are not human listening approval or actual speaker output"
+}

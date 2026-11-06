@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-30",
+  "method": "真实鼠标操作，仅观察状态，未注入伤害或资源",
+  "records": [
+    {
+      "level": 1,
+      "seconds": 27
+    },
+    {
+      "level": 2,
+      "seconds": 31
+    },
+    {
+      "level": 3,
+      "seconds": 43
+    },
+    {
+      "level": 4,
+      "seconds": 27
+    },
+    {
+      "level": 5,
+      "seconds": 26
+    },
+    {
+      "level": 6,
+      "seconds": 29
+    },
+    {
+      "level": 7,
+      "seconds": 28
+    },
+    {
+      "level": 8,
+      "seconds": 33
+    },
+    {
+      "level": 9,
+      "seconds": 38
+    },
+    {
+      "level": 10,
+      "seconds": 67
+    }
+  ]
+}

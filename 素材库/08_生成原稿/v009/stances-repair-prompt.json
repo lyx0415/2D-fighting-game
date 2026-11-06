@@ -1,0 +1,9 @@
+{
+  "prompt": "Edit this transparent 5-column by 2-row fantasy character sheet. Keep characters, identities, style, transparent background, clothing and cell layout. REQUIRED MAJOR VIEW CHANGE, not minor facial retouching: In BOTH ROWS, COLUMN 3 silver-haired mage must face STRAIGHT AT CAMERA, torso square to viewer, nose at facial center, TWO clearly visible eyes and both cheekbones; staff beside body. COLUMN 4 grey-bearded tank must face STRAIGHT AT CAMERA with both eyes visible, symmetric broad forehead and beard, chest square to viewer, shield on one side. COLUMN 2 ranger must turn her entire torso/head THREE-QUARTER LEFT instead of right (looking left toward viewer, clearly see both eyes). COLUMN 1 knight stays three-quarter right. COLUMN 5 assassin stays three-quarter front with eyes toward camera. Keep all full bodies entirely inside each cell. Maintain all other details, lighting, mature anatomy. No text, no borders. The point is the five characters must NOT all face the right edge. Strong front / left / right orientation variety.",
+  "path": "C:\\Users\\lyx\\.codex\\generated_images\\01a1875b-95bc-7131-87fe-7c7beb40e26a\\exec-0159912c-fc3e-4db4-a570-6e93b99ac92d.png",
+  "tool": "built-in image_gen",
+  "transparentBackground": true,
+  "referenceImages": [
+    "素材库/08_生成原稿/v009/stances.png"
+  ]
+}

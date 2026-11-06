@@ -1,0 +1,48 @@
+{
+  "arcane": {
+    "shape": 2,
+    "frequency": 420,
+    "frequencySlide": 1.1,
+    "sustain": 0.12,
+    "decay": 0.25,
+    "vibratoDepth": 0.1
+  },
+  "frost": {
+    "shape": 3,
+    "frequency": 2200,
+    "sustain": 0.08,
+    "decay": 0.3,
+    "highPassFrequency": 1600,
+    "lowPassFrequency": 6000
+  },
+  "ward": {
+    "shape": 2,
+    "frequency": 196,
+    "arpeggioFactor": 1.5,
+    "arpeggioDelay": 0.1,
+    "sustain": 0.15,
+    "decay": 0.5
+  },
+  "shadow": {
+    "shape": 3,
+    "frequency": 500,
+    "sustain": 0.1,
+    "decay": 0.35,
+    "lowPassFrequency": 1600,
+    "flangerSweep": 0.006
+  },
+  "oath": {
+    "shape": 2,
+    "frequency": 146.83,
+    "arpeggioFactor": 2,
+    "sustain": 0.3,
+    "decay": 0.7
+  },
+  "meteor": {
+    "shape": 3,
+    "frequency": 80,
+    "sustain": 0.12,
+    "decay": 0.55,
+    "lowPassFrequency": 900
+  }
+}

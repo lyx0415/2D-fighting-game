@@ -1,0 +1,1337 @@
+{
+  "version": 1,
+  "gameVersion": "0.4.0",
+  "updated": "2026-10-30",
+  "runtimeSource": "src/game/art.ts",
+  "note": "本目录为现有资产导出与整理，游戏暂未改为从此目录加载。带crop/reference的文件为参考，不能当作已完成的独立游戏素材。",
+  "items": [
+    {
+      "id": "char_warrior_base_v001",
+      "name": "雷恩·战士·旧版",
+      "path": "01_人物/英雄/char_warrior_base_v001.svg",
+      "status": "历史版本·未用于当前英雄",
+      "source": "src/game/art.ts#legacyCharacterSvg(warrior)",
+      "sha256": "936520e7af4672c6ff362c8577df0f9c91bc223e5f8a51075a81699a7f9d34fd"
+    },
+    {
+      "id": "char_warrior_base_v004",
+      "name": "雷恩·战士",
+      "path": "01_人物/英雄/char_warrior_base_v004.svg",
+      "status": "v004已接入·独立脸型与分组姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior)",
+      "sha256": "ea0967573c901365a3895db9adc48e901ed41ec34f0e8ab9a789e7330e583ae7"
+    },
+    {
+      "id": "char_warrior_move_1_v004",
+      "name": "雷恩·战士·move 1/4",
+      "path": "01_人物/动作/warrior/char_warrior_move_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,move,0)",
+      "sha256": "fe36124e88d9ff07784879b4a0bc2802a515a77613bba54fd4c57dc4a641ee5f"
+    },
+    {
+      "id": "char_warrior_move_2_v004",
+      "name": "雷恩·战士·move 2/4",
+      "path": "01_人物/动作/warrior/char_warrior_move_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,move,1)",
+      "sha256": "bb7f562cd692b4a712cb76ed2d63471ecd78a0ee75b39fb8d0e43cc31d8e27d8"
+    },
+    {
+      "id": "char_warrior_move_3_v004",
+      "name": "雷恩·战士·move 3/4",
+      "path": "01_人物/动作/warrior/char_warrior_move_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,move,2)",
+      "sha256": "37d8a63a88c7a024dc23f15b940f44b98836b4affd56e2bb3730e278a7522bd8"
+    },
+    {
+      "id": "char_warrior_move_4_v004",
+      "name": "雷恩·战士·move 4/4",
+      "path": "01_人物/动作/warrior/char_warrior_move_4_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,move,3)",
+      "sha256": "61b2c2ab8083390dbbe42d5063950629d35e79ec73123b63e0e86aac195e5ee2"
+    },
+    {
+      "id": "char_warrior_attack_1_v004",
+      "name": "雷恩·战士·attack 1/3",
+      "path": "01_人物/动作/warrior/char_warrior_attack_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,attack,0)",
+      "sha256": "f76b305f668d929a6daa706763fb91b6de386370920827e6df1dc55da2ff7091"
+    },
+    {
+      "id": "char_warrior_attack_2_v004",
+      "name": "雷恩·战士·attack 2/3",
+      "path": "01_人物/动作/warrior/char_warrior_attack_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,attack,1)",
+      "sha256": "967851a533fb383411da9d2d75115971753443c24060be2303d8f6824a86c1e2"
+    },
+    {
+      "id": "char_warrior_attack_3_v004",
+      "name": "雷恩·战士·attack 3/3",
+      "path": "01_人物/动作/warrior/char_warrior_attack_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,attack,2)",
+      "sha256": "a6def81ca8b8398867e568a36288e734c40a23cf792e8668a8b99b53f0e43da2"
+    },
+    {
+      "id": "char_warrior_skill0_1_v004",
+      "name": "雷恩·战士·skill0 1/3",
+      "path": "01_人物/动作/warrior/char_warrior_skill0_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,skill0,0)",
+      "sha256": "8fb4e4746f76d58b7f2ca948d4de31c5cf6c0533b835af945b92c862aca619f0"
+    },
+    {
+      "id": "char_warrior_skill0_2_v004",
+      "name": "雷恩·战士·skill0 2/3",
+      "path": "01_人物/动作/warrior/char_warrior_skill0_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,skill0,1)",
+      "sha256": "8293cc16766409a0767471283e6a7738a8eef52bdf51d521335ee608ba21ecef"
+    },
+    {
+      "id": "char_warrior_skill0_3_v004",
+      "name": "雷恩·战士·skill0 3/3",
+      "path": "01_人物/动作/warrior/char_warrior_skill0_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,skill0,2)",
+      "sha256": "fbda4c4068b9001e52015c32775975318f883479b608ca1188673e111772ef87"
+    },
+    {
+      "id": "char_warrior_skill1_1_v004",
+      "name": "雷恩·战士·skill1 1/3",
+      "path": "01_人物/动作/warrior/char_warrior_skill1_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,skill1,0)",
+      "sha256": "2c57184c53766ef0d9d72598bd964987ed8f141835b4b270f9bb8674211a419a"
+    },
+    {
+      "id": "char_warrior_skill1_2_v004",
+      "name": "雷恩·战士·skill1 2/3",
+      "path": "01_人物/动作/warrior/char_warrior_skill1_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,skill1,1)",
+      "sha256": "6faa64d941de6e4066d3de5952ff487a61fdc774b1f0af061ee35ba4740c912a"
+    },
+    {
+      "id": "char_warrior_skill1_3_v004",
+      "name": "雷恩·战士·skill1 3/3",
+      "path": "01_人物/动作/warrior/char_warrior_skill1_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,skill1,2)",
+      "sha256": "2b7f1acaa3fde63a36cd816a38160f3b2770e9226144d2e25b6c25c8517b1a8e"
+    },
+    {
+      "id": "char_warrior_hit_1_v004",
+      "name": "雷恩·战士·hit 1/1",
+      "path": "01_人物/动作/warrior/char_warrior_hit_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,hit,0)",
+      "sha256": "0ed77a53c1826e7459aecd4d288cef4c6630c456dc8df8dfdc8da7239baa562f"
+    },
+    {
+      "id": "char_warrior_dead_1_v004",
+      "name": "雷恩·战士·dead 1/1",
+      "path": "01_人物/动作/warrior/char_warrior_dead_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(warrior,dead,0)",
+      "sha256": "e1a5810ae9caf00e64f1dc96586bb78f10ed9807bb7e0b3583b777520d2830ce"
+    },
+    {
+      "id": "char_archer_base_v001",
+      "name": "薇拉·射手·旧版",
+      "path": "01_人物/英雄/char_archer_base_v001.svg",
+      "status": "历史版本·未用于当前英雄",
+      "source": "src/game/art.ts#legacyCharacterSvg(archer)",
+      "sha256": "dcbd5977b0b8a2b68a80747d26d4d361890c3c32023c1d41ee9983d7aab38838"
+    },
+    {
+      "id": "char_archer_base_v004",
+      "name": "薇拉·射手",
+      "path": "01_人物/英雄/char_archer_base_v004.svg",
+      "status": "v004已接入·独立脸型与分组姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer)",
+      "sha256": "70553415a9c1e4a3aad143f88e665b4e0e2347e89e92a7bbbf86147532c5e579"
+    },
+    {
+      "id": "char_archer_move_1_v004",
+      "name": "薇拉·射手·move 1/4",
+      "path": "01_人物/动作/archer/char_archer_move_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,move,0)",
+      "sha256": "6cd4cc2708f15f173e05a0af48fcf4937c0a7013feec7d7ae6036df74e6604b7"
+    },
+    {
+      "id": "char_archer_move_2_v004",
+      "name": "薇拉·射手·move 2/4",
+      "path": "01_人物/动作/archer/char_archer_move_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,move,1)",
+      "sha256": "1732e1f1e941a58dc8069f3d7d964a713cb626617b684fa4a100efa133f1e0e1"
+    },
+    {
+      "id": "char_archer_move_3_v004",
+      "name": "薇拉·射手·move 3/4",
+      "path": "01_人物/动作/archer/char_archer_move_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,move,2)",
+      "sha256": "ea1f01924c8d1e21244288787152dfc35cebef19647c5599cd5d26bfa67ee27d"
+    },
+    {
+      "id": "char_archer_move_4_v004",
+      "name": "薇拉·射手·move 4/4",
+      "path": "01_人物/动作/archer/char_archer_move_4_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,move,3)",
+      "sha256": "2acf4bb082b03788e03bcc52fcd2a8a46a1a3c60a0b81ee3962c6e5e3cb1480c"
+    },
+    {
+      "id": "char_archer_attack_1_v004",
+      "name": "薇拉·射手·attack 1/3",
+      "path": "01_人物/动作/archer/char_archer_attack_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,attack,0)",
+      "sha256": "a989a50fc7bc82d12233712a7e469c44ef56a6cc18fc655462df9acfb36bd0cd"
+    },
+    {
+      "id": "char_archer_attack_2_v004",
+      "name": "薇拉·射手·attack 2/3",
+      "path": "01_人物/动作/archer/char_archer_attack_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,attack,1)",
+      "sha256": "e744fbf3509afeb2aa69b3273ba87c2a147b27d021f26735b46cce1bc616ed64"
+    },
+    {
+      "id": "char_archer_attack_3_v004",
+      "name": "薇拉·射手·attack 3/3",
+      "path": "01_人物/动作/archer/char_archer_attack_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,attack,2)",
+      "sha256": "bffd942c375935d21ccf05412c6e25a06b9606c26b8d56d1e8dce2d4c2719043"
+    },
+    {
+      "id": "char_archer_skill0_1_v004",
+      "name": "薇拉·射手·skill0 1/3",
+      "path": "01_人物/动作/archer/char_archer_skill0_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,skill0,0)",
+      "sha256": "12779b34e7cc049d2a9b484aff4b52ba1a474298014a630cc7e02876a1047318"
+    },
+    {
+      "id": "char_archer_skill0_2_v004",
+      "name": "薇拉·射手·skill0 2/3",
+      "path": "01_人物/动作/archer/char_archer_skill0_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,skill0,1)",
+      "sha256": "560c54b6585e51be8f18186d3f38d8e70ffd0fc7bea3bc59a46da65a87810ef6"
+    },
+    {
+      "id": "char_archer_skill0_3_v004",
+      "name": "薇拉·射手·skill0 3/3",
+      "path": "01_人物/动作/archer/char_archer_skill0_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,skill0,2)",
+      "sha256": "aa9295941cd063ba0b7c79305ec04e25355dbe01c9dd0f16899a012a6f5b0186"
+    },
+    {
+      "id": "char_archer_skill1_1_v004",
+      "name": "薇拉·射手·skill1 1/3",
+      "path": "01_人物/动作/archer/char_archer_skill1_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,skill1,0)",
+      "sha256": "af8198b2bc2e3aa7ab850e5e8bd854f24791b1b4d852c2e9f736f6552dae1e3e"
+    },
+    {
+      "id": "char_archer_skill1_2_v004",
+      "name": "薇拉·射手·skill1 2/3",
+      "path": "01_人物/动作/archer/char_archer_skill1_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,skill1,1)",
+      "sha256": "5d7515c2c794a36d889c18c1a2ca50235e3628cf85fdb42289cd9f004de4b20b"
+    },
+    {
+      "id": "char_archer_skill1_3_v004",
+      "name": "薇拉·射手·skill1 3/3",
+      "path": "01_人物/动作/archer/char_archer_skill1_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,skill1,2)",
+      "sha256": "895a197c98f693f3e0a62ddfed974aec47597020a7de599d9742319849b6684a"
+    },
+    {
+      "id": "char_archer_hit_1_v004",
+      "name": "薇拉·射手·hit 1/1",
+      "path": "01_人物/动作/archer/char_archer_hit_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,hit,0)",
+      "sha256": "9745c678876b876d883564e9de9576c2675a79f3b8551cf6328527dcef51d4ba"
+    },
+    {
+      "id": "char_archer_dead_1_v004",
+      "name": "薇拉·射手·dead 1/1",
+      "path": "01_人物/动作/archer/char_archer_dead_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(archer,dead,0)",
+      "sha256": "74dc9812517e6354b65ce9c6eff81d7aaaa0fc399c571f1ea033299235aa9a34"
+    },
+    {
+      "id": "char_mage_base_v001",
+      "name": "伊诺·法师·旧版",
+      "path": "01_人物/英雄/char_mage_base_v001.svg",
+      "status": "历史版本·未用于当前英雄",
+      "source": "src/game/art.ts#legacyCharacterSvg(mage)",
+      "sha256": "e3b62370c110baf79aadfcb8cf71cc599a58546b440a7e05dbdec4434bd8db72"
+    },
+    {
+      "id": "char_mage_base_v004",
+      "name": "伊诺·法师",
+      "path": "01_人物/英雄/char_mage_base_v004.svg",
+      "status": "v004已接入·独立脸型与分组姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage)",
+      "sha256": "4cd8614bf96137622f3a486bf4c46a55038227a283ffb995a2208e0c2d5bce23"
+    },
+    {
+      "id": "char_mage_move_1_v004",
+      "name": "伊诺·法师·move 1/4",
+      "path": "01_人物/动作/mage/char_mage_move_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,move,0)",
+      "sha256": "b22b72c82a356a5cf0802dab13fecef54082b026d8abd3ce7657956708422942"
+    },
+    {
+      "id": "char_mage_move_2_v004",
+      "name": "伊诺·法师·move 2/4",
+      "path": "01_人物/动作/mage/char_mage_move_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,move,1)",
+      "sha256": "aaf1bc7cd2f9c40b5015e52cd2a490b30d37f6668180e632816813f82ff7620c"
+    },
+    {
+      "id": "char_mage_move_3_v004",
+      "name": "伊诺·法师·move 3/4",
+      "path": "01_人物/动作/mage/char_mage_move_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,move,2)",
+      "sha256": "a8a768a93e77f1d54098c68b766121e3a6b979954aabbb300309c26add00961c"
+    },
+    {
+      "id": "char_mage_move_4_v004",
+      "name": "伊诺·法师·move 4/4",
+      "path": "01_人物/动作/mage/char_mage_move_4_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,move,3)",
+      "sha256": "033e0b337a21b85afd77dfecab34b1cabbf1d61896ca4960fc70ca9acf577b4b"
+    },
+    {
+      "id": "char_mage_attack_1_v004",
+      "name": "伊诺·法师·attack 1/3",
+      "path": "01_人物/动作/mage/char_mage_attack_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,attack,0)",
+      "sha256": "b28e22298df9dd0b6cdec55e591e9408d5a15598d41c64922c9ba76ac82b9a7e"
+    },
+    {
+      "id": "char_mage_attack_2_v004",
+      "name": "伊诺·法师·attack 2/3",
+      "path": "01_人物/动作/mage/char_mage_attack_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,attack,1)",
+      "sha256": "2fbfc0148f41b9c823eb5bec8a2f1f0e5ec606daa38b8bf22d976a139a060980"
+    },
+    {
+      "id": "char_mage_attack_3_v004",
+      "name": "伊诺·法师·attack 3/3",
+      "path": "01_人物/动作/mage/char_mage_attack_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,attack,2)",
+      "sha256": "2ca3ffadf03e6a9cacb2dd836a34c43a25f9fe59aa48ac5a9bb57ffab0963973"
+    },
+    {
+      "id": "char_mage_skill0_1_v004",
+      "name": "伊诺·法师·skill0 1/3",
+      "path": "01_人物/动作/mage/char_mage_skill0_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,skill0,0)",
+      "sha256": "b216090e5ec06e9081aa2dbbac2bb3bc425751e83e1ea09f8db0e684e0bb9765"
+    },
+    {
+      "id": "char_mage_skill0_2_v004",
+      "name": "伊诺·法师·skill0 2/3",
+      "path": "01_人物/动作/mage/char_mage_skill0_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,skill0,1)",
+      "sha256": "c0e96004e201da1b298584341afeae9edb5d4639231bffed53f1054e00b4ffa4"
+    },
+    {
+      "id": "char_mage_skill0_3_v004",
+      "name": "伊诺·法师·skill0 3/3",
+      "path": "01_人物/动作/mage/char_mage_skill0_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,skill0,2)",
+      "sha256": "71226903fabd99c3d17864959da19f7c20cc5759e9bfff0703e2f89720438ec9"
+    },
+    {
+      "id": "char_mage_skill1_1_v004",
+      "name": "伊诺·法师·skill1 1/3",
+      "path": "01_人物/动作/mage/char_mage_skill1_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,skill1,0)",
+      "sha256": "48bff4f0a3c31e2b69bb011b10c7ff4d367191256b87cde9e60da1f41cb83f35"
+    },
+    {
+      "id": "char_mage_skill1_2_v004",
+      "name": "伊诺·法师·skill1 2/3",
+      "path": "01_人物/动作/mage/char_mage_skill1_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,skill1,1)",
+      "sha256": "68dfbcf3050971dcc6ad866b324df3503e21c5e1224f3e1f03a6b34fe42bf891"
+    },
+    {
+      "id": "char_mage_skill1_3_v004",
+      "name": "伊诺·法师·skill1 3/3",
+      "path": "01_人物/动作/mage/char_mage_skill1_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,skill1,2)",
+      "sha256": "267fd3968dcdd7ef9814c696e808d36ea545b8fd322b289d0aeeb10bc33d8677"
+    },
+    {
+      "id": "char_mage_hit_1_v004",
+      "name": "伊诺·法师·hit 1/1",
+      "path": "01_人物/动作/mage/char_mage_hit_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,hit,0)",
+      "sha256": "f41b64153b7144731144bd2cfbd550b025913d084d5c4bff841738bf3ff7de7d"
+    },
+    {
+      "id": "char_mage_dead_1_v004",
+      "name": "伊诺·法师·dead 1/1",
+      "path": "01_人物/动作/mage/char_mage_dead_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(mage,dead,0)",
+      "sha256": "e86feee5ca8a2c2f94e2bdf1ca14a532700bc578f2530a5828a721809c6e64dd"
+    },
+    {
+      "id": "char_tank_base_v001",
+      "name": "布兰·坦克·旧版",
+      "path": "01_人物/英雄/char_tank_base_v001.svg",
+      "status": "历史版本·未用于当前英雄",
+      "source": "src/game/art.ts#legacyCharacterSvg(tank)",
+      "sha256": "0b634130bae341bb4026223604a7db7061da82098b8d2e53baae4a5810db95a7"
+    },
+    {
+      "id": "char_tank_base_v004",
+      "name": "布兰·坦克",
+      "path": "01_人物/英雄/char_tank_base_v004.svg",
+      "status": "v004已接入·独立脸型与分组姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank)",
+      "sha256": "398cceb0fc377c7d0ac414237fdf979c4fcf3480365944844815f479c67f5459"
+    },
+    {
+      "id": "char_tank_move_1_v004",
+      "name": "布兰·坦克·move 1/4",
+      "path": "01_人物/动作/tank/char_tank_move_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,move,0)",
+      "sha256": "1d9bd6888eada1e516b080077ab3d639b53b8fb52e8abceaea49a7dd4e17fb2a"
+    },
+    {
+      "id": "char_tank_move_2_v004",
+      "name": "布兰·坦克·move 2/4",
+      "path": "01_人物/动作/tank/char_tank_move_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,move,1)",
+      "sha256": "7bfb2b1f9e18b5226a6ee2818d37e39eb9b7f8dc2da902a58b535cd0aa6ca8b7"
+    },
+    {
+      "id": "char_tank_move_3_v004",
+      "name": "布兰·坦克·move 3/4",
+      "path": "01_人物/动作/tank/char_tank_move_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,move,2)",
+      "sha256": "e2a8b3bde4d1796adb2d1f60bf05ba44b2c4eeaa4cea07a1090ae6aae2248764"
+    },
+    {
+      "id": "char_tank_move_4_v004",
+      "name": "布兰·坦克·move 4/4",
+      "path": "01_人物/动作/tank/char_tank_move_4_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,move,3)",
+      "sha256": "abba893ab0a5d25e5b17c58af24747c27a8d71c12d8e32766e257f09abc5061e"
+    },
+    {
+      "id": "char_tank_attack_1_v004",
+      "name": "布兰·坦克·attack 1/3",
+      "path": "01_人物/动作/tank/char_tank_attack_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,attack,0)",
+      "sha256": "89f4b405df891275625c8827623561b1f2156bde83cf6285a1651c43e201a47d"
+    },
+    {
+      "id": "char_tank_attack_2_v004",
+      "name": "布兰·坦克·attack 2/3",
+      "path": "01_人物/动作/tank/char_tank_attack_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,attack,1)",
+      "sha256": "5545a7ed8f1b4bc97ac0f039c4793256ff2d3d7b0c48bf1cf7fccae54221c84b"
+    },
+    {
+      "id": "char_tank_attack_3_v004",
+      "name": "布兰·坦克·attack 3/3",
+      "path": "01_人物/动作/tank/char_tank_attack_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,attack,2)",
+      "sha256": "ea9945cda71b2337e72cc9c3ad5219fb825c518ade07e3cf77ff95cce7e413c5"
+    },
+    {
+      "id": "char_tank_skill0_1_v004",
+      "name": "布兰·坦克·skill0 1/3",
+      "path": "01_人物/动作/tank/char_tank_skill0_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,skill0,0)",
+      "sha256": "029994be60a56d58b6e2bf7ac10e01ae6fe31e5fa58f537a4a7eabcd5339d53f"
+    },
+    {
+      "id": "char_tank_skill0_2_v004",
+      "name": "布兰·坦克·skill0 2/3",
+      "path": "01_人物/动作/tank/char_tank_skill0_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,skill0,1)",
+      "sha256": "859144667e0139ae628891535818566619a4c868663bca424d29757462a56117"
+    },
+    {
+      "id": "char_tank_skill0_3_v004",
+      "name": "布兰·坦克·skill0 3/3",
+      "path": "01_人物/动作/tank/char_tank_skill0_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,skill0,2)",
+      "sha256": "deb514ee3e893af381181444474c3e763b7ca620b5ba20bfd4aee4ad1216e284"
+    },
+    {
+      "id": "char_tank_skill1_1_v004",
+      "name": "布兰·坦克·skill1 1/3",
+      "path": "01_人物/动作/tank/char_tank_skill1_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,skill1,0)",
+      "sha256": "0049cc7ad559e35961fa88d41ec9b2aed4833a9534de4d4b806d9ea49eafc5f3"
+    },
+    {
+      "id": "char_tank_skill1_2_v004",
+      "name": "布兰·坦克·skill1 2/3",
+      "path": "01_人物/动作/tank/char_tank_skill1_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,skill1,1)",
+      "sha256": "d9f64e8c445664a3c27e9fb9531aa365187073c4c2acedc48642ea4ed1275b9b"
+    },
+    {
+      "id": "char_tank_skill1_3_v004",
+      "name": "布兰·坦克·skill1 3/3",
+      "path": "01_人物/动作/tank/char_tank_skill1_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,skill1,2)",
+      "sha256": "d53ebbb7344fc744cbfb6771bbff9444d498d9ab41d7912e13408a83d0a71cfe"
+    },
+    {
+      "id": "char_tank_hit_1_v004",
+      "name": "布兰·坦克·hit 1/1",
+      "path": "01_人物/动作/tank/char_tank_hit_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,hit,0)",
+      "sha256": "79735bd892fb2a7fbce29caf2102a03fba0453727011103f1acac61e1945ec50"
+    },
+    {
+      "id": "char_tank_dead_1_v004",
+      "name": "布兰·坦克·dead 1/1",
+      "path": "01_人物/动作/tank/char_tank_dead_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(tank,dead,0)",
+      "sha256": "9cb8f918ce605dc1fca2578dcf6c904e164b36a80a968b4077a14952280bbd7e"
+    },
+    {
+      "id": "char_assassin_base_v001",
+      "name": "赛芙·刺客·旧版",
+      "path": "01_人物/英雄/char_assassin_base_v001.svg",
+      "status": "历史版本·未用于当前英雄",
+      "source": "src/game/art.ts#legacyCharacterSvg(assassin)",
+      "sha256": "c14fcc7784087f75f22230ce63c6b1f3d37f1a2f244c26b450865b0b64fa0282"
+    },
+    {
+      "id": "char_assassin_base_v004",
+      "name": "赛芙·刺客",
+      "path": "01_人物/英雄/char_assassin_base_v004.svg",
+      "status": "v004已接入·独立脸型与分组姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin)",
+      "sha256": "a44acc72efe8416c68421a721b80413e4e66325fa06d8ab10aff8802b57f2a13"
+    },
+    {
+      "id": "char_assassin_move_1_v004",
+      "name": "赛芙·刺客·move 1/4",
+      "path": "01_人物/动作/assassin/char_assassin_move_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,move,0)",
+      "sha256": "15ab57cd8931204e45a1f8058e28a9866f5cb72b5c0bf9112838882bff7ee918"
+    },
+    {
+      "id": "char_assassin_move_2_v004",
+      "name": "赛芙·刺客·move 2/4",
+      "path": "01_人物/动作/assassin/char_assassin_move_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,move,1)",
+      "sha256": "fe8fb0ab8417753fcc9e1777f3e0fdd67ce602aad5fab23f89f66648d6434a43"
+    },
+    {
+      "id": "char_assassin_move_3_v004",
+      "name": "赛芙·刺客·move 3/4",
+      "path": "01_人物/动作/assassin/char_assassin_move_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,move,2)",
+      "sha256": "15d5220bebecc279885929a8d61dc508039e0b03d79263db0c03371df52db94c"
+    },
+    {
+      "id": "char_assassin_move_4_v004",
+      "name": "赛芙·刺客·move 4/4",
+      "path": "01_人物/动作/assassin/char_assassin_move_4_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,move,3)",
+      "sha256": "54b35d1e1d53aab88d5ee72c1aaf09a7442b25dbe43e65eb0c48a998432895fa"
+    },
+    {
+      "id": "char_assassin_attack_1_v004",
+      "name": "赛芙·刺客·attack 1/3",
+      "path": "01_人物/动作/assassin/char_assassin_attack_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,attack,0)",
+      "sha256": "972fb6ed8cc5001909431b28e4664af56a982cca90c3ba88a3812bd2811a7067"
+    },
+    {
+      "id": "char_assassin_attack_2_v004",
+      "name": "赛芙·刺客·attack 2/3",
+      "path": "01_人物/动作/assassin/char_assassin_attack_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,attack,1)",
+      "sha256": "87e8640595d53ad2ca75a7123695d03f779ac752cb16ee8d83f2c493a9f49117"
+    },
+    {
+      "id": "char_assassin_attack_3_v004",
+      "name": "赛芙·刺客·attack 3/3",
+      "path": "01_人物/动作/assassin/char_assassin_attack_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,attack,2)",
+      "sha256": "d5e3f30e1040e201e9861aa4f540761ac2a3583c66563dab2c1dcd1976ea173e"
+    },
+    {
+      "id": "char_assassin_skill0_1_v004",
+      "name": "赛芙·刺客·skill0 1/3",
+      "path": "01_人物/动作/assassin/char_assassin_skill0_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,skill0,0)",
+      "sha256": "0ec0c2489e31fcd15ca02d220c11d7d0aac97b3330ae42b69c0374e038530184"
+    },
+    {
+      "id": "char_assassin_skill0_2_v004",
+      "name": "赛芙·刺客·skill0 2/3",
+      "path": "01_人物/动作/assassin/char_assassin_skill0_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,skill0,1)",
+      "sha256": "164d666617f4a1a9910aa50d423f833ffeed855f11071f8bc314fc83c8f69d3c"
+    },
+    {
+      "id": "char_assassin_skill0_3_v004",
+      "name": "赛芙·刺客·skill0 3/3",
+      "path": "01_人物/动作/assassin/char_assassin_skill0_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,skill0,2)",
+      "sha256": "387bbb794b6e2ae2bb427746e0ef88a78b570fa434ca3635be5dbf33ca7876c0"
+    },
+    {
+      "id": "char_assassin_skill1_1_v004",
+      "name": "赛芙·刺客·skill1 1/3",
+      "path": "01_人物/动作/assassin/char_assassin_skill1_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,skill1,0)",
+      "sha256": "06b229759a70ac1e652b87f4c657ea1cd37f140e2aeed13f0b2396fd5aa8f58d"
+    },
+    {
+      "id": "char_assassin_skill1_2_v004",
+      "name": "赛芙·刺客·skill1 2/3",
+      "path": "01_人物/动作/assassin/char_assassin_skill1_2_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,skill1,1)",
+      "sha256": "149e91eb50b0802aa8d32c54b7ddb6befad4455c013f850d4d7203d6d24cb932"
+    },
+    {
+      "id": "char_assassin_skill1_3_v004",
+      "name": "赛芙·刺客·skill1 3/3",
+      "path": "01_人物/动作/assassin/char_assassin_skill1_3_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,skill1,2)",
+      "sha256": "b703d6fd998b3077c294288e3a91e0035eb354f888c3f6819d448c17558e82cf"
+    },
+    {
+      "id": "char_assassin_hit_1_v004",
+      "name": "赛芙·刺客·hit 1/1",
+      "path": "01_人物/动作/assassin/char_assassin_hit_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,hit,0)",
+      "sha256": "befa31e2d581938ee7a5913b614c9e6953a55ccddbf75cb1ef98cba17af20025"
+    },
+    {
+      "id": "char_assassin_dead_1_v004",
+      "name": "赛芙·刺客·dead 1/1",
+      "path": "01_人物/动作/assassin/char_assassin_dead_1_v004.svg",
+      "status": "v004已接入·有限帧矢量姿态",
+      "source": "src/game/hero-art.ts#heroSvg(assassin,dead,0)",
+      "sha256": "19b486749b1b76e03a215372bd4f6561054ffd9098c1799a89e14c4d057963bc"
+    },
+    {
+      "id": "enemy_zombie_base_v001",
+      "name": "蹒跚尸兵",
+      "path": "01_人物/敌人/enemy_zombie_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(zombie)",
+      "sha256": "83c638129ede48646bae8e68d8cdabd030f8e0e38132c9a11beb3568632a9c67"
+    },
+    {
+      "id": "enemy_wolf_base_v001",
+      "name": "腐狼",
+      "path": "01_人物/敌人/enemy_wolf_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(wolf)",
+      "sha256": "870e7d189590ecc38d17bdf893e0fb2c6f63c0c313d3b728ab4e397f8a816b18"
+    },
+    {
+      "id": "enemy_crossbow_base_v001",
+      "name": "教团弩手",
+      "path": "01_人物/敌人/enemy_crossbow_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(crossbow)",
+      "sha256": "57f315cdb202a0988440a745b3d13bfc85637a3cc8709f16657d6b35a1833993"
+    },
+    {
+      "id": "enemy_priest_base_v001",
+      "name": "黑潮祭司",
+      "path": "01_人物/敌人/enemy_priest_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(priest)",
+      "sha256": "49d5614b33ecf8cb19eaedd40e7029844bade762345d6fd9cd5cd9df6212f3a8"
+    },
+    {
+      "id": "enemy_raider_base_v001",
+      "name": "精英掠夺者",
+      "path": "01_人物/敌人/enemy_raider_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(raider)",
+      "sha256": "9d541a8eeb035d85b2b89619dab158229006a253e931935bedcaf17cda28bfd9"
+    },
+    {
+      "id": "enemy_guard_base_v001",
+      "name": "精英盾卫",
+      "path": "01_人物/敌人/enemy_guard_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(guard)",
+      "sha256": "b49bc78f844f3d0c3c2c73ea94ac53baa6b520220758631e88c49fdf608640bf"
+    },
+    {
+      "id": "enemy_boss_base_v001",
+      "name": "灰烬典狱长",
+      "path": "01_人物/敌人/enemy_boss_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(boss)",
+      "sha256": "98b9e8a5892d14d1a1932832cad12f67e96838df8d865be79cb5a469a77adfec"
+    },
+    {
+      "id": "enemy_wraith_base_v001",
+      "name": "缚印怨灵",
+      "path": "01_人物/敌人/enemy_wraith_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(wraith)",
+      "sha256": "82f9571081442b89acf0343996c4a52ce5fd66080d1bd180b265b6a819d4e423"
+    },
+    {
+      "id": "enemy_fanatic_base_v001",
+      "name": "黑誓狂信徒",
+      "path": "01_人物/敌人/enemy_fanatic_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(fanatic)",
+      "sha256": "56ea46d504fa1c51669022685acbd0adf33e87c422dd35062c0d59acd626b59d"
+    },
+    {
+      "id": "enemy_bishop_base_v001",
+      "name": "黑潮主教·莫尔",
+      "path": "01_人物/敌人/enemy_bishop_base_v001.svg",
+      "status": "已接入·静态基形",
+      "source": "src/game/art.ts#characterSvg(bishop)",
+      "sha256": "6541a0eb1ee09ab85d9f7692c5e2acb951e554880f0a7a1f767c752412a65784"
+    },
+    {
+      "id": "map_ash_full_v001",
+      "name": "灰烬村道",
+      "path": "03_地图背景/map_ash_full_v001.svg",
+      "status": "已接入·完整背景",
+      "source": "src/game/art.ts#sceneSvg(ash)",
+      "sha256": "c396a94c2daae8b23dd230e80168a7e38ef0387d9cf35081261d8757e6744d4f"
+    },
+    {
+      "id": "map_forest_full_v001",
+      "name": "雾林囚车",
+      "path": "03_地图背景/map_forest_full_v001.svg",
+      "status": "已接入·完整背景",
+      "source": "src/game/art.ts#sceneSvg(forest)",
+      "sha256": "195788a37bf5057d4c5d5a9e7a98adf29da10c3b526e9d5670443927f40006a0"
+    },
+    {
+      "id": "map_fortress_full_v001",
+      "name": "黑石哨站",
+      "path": "03_地图背景/map_fortress_full_v001.svg",
+      "status": "已接入·完整背景",
+      "source": "src/game/art.ts#sceneSvg(fortress)",
+      "sha256": "8e4ad307c006b3aac84718c82f6c93c633cd09c2e6dc0efbe950775d0d1dbfc8"
+    },
+    {
+      "id": "map_abbey_full_v001",
+      "name": "无声修道院",
+      "path": "03_地图背景/map_abbey_full_v001.svg",
+      "status": "已接入·完整背景",
+      "source": "src/game/art.ts#sceneSvg(abbey)",
+      "sha256": "a1be031ca31809d5bc6f4e6f0a530b5d97708b99a8899e48a71dc338eac46625"
+    },
+    {
+      "id": "map_crypt_full_v001",
+      "name": "遗骨墓道",
+      "path": "03_地图背景/map_crypt_full_v001.svg",
+      "status": "已接入·完整背景",
+      "source": "src/game/art.ts#sceneSvg(crypt)",
+      "sha256": "a543c68fffba3795662dff094c9dec228899389eab4fea03875802b961de81ea"
+    },
+    {
+      "id": "ui_royal_seal_v001",
+      "name": "王印徽记",
+      "path": "05_游戏界面/标识/ui_royal_seal_v001.svg",
+      "status": "已接入·独立图形",
+      "source": "src/game/art.ts#crestSvg",
+      "sha256": "fd4cafdfdbacfa83344508f7d98cf576eb3662d7d328c1bf3b61c8845a298082"
+    },
+    {
+      "id": "story_01_v004",
+      "name": "公主与王印",
+      "path": "06_剧情插画/story_01_v004.svg",
+      "status": "已接入·插画",
+      "source": "src/game/art.ts#storySvg(0)",
+      "sha256": "ca52ea38e2717f931bdcc067f17711d86c339ce45a3dbbd60c1916d2b8e02183"
+    },
+    {
+      "id": "story_02_v004",
+      "name": "教团掳掠",
+      "path": "06_剧情插画/story_02_v004.svg",
+      "status": "已接入·插画",
+      "source": "src/game/art.ts#storySvg(1)",
+      "sha256": "0c19052a30e3d7f76fde476f3426ea83d633b09f61ea1dba1bbc7e144453502e"
+    },
+    {
+      "id": "story_03_v004",
+      "name": "骑士追赶",
+      "path": "06_剧情插画/story_03_v004.svg",
+      "status": "已接入·插画",
+      "source": "src/game/art.ts#storySvg(2)",
+      "sha256": "c2c6314709f8cb48c5215a821d58c1c6f82650b044dc4a33aa0a4a4d5f7b57e4"
+    },
+    {
+      "id": "equip_sword_part_v001",
+      "name": "誓约长剑部件",
+      "path": "02_装备/武器/equip_sword_part_v001.svg",
+      "status": "已用部件·未作背包图标",
+      "source": "src/game/art.ts#blade",
+      "sha256": "7ad35d8caae9b35209b89467254ffbfc3caf46b5e3c09b4dc87a32bc983eb255"
+    },
+    {
+      "id": "equip_archer_crop_v001",
+      "name": "雾林长弓·裁切参考",
+      "path": "02_装备/武器/equip_archer_crop_v001.svg",
+      "status": "裁切参考·含手部或衣物，不作独立成品",
+      "source": "src/game/art.ts#characterSvg(archer)",
+      "sha256": "9e257e23cf8a656eef9b7aa0a562a74635dda321e0edd428f7c686474aec51b2"
+    },
+    {
+      "id": "equip_mage_crop_v001",
+      "name": "寒星法杖·裁切参考",
+      "path": "02_装备/武器/equip_mage_crop_v001.svg",
+      "status": "裁切参考·含手部或衣物，不作独立成品",
+      "source": "src/game/art.ts#characterSvg(mage)",
+      "sha256": "50cc40cf7c01355e23a8911a116684bdbad1d44d862b83d4cea3555b4415e1f9"
+    },
+    {
+      "id": "equip_tank_crop_v001",
+      "name": "守望盾锤·裁切参考",
+      "path": "02_装备/武器/equip_tank_crop_v001.svg",
+      "status": "裁切参考·含手部或衣物，不作独立成品",
+      "source": "src/game/art.ts#characterSvg(tank)",
+      "sha256": "f3b3ddb48f4ed44e827a49f7b5dbf09127cceea92a37bc05fd2ec53555ef9dbe"
+    },
+    {
+      "id": "equip_assassin_crop_v001",
+      "name": "夜行短刃·裁切参考",
+      "path": "02_装备/武器/equip_assassin_crop_v001.svg",
+      "status": "裁切参考·含手部或衣物，不作独立成品",
+      "source": "src/game/art.ts#characterSvg(assassin)",
+      "sha256": "1dd9692fdf228aae886798824138cc3a1a9c838c4a0bd80adb6b2cf737868171"
+    },
+    {
+      "id": "equip_armor_crop_v001",
+      "name": "旅人锁甲·造型参考",
+      "path": "02_装备/护甲/equip_armor_crop_v001.svg",
+      "status": "裁切参考·非独立成品",
+      "source": "src/game/art.ts#characterSvg(warrior)",
+      "sha256": "7bbe7d8c986e7e75d6a1dfd0b834822f57c6d3653276da0c460297f8ca5a45b5"
+    },
+    {
+      "id": "equip_charm_seal_reference_v001",
+      "name": "余烬吊坠·王印造型参考",
+      "path": "02_装备/饰品/equip_charm_seal_reference_v001.svg",
+      "status": "旧版设计参考·现有独立吊坠图标见icon文件",
+      "source": "src/game/art.ts#crestSvg",
+      "sha256": "fd4cafdfdbacfa83344508f7d98cf576eb3662d7d328c1bf3b61c8845a298082"
+    },
+    {
+      "id": "obj_dead_tree_v001",
+      "name": "枯树",
+      "path": "04_物体/自然物/obj_dead_tree_v001.svg",
+      "status": "已用背景部件·未单独接入",
+      "source": "src/game/art.ts#deadTree",
+      "sha256": "35d8b0c9d37cba387f453900f17a440d830011c6412d2999e7d7c7924d401d08"
+    },
+    {
+      "id": "obj_pine_v001",
+      "name": "雾林松树",
+      "path": "04_物体/自然物/obj_pine_v001.svg",
+      "status": "已用背景部件·未单独接入",
+      "source": "src/game/art.ts#pine",
+      "sha256": "a4f9a3502f39a2ac74add46bc294765905bc7335e387f3a747f3b69927733ecb"
+    },
+    {
+      "id": "obj_ruin_v001",
+      "name": "村庄废墟",
+      "path": "04_物体/建筑物/obj_ruin_v001.svg",
+      "status": "已用背景部件·未单独接入",
+      "source": "src/game/art.ts#ruin",
+      "sha256": "e771ea6325df2486720ba04980dd1d2d47de1b4ee80fa86f8dde0c3f42dc007a"
+    },
+    {
+      "id": "obj_prison_cart_v001",
+      "name": "囚车",
+      "path": "04_物体/建筑物/obj_prison_cart_v001.svg",
+      "status": "已用背景部件·未单独接入",
+      "source": "src/game/art.ts#sceneSvg(forest)",
+      "sha256": "3fd43b5c1dbfae30d16afcd96d0e4bc0db264be6426d54433cc6de899b6830c9"
+    },
+    {
+      "id": "obj_prison_gate_v001",
+      "name": "监牢大门",
+      "path": "04_物体/建筑物/obj_prison_gate_v001.svg",
+      "status": "已用背景部件·未单独接入",
+      "source": "src/game/art.ts#sceneSvg(fortress)",
+      "sha256": "18850a3c2e417a3e847a0c0e562aa5cbb9dd2d7970b3d4634fd27ae87077bbbd"
+    },
+    {
+      "id": "history_v003_char_warrior_base_v003",
+      "name": "雷恩·战士·v003对照",
+      "path": "99_历史版本/v0.3.0/01_人物/英雄/char_warrior_base_v003.svg",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#char_warrior_base_v003",
+      "sha256": "096a14ae0422d997a66f50ae61b023812b3fc48efcae91245cfb64de08af2074"
+    },
+    {
+      "id": "history_v003_char_archer_base_v003",
+      "name": "薇拉·射手·v003对照",
+      "path": "99_历史版本/v0.3.0/01_人物/英雄/char_archer_base_v003.svg",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#char_archer_base_v003",
+      "sha256": "49f1d0fb3a5f9ecea3a71c595f3fcb7ab98e4fdd1b82b8d9ace1917d3b57f74c"
+    },
+    {
+      "id": "history_v003_char_mage_base_v003",
+      "name": "伊诺·法师·v003对照",
+      "path": "99_历史版本/v0.3.0/01_人物/英雄/char_mage_base_v003.svg",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#char_mage_base_v003",
+      "sha256": "e8f2b8627cafd7561bbffca08320d91012af37542b586341354c24220b2b1023"
+    },
+    {
+      "id": "history_v003_char_tank_base_v003",
+      "name": "布兰·坦克·v003对照",
+      "path": "99_历史版本/v0.3.0/01_人物/英雄/char_tank_base_v003.svg",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#char_tank_base_v003",
+      "sha256": "a6d39b5db9d0eff8f29a0ac9029892fbc41242e99669128bf25280e4be6e125d"
+    },
+    {
+      "id": "history_v003_char_assassin_base_v003",
+      "name": "赛芙·刺客·v003对照",
+      "path": "99_历史版本/v0.3.0/01_人物/英雄/char_assassin_base_v003.svg",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#char_assassin_base_v003",
+      "sha256": "2788fe6e3d0aad57df80dd215b1d92ec143b0799139c874c08954ed80a1b5762"
+    },
+    {
+      "id": "history_v003_story_01_v001",
+      "name": "公主与王印·v003对照",
+      "path": "99_历史版本/v0.3.0/06_剧情插画/story_01_v001.svg",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#story_01_v001",
+      "sha256": "ca52ea38e2717f931bdcc067f17711d86c339ce45a3dbbd60c1916d2b8e02183"
+    },
+    {
+      "id": "history_v003_story_02_v001",
+      "name": "教团掳掠·v003对照",
+      "path": "99_历史版本/v0.3.0/06_剧情插画/story_02_v001.svg",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#story_02_v001",
+      "sha256": "0c19052a30e3d7f76fde476f3426ea83d633b09f61ea1dba1bbc7e144453502e"
+    },
+    {
+      "id": "history_v003_story_03_v001",
+      "name": "骑士追赶·v003对照",
+      "path": "99_历史版本/v0.3.0/06_剧情插画/story_03_v001.svg",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#story_03_v001",
+      "sha256": "fd8a0766ed0be8eee2564266a9d24abacc2d0d3656b34f8ca65c44e2a78c2b6e"
+    },
+    {
+      "id": "history_ui_title_reference_v001",
+      "name": "标题界面·旧版",
+      "path": "99_历史版本/v0.2.0/05_游戏界面/运行截图/ui_title_reference_v001.png",
+      "status": "历史v0.2.0·对照参考",
+      "source": "99_历史版本/v0.2.0/catalog.json#ui_title_reference_v001",
+      "sha256": "ea5cb7ec1446e57e71a19cf5c3b246f8ba955bb63ebbf2534f226edfcd0ce821"
+    },
+    {
+      "id": "history_v003_ui_title_reference_v003",
+      "name": "标题界面·v003对照",
+      "path": "99_历史版本/v0.3.0/05_游戏界面/运行截图/ui_title_reference_v003.png",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#ui_title_reference_v003",
+      "sha256": "5939ac1265f27e639e39c010a6909366e7ea2a9abac51e1e8865e06c30687751"
+    },
+    {
+      "id": "history_ui_camp_reference_v001",
+      "name": "营地界面·旧版",
+      "path": "99_历史版本/v0.2.0/05_游戏界面/运行截图/ui_camp_reference_v001.png",
+      "status": "历史v0.2.0·对照参考",
+      "source": "99_历史版本/v0.2.0/catalog.json#ui_camp_reference_v001",
+      "sha256": "bf94caa1569aa6ce46a7a543cafd7944f4c1df03710a13b5644df22b378ae11c"
+    },
+    {
+      "id": "history_v003_ui_camp_reference_v003",
+      "name": "营地界面·v003对照",
+      "path": "99_历史版本/v0.3.0/05_游戏界面/运行截图/ui_camp_reference_v003.png",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#ui_camp_reference_v003",
+      "sha256": "4f8075b0d66c0bc1a8fec3fd95d448b05d0b95a2c585f4b192690bab00db125b"
+    },
+    {
+      "id": "history_ui_mobile_battle_reference_v001",
+      "name": "手机横屏战斗·旧版",
+      "path": "99_历史版本/v0.2.0/05_游戏界面/运行截图/ui_mobile_battle_reference_v001.png",
+      "status": "历史v0.2.0·对照参考",
+      "source": "99_历史版本/v0.2.0/catalog.json#ui_mobile_battle_reference_v001",
+      "sha256": "29eac6c2aa296b67900c22ba7772388c4e98de5dee97aaf82d0cfc45f8f5c21d"
+    },
+    {
+      "id": "history_v003_ui_mobile_battle_reference_v003",
+      "name": "手机横屏战斗·v003对照",
+      "path": "99_历史版本/v0.3.0/05_游戏界面/运行截图/ui_mobile_battle_reference_v003.png",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#ui_mobile_battle_reference_v003",
+      "sha256": "0aeb9f19c525bb36f3d88deaa288329313621af53c9d6daebe182f61d845a3fe"
+    },
+    {
+      "id": "history_ui_party_reference_v001",
+      "name": "五职业与编队·旧版",
+      "path": "99_历史版本/v0.2.0/05_游戏界面/运行截图/ui_party_reference_v001.png",
+      "status": "历史v0.2.0·对照参考",
+      "source": "99_历史版本/v0.2.0/catalog.json#ui_party_reference_v001",
+      "sha256": "999b7100f45ed7ce9a0070b4e0d92aa8d03054260d40f9d8308b9c7e007949c3"
+    },
+    {
+      "id": "history_v003_ui_party_reference_v003",
+      "name": "五职业与编队·v003对照",
+      "path": "99_历史版本/v0.3.0/05_游戏界面/运行截图/ui_party_reference_v003.png",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#ui_party_reference_v003",
+      "sha256": "a32afc3dd64bb35de45a9b52dd5f989cfbaae2fdffc347d8c04f4ef92ddd0420"
+    },
+    {
+      "id": "history_ui_result_reference_v001",
+      "name": "通关结算·旧版",
+      "path": "99_历史版本/v0.2.0/05_游戏界面/运行截图/ui_result_reference_v001.png",
+      "status": "历史v0.2.0·对照参考",
+      "source": "99_历史版本/v0.2.0/catalog.json#ui_result_reference_v001",
+      "sha256": "ea5f1adb8f44a604d85b56b3b88b196a19760bf0c66be8718c0d67b1e02c00f2"
+    },
+    {
+      "id": "history_v003_ui_result_reference_v003",
+      "name": "通关结算·v003对照",
+      "path": "99_历史版本/v0.3.0/05_游戏界面/运行截图/ui_result_reference_v003.png",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#ui_result_reference_v003",
+      "sha256": "30821d519030be7fe5b003baae09a9823f156165c149a32fc3f1b32b7c09bca9"
+    },
+    {
+      "id": "history_ui_armory_reference_v001",
+      "name": "新版装备工坊·旧版",
+      "path": "99_历史版本/v0.2.0/05_游戏界面/运行截图/ui_armory_reference_v001.png",
+      "status": "历史v0.2.0·对照参考",
+      "source": "99_历史版本/v0.2.0/catalog.json#ui_armory_reference_v001",
+      "sha256": "cb58fd475436ad6e17c076c7f9584ffb44c51fe54612231a966e459ffcd848a7"
+    },
+    {
+      "id": "history_v003_ui_armory_reference_v003",
+      "name": "新版装备工坊·v003对照",
+      "path": "99_历史版本/v0.3.0/05_游戏界面/运行截图/ui_armory_reference_v003.png",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#ui_armory_reference_v003",
+      "sha256": "ea9eb93b9753bb38450887f731b58157af2fef1cbeef5c740ae1319a643bfee9"
+    },
+    {
+      "id": "history_ui_chapter_abbey_reference_v001",
+      "name": "第一章修道院生产战斗·旧版",
+      "path": "99_历史版本/v0.2.0/05_游戏界面/运行截图/ui_chapter_abbey_reference_v001.png",
+      "status": "历史v0.2.0·对照参考",
+      "source": "99_历史版本/v0.2.0/catalog.json#ui_chapter_abbey_reference_v001",
+      "sha256": "d4f2cd9ba89c1599b0e3dcc0fedc5ea603db47c22e834f37ef58cee13f2a9a41"
+    },
+    {
+      "id": "history_v003_ui_chapter_abbey_reference_v003",
+      "name": "第一章修道院生产战斗·v003对照",
+      "path": "99_历史版本/v0.3.0/05_游戏界面/运行截图/ui_chapter_abbey_reference_v003.png",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#ui_chapter_abbey_reference_v003",
+      "sha256": "1c0f4d8393476a1b612dc5009c4db5b11d24fa59d50be896d204d01ffad605af"
+    },
+    {
+      "id": "history_v003_hero_lineup_v003",
+      "name": "五职业v003造型预览·v003对照",
+      "path": "99_历史版本/v0.3.0/01_人物/设计对照/hero_lineup_v003.png",
+      "status": "历史v0.3.0·已归档",
+      "source": "99_历史版本/v0.3.0/catalog.json#hero_lineup_v003",
+      "sha256": "0ce7a9fb6f4ad1904ede6d242c651e28ed4a919b99f14b321d219a6e7a73ad88"
+    },
+    {
+      "id": "ui_title_reference_v004",
+      "name": "标题界面",
+      "path": "05_游戏界面/运行截图/ui_title_reference_v004.png",
+      "status": "v004开发版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-title-1280.png",
+      "sha256": "b81118531ca7878677c118ec8f1e60ba0ff33ac0943a9cf2abe7444b6b89db77"
+    },
+    {
+      "id": "ui_camp_reference_v004",
+      "name": "营地舆图",
+      "path": "05_游戏界面/运行截图/ui_camp_reference_v004.png",
+      "status": "v004开发版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-camp-1280.png",
+      "sha256": "1a11acc7ba8b934879373c8f5d941de4656118021a4c601f8e7fa93e60915fe5"
+    },
+    {
+      "id": "ui_mobile_battle_reference_v004",
+      "name": "手机横屏战斗",
+      "path": "05_游戏界面/运行截图/ui_mobile_battle_reference_v004.png",
+      "status": "v004开发版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-battle-844.png",
+      "sha256": "e442103fd3d67393ee3be4e5d6e3b88165f7c1c67d4678b2ef39fcea24659adc"
+    },
+    {
+      "id": "ui_party_reference_v004",
+      "name": "五职业与编队",
+      "path": "05_游戏界面/运行截图/ui_party_reference_v004.png",
+      "status": "v004开发版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-v004-heroes.png",
+      "sha256": "be171eddff89986e6bd9df8084fc7a9ae8242440f5c9d8df79d23b1759b7d95b"
+    },
+    {
+      "id": "ui_skill_reference_v004",
+      "name": "手机职业技能徽印",
+      "path": "05_游戏界面/运行截图/ui_skill_reference_v004.png",
+      "status": "v004开发版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-v004-skill-mobile.png",
+      "sha256": "cc1e2af52591e48b181ef4bb8281db00c0724b815e90bdd9c4d37b830e6eec3c"
+    },
+    {
+      "id": "ui_armory_reference_v004",
+      "name": "三栏装备工坊",
+      "path": "05_游戏界面/运行截图/ui_armory_reference_v004.png",
+      "status": "v004开发版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-v004-workshop-1280.png",
+      "sha256": "9fb70cad3bf8f88ec6fa0b946159eac9bd8b447c49c2a38309c3d6f408a2be99"
+    },
+    {
+      "id": "ui_armory_production_reference_v004",
+      "name": "生产版初始装备工坊",
+      "path": "05_游戏界面/运行截图/ui_armory_production_reference_v004.png",
+      "status": "v004生产版运行参考截图·非UI切图",
+      "source": "artifacts/chromium-production-armory.png",
+      "sha256": "db2040ef0ff4f0e5b268c3785de4c5c250aba73abe688cc048789e3d55e160a4"
+    },
+    {
+      "id": "equip_weapon_warrior_icon_v001",
+      "name": "誓约长剑",
+      "path": "02_装备/武器/equip_weapon_warrior_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(weapon,warrior)",
+      "sha256": "4bd86058668fce25e1572b27ca728364ec8a7efd1368dd4f38e6de44bf96238b"
+    },
+    {
+      "id": "equip_weapon_archer_icon_v001",
+      "name": "雾林长弓",
+      "path": "02_装备/武器/equip_weapon_archer_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(weapon,archer)",
+      "sha256": "5c96a5e9048d1e562d74223775527e7b9c1eb77478a2684dd21bb16cc5ce3709"
+    },
+    {
+      "id": "equip_weapon_mage_icon_v001",
+      "name": "寒星法杖",
+      "path": "02_装备/武器/equip_weapon_mage_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(weapon,mage)",
+      "sha256": "cabc30b66af612adeb6b4a8b6477c52d8017cdb8c04389157a60a6378637270b"
+    },
+    {
+      "id": "equip_weapon_tank_icon_v001",
+      "name": "守望盾锤",
+      "path": "02_装备/武器/equip_weapon_tank_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(weapon,tank)",
+      "sha256": "fbd8873ce1507d7a9702bd1dc2ec4c505437a235764c4843381854ad2b26176d"
+    },
+    {
+      "id": "equip_weapon_assassin_icon_v001",
+      "name": "夜行双刃",
+      "path": "02_装备/武器/equip_weapon_assassin_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(weapon,assassin)",
+      "sha256": "bc2ea926fcb5af064fca4e28f42ba64d5d3d222aa8ad178a8bf93fffcecbd2a8"
+    },
+    {
+      "id": "equip_armor_universal_icon_v001",
+      "name": "旅人锁甲",
+      "path": "02_装备/护甲/equip_armor_universal_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(armor,universal)",
+      "sha256": "d65f9fefbbcad17457461234e983dd1109baea88c1dad54602b10e61e83ac825"
+    },
+    {
+      "id": "equip_charm_universal_icon_v001",
+      "name": "余烬吊坠",
+      "path": "02_装备/饰品/equip_charm_universal_icon_v001.svg",
+      "status": "已接入·独立装备图标",
+      "source": "src/game/art.ts#equipmentSvg(charm,universal)",
+      "sha256": "e68d5471db64a1904b5016763840e5f018d30f4197af0f7577341eed6e80f4e4"
+    },
+    {
+      "id": "map_chapter1_atlas_v003",
+      "name": "第一章完整连线舆图",
+      "path": "03_地图背景/map_chapter1_atlas_v003.svg",
+      "status": "v003已接入·章节地图底图",
+      "source": "src/game/chapter-map.ts#chapterAtlasSvg",
+      "sha256": "306b8557a63d586c8914eee829963760f264dfc32954c9c46d23bd3c4185428f"
+    },
+    {
+      "id": "skill_warrior_1_v003",
+      "name": "雷恩·战士·小技能",
+      "path": "05_游戏界面/技能图标/skill_warrior_1_v003.svg",
+      "status": "v003已接入·职业专属图形",
+      "source": "src/game/skill-icons.ts#skillIconSvg(warrior,0)",
+      "sha256": "264dbae018b4de20ad682126ce88aa89724dfd57b93ca0b445e4ec764d9d89df"
+    },
+    {
+      "id": "skill_warrior_2_v003",
+      "name": "雷恩·战士·大技能",
+      "path": "05_游戏界面/技能图标/skill_warrior_2_v003.svg",
+      "status": "v003已接入·职业专属图形",
+      "source": "src/game/skill-icons.ts#skillIconSvg(warrior,1)",
+      "sha256": "10103830d7619982a60a6bb14e7a0e8b46455aa0a2981ce5a42b374e971b1826"
+    },
+    {
+      "id": "skill_archer_1_v003",
+      "name": "薇拉·射手·小技能",
+      "path": "05_游戏界面/技能图标/skill_archer_1_v003.svg",
+      "status": "v003已接入·职业专属图形",
+      "source": "src/game/skill-icons.ts#skillIconSvg(archer,0)",
+      "sha256": "0badd189b9205c7be40457b1d289c1823c32a594efbe98cd4ed5b0c4616b86a7"
+    },
+    {
+      "id": "skill_archer_2_v003",
+      "name": "薇拉·射手·大技能",
+      "path": "05_游戏界面/技能图标/skill_archer_2_v003.svg",
+      "status": "v003已接入·职业专属图形",
+      "source": "src/game/skill-icons.ts#skillIconSvg(archer,1)",
+      "sha256": "8a30ccde14e156ad312125d97e3fb8e7aba170c2ae609c7cfa0e0d3bc14d9df8"
+    },
+    {
+      "id": "skill_mage_1_v003",
+      "name": "伊诺·法师·小技能",
+      "path": "05_游戏界面/技能图标/skill_mage_1_v003.svg",
+      "status": "v003已接入·职业专属图形",
+      "source": "src/game/skill-icons.ts#skillIconSvg(mage,0)",
+      "sha256": "79598cdc36ab47e995161a74c9ef1a625b0d74287035e3c6dba4d2eeef6eca88"
+    },
+    {
+      "id": "skill_mage_2_v003",
+      "name": "伊诺·法师·大技能",
+      "path": "05_游戏界面/技能图标/skill_mage_2_v003.svg",
+      "status": "v003已接入·职业专属图形",
+      "source": "src/game/skill-icons.ts#skillIconSvg(mage,1)",
+      "sha256": "f28ad6f7b4458dfdaa191f34c0215a7a2970ac77e80974ba79d51d5c44ea72ff"
+    },
+    {
+      "id": "skill_tank_1_v003",
+      "name": "布兰·坦克·小技能",
+      "path": "05_游戏界面/技能图标/skill_tank_1_v003.svg",
+      "status": "v003已接入·职业专属图形",
+      "source": "src/game/skill-icons.ts#skillIconSvg(tank,0)",
+      "sha256": "2c7bae1a8fc48f6d223ead9afc40ae547d344f2fd0e0066d224a44f86a9fcd8d"
+    },
+    {
+      "id": "skill_tank_2_v003",
+      "name": "布兰·坦克·大技能",
+      "path": "05_游戏界面/技能图标/skill_tank_2_v003.svg",
+      "status": "v003已接入·职业专属图形",
+      "source": "src/game/skill-icons.ts#skillIconSvg(tank,1)",
+      "sha256": "f3f592b22aecbe3748960c22fe0216084a9aa993bc4f7df4ee5941dbbf576f9a"
+    },
+    {
+      "id": "skill_assassin_1_v003",
+      "name": "赛芙·刺客·小技能",
+      "path": "05_游戏界面/技能图标/skill_assassin_1_v003.svg",
+      "status": "v003已接入·职业专属图形",
+      "source": "src/game/skill-icons.ts#skillIconSvg(assassin,0)",
+      "sha256": "7bb8d74f91fe05f9704631a8eb4d3bf4e4ee71e70f9e253ba40bcded2938a4b8"
+    },
+    {
+      "id": "skill_assassin_2_v003",
+      "name": "赛芙·刺客·大技能",
+      "path": "05_游戏界面/技能图标/skill_assassin_2_v003.svg",
+      "status": "v003已接入·职业专属图形",
+      "source": "src/game/skill-icons.ts#skillIconSvg(assassin,1)",
+      "sha256": "543327e26490a221442dc768c4b5dbe22690f5b81bc05566d6ccb87cd71c895c"
+    },
+    {
+      "id": "hero_lineup_v004",
+      "name": "五职业v004面容与立绘",
+      "path": "01_人物/设计对照/hero_lineup_v004.png",
+      "status": "v004同源矢量浏览器预览·有限帧姿态",
+      "source": "artifacts/chromium-hero-v004-lineup.png",
+      "sha256": "4ef3df4afd3a60fcdbf10c69e432c9590d254fb06b86b549913cfe0859f0e2d2"
+    },
+    {
+      "id": "hero_poses_v004",
+      "name": "五职业80帧姿态预览",
+      "path": "01_人物/设计对照/hero_poses_v004.png",
+      "status": "v004同源矢量浏览器预览·有限帧姿态",
+      "source": "artifacts/chromium-hero-v004-poses.png",
+      "sha256": "7335d82c76d8991212e93a974bf423b6341433bef9b48eb4538eca2bd7915fae"
+    }
+  ]
+}

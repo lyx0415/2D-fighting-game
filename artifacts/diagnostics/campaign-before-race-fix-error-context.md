@@ -1,0 +1,80 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic "战场：点击地面移动，点击敌人锁定" [ref=e4]
+    - generic:
+      - generic [ref=e6]:
+        - button "切换至雷恩" [ref=e7] [cursor=pointer]:
+          - generic [ref=e8]:
+            - strong [ref=e9]: 雷恩
+            - text: 426 / 717
+        - button "切换至薇拉" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]:
+            - strong [ref=e14]: 薇拉
+            - text: 502 / 502
+        - button "切换至伊诺" [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]:
+            - strong [ref=e19]: 伊诺
+            - text: 444 / 444
+        - button "切换至布兰" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]:
+            - strong [ref=e24]: 布兰
+            - text: 670 / 965
+      - generic:
+        - generic: 第一章 · 灰烬边境
+        - strong: 1-10 黑潮圣殿
+        - generic: 战区 3 / 3
+      - button "暂停" [ref=e27] [cursor=pointer]: Ⅱ
+    - generic:
+      - generic:
+        - generic: 狂怒 · 黑潮主教·莫尔
+        - generic: 5 / 6200
+    - generic:
+      - generic:
+        - generic: 正在操控 雷恩 · 战士
+        - text: 点击地面移动 · 点击敌人锁定
+      - generic [ref=e28]:
+        - button "横扫：周围100范围造成160%攻击伤害。" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]: ✦
+          - generic [ref=e31]: 横扫
+          - generic [ref=e32]: 就绪
+        - button "不屈：获得30%最大生命护盾，持续6秒。" [disabled] [ref=e33]:
+          - generic [ref=e34]: ✺
+          - generic [ref=e35]: 不屈
+          - generic [ref=e36]: 19.8s
+    - generic [ref=e37]: 本场暂存 ◈ 150 · 装备 3
+  - dialog [ref=e39]:
+    - paragraph [ref=e40]: 战斗用时 1分9秒 · 战区 3/3
+    - generic [ref=e41]: ✦
+    - generic [ref=e42]: OATH FULFILLED
+    - heading "道路，再次敞开" [level=2] [ref=e43]
+    - paragraph [ref=e44]: 莫尔倒下，裂隙暂时闭合。祭坛后只有公主留下的王印碎片与一封信：“去寒铁王城，真正的背叛者还在那里。”第一章·灰烬边境 完。
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - text: 金币
+        - strong [ref=e47]: "+830"
+      - generic [ref=e48]:
+        - text: 全员经验
+        - strong [ref=e49]: "+400"
+      - generic [ref=e50]:
+        - text: 获得装备
+        - strong [ref=e51]: "5"
+    - generic [ref=e52]:
+      - generic [ref=e53]: 首次通关保底奖励已发放
+      - generic [ref=e54]: 稀有·余烬吊坠
+      - generic [ref=e55]: 稀有·寒星法杖
+      - generic [ref=e56]: 普通·旅人锁甲
+      - generic [ref=e57]: 稀有·旅人锁甲
+      - generic [ref=e58]: 稀有·誓约长剑
+    - generic [ref=e59]:
+      - button "返回营地" [ref=e60] [cursor=pointer]
+      - button "查看新伙伴 →" [ref=e61] [cursor=pointer]
+  - status: 射程内没有可施放的目标
+  - group [ref=e62]:
+    - generic "DEV" [ref=e63] [cursor=pointer]
+    - option "新手档" [selected]
+    - option "小队档"
+    - option "成长档"
+```

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "warriorExert",
+    "text": "Hah!",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "rate": 3,
+    "source": "Windows SAPI offline synthesis; not a human recording"
+  },
+  {
+    "id": "archerExert",
+    "text": "嘿",
+    "voice": "Microsoft Huihui Desktop - Chinese (Simplified)",
+    "rate": 4,
+    "source": "Windows SAPI offline synthesis; not a human recording"
+  },
+  {
+    "id": "mageExert",
+    "text": "咻",
+    "voice": "Microsoft Huihui Desktop - Chinese (Simplified)",
+    "rate": 2,
+    "source": "Windows SAPI offline synthesis; not a human recording"
+  },
+  {
+    "id": "tankExert",
+    "text": "Hup!",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "rate": 2,
+    "source": "Windows SAPI offline synthesis; not a human recording"
+  },
+  {
+    "id": "assassinExert",
+    "text": "哈",
+    "voice": "Microsoft Huihui Desktop - Chinese (Simplified)",
+    "rate": 5,
+    "source": "Windows SAPI offline synthesis; not a human recording"
+  }
+]

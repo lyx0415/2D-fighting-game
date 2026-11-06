@@ -1,0 +1,1022 @@
+{
+  "version": "0.3.0",
+  "method": "正常掉落换装、金币强化、主动技能与避让，未注入资源",
+  "records": [
+    {
+      "seed": 42,
+      "won": true,
+      "levels": [
+        {
+          "level": 1,
+          "status": "won",
+          "seconds": 64,
+          "hp": [
+            [
+              "warrior",
+              128
+            ],
+            [
+              "archer",
+              116
+            ]
+          ],
+          "levelBefore": 1,
+          "gold": 95,
+          "damageTaken": 583
+        },
+        {
+          "level": 2,
+          "status": "won",
+          "seconds": 74,
+          "hp": [
+            [
+              "warrior",
+              175
+            ],
+            [
+              "archer",
+              195
+            ],
+            [
+              "mage",
+              250
+            ]
+          ],
+          "levelBefore": 2,
+          "gold": 145,
+          "damageTaken": 651
+        },
+        {
+          "level": 3,
+          "status": "won",
+          "seconds": 74,
+          "hp": [
+            [
+              "warrior",
+              69
+            ],
+            [
+              "archer",
+              308
+            ],
+            [
+              "mage",
+              281
+            ],
+            [
+              "tank",
+              164
+            ]
+          ],
+          "levelBefore": 3,
+          "gold": 185,
+          "damageTaken": 1152
+        },
+        {
+          "level": 4,
+          "status": "won",
+          "seconds": 58,
+          "hp": [
+            [
+              "warrior",
+              228
+            ],
+            [
+              "archer",
+              118
+            ],
+            [
+              "mage",
+              303
+            ],
+            [
+              "tank",
+              671
+            ]
+          ],
+          "levelBefore": 4,
+          "gold": 120,
+          "damageTaken": 964
+        },
+        {
+          "level": 5,
+          "status": "won",
+          "seconds": 56,
+          "hp": [
+            [
+              "warrior",
+              199
+            ],
+            [
+              "archer",
+              316
+            ],
+            [
+              "mage",
+              326
+            ],
+            [
+              "tank",
+              726
+            ]
+          ],
+          "levelBefore": 5,
+          "gold": 150,
+          "damageTaken": 789
+        },
+        {
+          "level": 6,
+          "status": "won",
+          "seconds": 79,
+          "hp": [
+            [
+              "warrior",
+              199
+            ],
+            [
+              "archer",
+              132
+            ],
+            [
+              "mage",
+              274
+            ],
+            [
+              "tank",
+              255
+            ]
+          ],
+          "levelBefore": 5,
+          "gold": 215,
+          "damageTaken": 2071
+        },
+        {
+          "level": 7,
+          "status": "won",
+          "seconds": 63,
+          "hp": [
+            [
+              "warrior",
+              271
+            ],
+            [
+              "archer",
+              135
+            ],
+            [
+              "mage",
+              361
+            ],
+            [
+              "tank",
+              784
+            ]
+          ],
+          "levelBefore": 6,
+          "gold": 205,
+          "damageTaken": 1075
+        },
+        {
+          "level": 8,
+          "status": "won",
+          "seconds": 75,
+          "hp": [
+            [
+              "warrior",
+              247
+            ],
+            [
+              "archer",
+              156
+            ],
+            [
+              "mage",
+              386
+            ],
+            [
+              "tank",
+              485
+            ]
+          ],
+          "levelBefore": 7,
+          "gold": 225,
+          "damageTaken": 1699
+        },
+        {
+          "level": 9,
+          "status": "won",
+          "seconds": 85,
+          "hp": [
+            [
+              "warrior",
+              248
+            ],
+            [
+              "archer",
+              164
+            ],
+            [
+              "mage",
+              191
+            ],
+            [
+              "tank",
+              317
+            ]
+          ],
+          "levelBefore": 8,
+          "gold": 225,
+          "damageTaken": 2739
+        },
+        {
+          "level": 10,
+          "status": "won",
+          "seconds": 115,
+          "hp": [
+            [
+              "warrior",
+              316
+            ],
+            [
+              "archer",
+              178
+            ],
+            [
+              "mage",
+              159
+            ],
+            [
+              "tank",
+              456
+            ]
+          ],
+          "levelBefore": 9,
+          "gold": 305,
+          "damageTaken": 2663
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "won": true,
+      "levels": [
+        {
+          "level": 1,
+          "status": "won",
+          "seconds": 64,
+          "hp": [
+            [
+              "warrior",
+              128
+            ],
+            [
+              "archer",
+              116
+            ]
+          ],
+          "levelBefore": 1,
+          "gold": 95,
+          "damageTaken": 583
+        },
+        {
+          "level": 2,
+          "status": "won",
+          "seconds": 74,
+          "hp": [
+            [
+              "warrior",
+              175
+            ],
+            [
+              "archer",
+              195
+            ],
+            [
+              "mage",
+              250
+            ]
+          ],
+          "levelBefore": 2,
+          "gold": 145,
+          "damageTaken": 651
+        },
+        {
+          "level": 3,
+          "status": "won",
+          "seconds": 73,
+          "hp": [
+            [
+              "warrior",
+              97
+            ],
+            [
+              "archer",
+              308
+            ],
+            [
+              "mage",
+              281
+            ],
+            [
+              "tank",
+              204
+            ]
+          ],
+          "levelBefore": 3,
+          "gold": 185,
+          "damageTaken": 1084
+        },
+        {
+          "level": 4,
+          "status": "won",
+          "seconds": 58,
+          "hp": [
+            [
+              "warrior",
+              228
+            ],
+            [
+              "archer",
+              118
+            ],
+            [
+              "mage",
+              303
+            ],
+            [
+              "tank",
+              671
+            ]
+          ],
+          "levelBefore": 4,
+          "gold": 120,
+          "damageTaken": 964
+        },
+        {
+          "level": 5,
+          "status": "won",
+          "seconds": 56,
+          "hp": [
+            [
+              "warrior",
+              199
+            ],
+            [
+              "archer",
+              316
+            ],
+            [
+              "mage",
+              326
+            ],
+            [
+              "tank",
+              726
+            ]
+          ],
+          "levelBefore": 5,
+          "gold": 150,
+          "damageTaken": 789
+        },
+        {
+          "level": 6,
+          "status": "won",
+          "seconds": 78,
+          "hp": [
+            [
+              "warrior",
+              207
+            ],
+            [
+              "archer",
+              137
+            ],
+            [
+              "mage",
+              334
+            ],
+            [
+              "tank",
+              85
+            ]
+          ],
+          "levelBefore": 5,
+          "gold": 215,
+          "damageTaken": 1967
+        },
+        {
+          "level": 7,
+          "status": "won",
+          "seconds": 61,
+          "hp": [
+            [
+              "warrior",
+              271
+            ],
+            [
+              "archer",
+              285
+            ],
+            [
+              "mage",
+              382
+            ],
+            [
+              "tank",
+              789
+            ]
+          ],
+          "levelBefore": 6,
+          "gold": 205,
+          "damageTaken": 950
+        },
+        {
+          "level": 8,
+          "status": "won",
+          "seconds": 74,
+          "hp": [
+            [
+              "warrior",
+              207
+            ],
+            [
+              "archer",
+              168
+            ],
+            [
+              "mage",
+              409
+            ],
+            [
+              "tank",
+              589
+            ]
+          ],
+          "levelBefore": 7,
+          "gold": 225,
+          "damageTaken": 1682
+        },
+        {
+          "level": 9,
+          "status": "won",
+          "seconds": 82,
+          "hp": [
+            [
+              "warrior",
+              191
+            ],
+            [
+              "archer",
+              177
+            ],
+            [
+              "mage",
+              311
+            ],
+            [
+              "tank",
+              736
+            ]
+          ],
+          "levelBefore": 8,
+          "gold": 225,
+          "damageTaken": 1909
+        },
+        {
+          "level": 10,
+          "status": "won",
+          "seconds": 103,
+          "hp": [
+            [
+              "warrior",
+              316
+            ],
+            [
+              "archer",
+              186
+            ],
+            [
+              "mage",
+              164
+            ],
+            [
+              "tank",
+              627
+            ]
+          ],
+          "levelBefore": 9,
+          "gold": 280,
+          "damageTaken": 2546
+        }
+      ]
+    },
+    {
+      "seed": 128,
+      "won": true,
+      "levels": [
+        {
+          "level": 1,
+          "status": "won",
+          "seconds": 64,
+          "hp": [
+            [
+              "warrior",
+              128
+            ],
+            [
+              "archer",
+              116
+            ]
+          ],
+          "levelBefore": 1,
+          "gold": 95,
+          "damageTaken": 583
+        },
+        {
+          "level": 2,
+          "status": "won",
+          "seconds": 74,
+          "hp": [
+            [
+              "warrior",
+              175
+            ],
+            [
+              "archer",
+              195
+            ],
+            [
+              "mage",
+              250
+            ]
+          ],
+          "levelBefore": 2,
+          "gold": 145,
+          "damageTaken": 651
+        },
+        {
+          "level": 3,
+          "status": "won",
+          "seconds": 74,
+          "hp": [
+            [
+              "warrior",
+              69
+            ],
+            [
+              "archer",
+              308
+            ],
+            [
+              "mage",
+              281
+            ],
+            [
+              "tank",
+              164
+            ]
+          ],
+          "levelBefore": 3,
+          "gold": 185,
+          "damageTaken": 1152
+        },
+        {
+          "level": 4,
+          "status": "won",
+          "seconds": 58,
+          "hp": [
+            [
+              "warrior",
+              228
+            ],
+            [
+              "archer",
+              118
+            ],
+            [
+              "mage",
+              303
+            ],
+            [
+              "tank",
+              671
+            ]
+          ],
+          "levelBefore": 4,
+          "gold": 120,
+          "damageTaken": 964
+        },
+        {
+          "level": 5,
+          "status": "won",
+          "seconds": 56,
+          "hp": [
+            [
+              "warrior",
+              199
+            ],
+            [
+              "archer",
+              316
+            ],
+            [
+              "mage",
+              326
+            ],
+            [
+              "tank",
+              726
+            ]
+          ],
+          "levelBefore": 5,
+          "gold": 150,
+          "damageTaken": 789
+        },
+        {
+          "level": 6,
+          "status": "won",
+          "seconds": 75,
+          "hp": [
+            [
+              "warrior",
+              199
+            ],
+            [
+              "archer",
+              130
+            ],
+            [
+              "mage",
+              326
+            ],
+            [
+              "tank",
+              255
+            ]
+          ],
+          "levelBefore": 5,
+          "gold": 215,
+          "damageTaken": 1980
+        },
+        {
+          "level": 7,
+          "status": "won",
+          "seconds": 62,
+          "hp": [
+            [
+              "warrior",
+              271
+            ],
+            [
+              "archer",
+              248
+            ],
+            [
+              "mage",
+              371
+            ],
+            [
+              "tank",
+              773
+            ]
+          ],
+          "levelBefore": 6,
+          "gold": 205,
+          "damageTaken": 981
+        },
+        {
+          "level": 8,
+          "status": "won",
+          "seconds": 77,
+          "hp": [
+            [
+              "warrior",
+              131
+            ],
+            [
+              "archer",
+              153
+            ],
+            [
+              "mage",
+              402
+            ],
+            [
+              "tank",
+              769
+            ]
+          ],
+          "levelBefore": 7,
+          "gold": 225,
+          "damageTaken": 1527
+        },
+        {
+          "level": 9,
+          "status": "won",
+          "seconds": 82,
+          "hp": [
+            [
+              "warrior",
+              166
+            ],
+            [
+              "archer",
+              162
+            ],
+            [
+              "mage",
+              302
+            ],
+            [
+              "tank",
+              423
+            ]
+          ],
+          "levelBefore": 8,
+          "gold": 225,
+          "damageTaken": 2196
+        },
+        {
+          "level": 10,
+          "status": "won",
+          "seconds": 115,
+          "hp": [
+            [
+              "warrior",
+              316
+            ],
+            [
+              "archer",
+              178
+            ],
+            [
+              "mage",
+              159
+            ],
+            [
+              "tank",
+              490
+            ]
+          ],
+          "levelBefore": 9,
+          "gold": 305,
+          "damageTaken": 2646
+        }
+      ]
+    },
+    {
+      "seed": 2026,
+      "won": true,
+      "levels": [
+        {
+          "level": 1,
+          "status": "won",
+          "seconds": 64,
+          "hp": [
+            [
+              "warrior",
+              128
+            ],
+            [
+              "archer",
+              116
+            ]
+          ],
+          "levelBefore": 1,
+          "gold": 95,
+          "damageTaken": 583
+        },
+        {
+          "level": 2,
+          "status": "won",
+          "seconds": 74,
+          "hp": [
+            [
+              "warrior",
+              175
+            ],
+            [
+              "archer",
+              195
+            ],
+            [
+              "mage",
+              250
+            ]
+          ],
+          "levelBefore": 2,
+          "gold": 145,
+          "damageTaken": 651
+        },
+        {
+          "level": 3,
+          "status": "won",
+          "seconds": 73,
+          "hp": [
+            [
+              "warrior",
+              97
+            ],
+            [
+              "archer",
+              308
+            ],
+            [
+              "mage",
+              281
+            ],
+            [
+              "tank",
+              204
+            ]
+          ],
+          "levelBefore": 3,
+          "gold": 185,
+          "damageTaken": 1084
+        },
+        {
+          "level": 4,
+          "status": "won",
+          "seconds": 57,
+          "hp": [
+            [
+              "warrior",
+              228
+            ],
+            [
+              "archer",
+              118
+            ],
+            [
+              "mage",
+              303
+            ],
+            [
+              "tank",
+              671
+            ]
+          ],
+          "levelBefore": 4,
+          "gold": 120,
+          "damageTaken": 964
+        },
+        {
+          "level": 5,
+          "status": "won",
+          "seconds": 52,
+          "hp": [
+            [
+              "warrior",
+              47
+            ],
+            [
+              "archer",
+              364
+            ],
+            [
+              "mage",
+              326
+            ],
+            [
+              "tank",
+              726
+            ]
+          ],
+          "levelBefore": 5,
+          "gold": 150,
+          "damageTaken": 658
+        },
+        {
+          "level": 6,
+          "status": "won",
+          "seconds": 75,
+          "hp": [
+            [
+              "warrior",
+              199
+            ],
+            [
+              "archer",
+              130
+            ],
+            [
+              "mage",
+              326
+            ],
+            [
+              "tank",
+              255
+            ]
+          ],
+          "levelBefore": 5,
+          "gold": 215,
+          "damageTaken": 1980
+        },
+        {
+          "level": 7,
+          "status": "won",
+          "seconds": 62,
+          "hp": [
+            [
+              "warrior",
+              271
+            ],
+            [
+              "archer",
+              248
+            ],
+            [
+              "mage",
+              371
+            ],
+            [
+              "tank",
+              776
+            ]
+          ],
+          "levelBefore": 6,
+          "gold": 205,
+          "damageTaken": 981
+        },
+        {
+          "level": 8,
+          "status": "won",
+          "seconds": 74,
+          "hp": [
+            [
+              "warrior",
+              287
+            ],
+            [
+              "archer",
+              153
+            ],
+            [
+              "mage",
+              402
+            ],
+            [
+              "tank",
+              663
+            ]
+          ],
+          "levelBefore": 7,
+          "gold": 225,
+          "damageTaken": 1477
+        },
+        {
+          "level": 9,
+          "status": "won",
+          "seconds": 83,
+          "hp": [
+            [
+              "warrior",
+              191
+            ],
+            [
+              "archer",
+              168
+            ],
+            [
+              "mage",
+              302
+            ],
+            [
+              "tank",
+              724
+            ]
+          ],
+          "levelBefore": 8,
+          "gold": 225,
+          "damageTaken": 1886
+        },
+        {
+          "level": 10,
+          "status": "won",
+          "seconds": 115,
+          "hp": [
+            [
+              "warrior",
+              316
+            ],
+            [
+              "archer",
+              178
+            ],
+            [
+              "mage",
+              164
+            ],
+            [
+              "tank",
+              485
+            ]
+          ],
+          "levelBefore": 9,
+          "gold": 305,
+          "damageTaken": 2658
+        }
+      ]
+    }
+  ]
+}

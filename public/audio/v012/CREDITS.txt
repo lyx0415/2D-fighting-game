@@ -1,0 +1,24 @@
+Ashen Oath v012 audio
+
+Kenney RPG Audio, Impact Sounds, Interface Sounds — Kenney — CC0 1.0.
+https://kenney.nl/assets/rpg-audio
+https://kenney.nl/assets/impact-sounds
+https://kenney.nl/assets/interface-sounds
+
+Female Warrior Grunts — SkyRae — CC BY 3.0
+https://opengameart.org/content/female-warrior-grunts
+https://creativecommons.org/licenses/by/3.0/
+Changes: selected segments, trimmed, mild speed alteration for assassin, equalized, level-adjusted and mixed.
+
+Male Grunt/Yelling Sounds — HaelDB — chosen CC0 option of the source dual license.
+https://opengameart.org/content/male-gruntyelling-sounds
+
+Fire Crackling — AntumDeluge — CC0.
+https://opengameart.org/content/fire-crackling
+Wind1 — Luke.RUSTLTD — CC0.
+https://opengameart.org/content/wind1
+Loopable Dungeon Ambience — JaggedStone — CC0.
+https://opengameart.org/content/loopable-dungeon-ambience
+
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+All adapted for offline game sound design. Original source archives and page/license snapshots are retained in tools/audio-sources/v012.
