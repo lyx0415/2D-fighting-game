@@ -7,3 +7,4 @@ export const paintedGround=()=>'/assets/v010/ground.webp';
 export const paintedPortrait=(kind:string)=>PAINTED_HEROES.includes(kind)?`/assets/v009/portrait-${kind}.webp`:undefined;
 
 export const menuBackground=()=>'/assets/v012/menu-camp.webp';
+export const briefingBanner=(theme:string)=>theme==='ash'?'/assets/v014/ashen-border.webp':paintedScene(theme);

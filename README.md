@@ -1,4 +1,10 @@
-# 灰烬誓约 · 第一章十关可玩版（v0.13.0 移动Web发布候选）
+# 灰烬誓约 · 第一章十关可玩版（v0.14.0 远征整备与章节原声）
+
+点击舆图关卡即可查看敌情、选契约、调整出战队伍。从出征单进入装备工坊或修习，再返回同一关开战。「旅途设置」支持独立调整章节音乐、环境、战斗和人声，战斗暂停时也可使用。
+
+[本轮改动、原创美术与音频出处](docs/版本记录/v0.14.0_远征整备与章节原声.md) · [试听与截图](素材库/远征整备与原声v014.html) · [测试记录](docs/TEST_REPORT.md)
+
+从 [Actions 生产构建](https://github.com/lyx0415/2D-fighting-game/actions/workflows/ci.yml?query=branch%3Amain) 选择主分支最近一次成功运行，下载 `ashen-oath-web`。解压后在该目录运行 `python -m http.server 4173`，然后访问 [本地游戏](http://127.0.0.1:4173/)。
 
 暗黑奇幻的2D横向小队冒险。最多四人出战，点击地面移动、点击敌人锁定，点击头像切换当前角色。其他同伴自动作战。桌面鼠标与手机横屏触控共用一套游戏。
 
@@ -23,7 +29,7 @@ npm run preview
 
 2026-11-06 发布前修订加入备份恢复，并改进畸形存档处理和安装反馈。详见[代码审查与修订](docs/版本记录/v0.13.0_发布前代码审查.md)。
 
-[下载生产构建](https://github.com/lyx0415/2D-fighting-game/actions/runs/42162475734)。在 Actions 的 Artifacts 下载 ashen-oath-v0.13-web，解压后在该目录执行 `python -m http.server 4173`，浏览器访问 `http://127.0.0.1:4173`。
+[v0.13 历史构建记录](https://github.com/lyx0415/2D-fighting-game/actions/runs/42162475734)。
 
 ## 历史：v0.12.0 录音重制与篝火营地
 

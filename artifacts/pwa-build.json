@@ -1,8 +1,8 @@
 {
-  "cache": "712eacc80624",
+  "cache": "3184317ad88e",
   "files": [
-    "./assets/index-BLZgS1F2.js",
-    "./assets/index-tL6thSBt.css",
+    "./assets/index-DbsGVVxE.css",
+    "./assets/index-jBJ8cQZT.js",
     "./assets/phaser-DXXWZowi.js",
     "./assets/v008/chapter.webp",
     "./assets/v008/portrait-archer.webp",
@@ -30,6 +30,7 @@
     "./assets/v009/stances.webp",
     "./assets/v010/ground.webp",
     "./assets/v012/menu-camp.webp",
+    "./assets/v014/ashen-border.webp",
     "./audio/v012/ambient-abbey.wav",
     "./audio/v012/ambient-ash.wav",
     "./audio/v012/ambient-camp.wav",
@@ -102,10 +103,16 @@
     "./audio/v012/warriorHurt__2.wav",
     "./audio/v012/warriorHurt__3.wav",
     "./audio/v012/won.wav",
+    "./audio/v014/bishop-impact.wav",
+    "./audio/v014/bishop-warning.wav",
+    "./audio/v014/oath-pressure.wav",
+    "./audio/v014/oath-road.wav",
+    "./audio/v014/warden-impact.wav",
+    "./audio/v014/warden-warning.wav",
     "./icons/oath-192.png",
     "./icons/oath-512.png",
     "./index.html",
     "./manifest.webmanifest"
   ],
-  "bytes": 16050644
+  "bytes": 17798774
 }

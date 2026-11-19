@@ -1,0 +1,53 @@
+{
+  "source": "scripts/build-audio-v014.py",
+  "files": [
+    {
+      "file": "oath-road.wav",
+      "duration": 24.0,
+      "loop": true,
+      "peak": 0.6433,
+      "description": "八十拍低弦与拨弦主题《余火行路》",
+      "sha256": "c3efbd291b0ada1a5a9e5e52c36c587018015b99de948be3587709b1953aab0a"
+    },
+    {
+      "file": "oath-pressure.wav",
+      "duration": 24.0,
+      "loop": true,
+      "peak": 0.5093,
+      "description": "与主题同拍的低鼓和断奏战斗层",
+      "sha256": "d73fd61175809a8f4d85a794a48f575b7b133133b0cd134e021e1363adca6e1f"
+    },
+    {
+      "file": "warden-warning.wav",
+      "duration": 0.78,
+      "loop": false,
+      "peak": 0.552,
+      "description": "原创首领预警",
+      "sha256": "f8d88582fa14c2028b326abd43ffdd66ffbd40336d39ba87e795721ef3ee2b7c"
+    },
+    {
+      "file": "warden-impact.wav",
+      "duration": 0.53,
+      "loop": false,
+      "peak": 0.4775,
+      "description": "原创首领落地声",
+      "sha256": "bd7cbb2a3dafa6120303e392716effb6fa248d46777fe50dab707eae0adfe71c"
+    },
+    {
+      "file": "bishop-warning.wav",
+      "duration": 0.9,
+      "loop": false,
+      "peak": 0.5649,
+      "description": "原创首领预警",
+      "sha256": "1763897902c83dc5c3a86be25004354b777054ec870dca8140f84c95c9d8ba82"
+    },
+    {
+      "file": "bishop-impact.wav",
+      "duration": 0.62,
+      "loop": false,
+      "peak": 0.5095,
+      "description": "原创首领落地声",
+      "sha256": "a1b53bed01c2648b82ae407b88037dbdd3e9960b5cf57a868936737e8e57c484"
+    }
+  ]
+}

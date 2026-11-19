@@ -17,7 +17,7 @@ for(const size of [{width:1280,height:720},{width:844,height:390}])test(`地图�
 
  await page.screenshot({path:`artifacts/${info.project.name}-v007-hub-${size.width}.png`});
  await page.locator('[data-tab=gear]').click();await expect(page.locator('.management-shell')).toBeVisible();await expect(page.locator('.equipment-grid')).toBeVisible();await expect(page.locator('.embark-button')).toBeVisible();
- await page.locator('[data-tab=growth]').click();await expect(page.locator('.management-shell')).toContainText('英雄成长');await page.locator('.growth-roster [data-id=mage]').click();await expect(page.locator('.hero-detail')).toContainText('伊诺');
+ await page.locator('[data-tab=growth]').click();await expect(page.locator('.management-shell')).toContainText('英雄成长');await page.locator('.growth-roster [data-id=mage]').click();await expect(page.locator('.growth-summary')).toContainText('伊诺');
  await page.locator('[data-act=close-management]').click();await expect(page.locator('.management-shell')).toHaveCount(0);await expect(page.locator('.chapter-chart')).toBeVisible();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
 });

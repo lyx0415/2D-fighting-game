@@ -7,16 +7,18 @@ import type { BattleEvent, Unit } from '../core/battle';
 import { sound } from './audio';
 import { rigState } from './hero-motion';
 import { CombatEffects } from './combat-effects';
-import { combatCue } from './audio-cues';
+import { bossCue, combatCue } from './audio-cues';
 import { PaintedCharacter } from './painted-character';
 import { PAINTED_HEROES, artUrl, paintedScene, paintedGround } from './art';
 interface View {rig:PaintedCharacter;shadow:Phaser.GameObjects.Ellipse;bars:Phaser.GameObjects.Graphics;label:Phaser.GameObjects.Text}
+const atmosphericTints={ash:0xeeac66,forest:0xa6c8b6,fortress:0xb6c2d3,abbey:0xc7b68d,crypt:0x88c7d4};
 export interface GameHandle { destroy():void; debug:boolean;inspect():unknown }
 export interface Hooks {state(battle:Battle):void;event(event:BattleEvent):void;finish(battle:Battle):void;ready?():void;progress?(value:number):void}
 export function mountGame(parent:HTMLElement,battle:Battle,hooks:Hooks):GameHandle {
  let field:Field|undefined;const handle:GameHandle={destroy(){game.destroy(true);},debug:false,inspect:()=>({cameraX:field?.cameras.main.scrollX??0,rigs:field?[...field.views].map(([id,v])=>({id,...v.rig.snapshot()})):[],effects:field?.combat.effects.map(f=>f.style)??[],cues:field?.lastCues??[]})};
  class Field extends Phaser.Scene {
   combat!:CombatEffects;lastCues:string[]=[];views=new Map<string,View>(); effects!:Phaser.GameObjects.Graphics; range!:Phaser.GameObjects.Graphics; bg!:Phaser.GameObjects.TileSprite; follow!:Phaser.GameObjects.Zone;
+  atmosphere!:Phaser.GameObjects.Graphics;
   floating:Phaser.GameObjects.Text[]=[]; rings:Phaser.GameObjects.Ellipse[]=[]; textCursor=0; ringCursor=0;lastShake=-10; pulse=0; finished=false; gate!:Phaser.GameObjects.Text; marker?:{x:number;y:number;until:number};
   constructor(){super('field');}
   preload(){
@@ -31,6 +33,7 @@ export function mountGame(parent:HTMLElement,battle:Battle,hooks:Hooks):GameHand
   create(){
    field=this;this.combat=new CombatEffects(this);prepareTerrain(this,battle.level.theme);this.events.once('shutdown',()=>sound.syncSustains([]));
    this.bg=this.add.tileSprite(0,0,1280,720,'terrain:backdrop').setOrigin(0).setScrollFactor(0).setDepth(-100);
+   this.atmosphere=this.add.graphics().setScrollFactor(0).setDepth(-42);
    const bgSource=this.textures.get('background').getSourceImage() as HTMLImageElement;
    this.bg.setTileScale(1920/bgSource.width,720/bgSource.height);
    const road=this.add.graphics().setDepth(-50),mapWidth=battle.level.waves.length*STAGE_WIDTH;
@@ -73,7 +76,10 @@ export function mountGame(parent:HTMLElement,battle:Battle,hooks:Hooks):GameHand
   update(_time:number,delta:number){
    if(battle.paused)this.tweens.pauseAll();else this.tweens.resumeAll();
    battle.advance(delta/1000);if(!battle.paused)this.pulse+=Math.min(delta,100)/1000;
-   this.follow.setPosition(battle.active.x,360);this.cameras.main.setBounds(0,0,battle.stageEnd,720);this.bg.tilePositionX=this.cameras.main.scrollX;
+   if(!battle.paused&&battle.status==='playing')sound.setScoreMode(battle.enemies.some(e=>isBossKind(e.kind))?'boss':battle.enemies.length?'combat':'travel');
+   this.follow.setPosition(battle.active.x,360);this.cameras.main.setBounds(0,0,battle.stageEnd,720);
+   this.bg.tilePositionX=this.cameras.main.scrollX*.43;
+   this.drawAtmosphere();
    for(const [id,v] of this.views)if(!battle.units.some(u=>u.id===id)){v.rig.destroy();v.shadow.destroy();v.bars.destroy();v.label.destroy();this.views.delete(id);}
    for(const u of battle.units){
     const v=this.views.get(u.id)??this.makeView(u);const scale=unitScale(u);
@@ -87,6 +93,17 @@ export function mountGame(parent:HTMLElement,battle:Battle,hooks:Hooks):GameHand
    this.gate.setVisible((battle.waveCleared||battle.waitingForAdvance)&&battle.status==='playing').setPosition(battle.waitingForAdvance?battle.wave*STAGE_WIDTH+1070:battle.stageEnd-120,485).setText(battle.waitingForAdvance?'前方敌军\n沿石道向右 →':'战区清空\n继续向右 →');
    hooks.state(battle);
    if(battle.status!=='playing'&&!this.finished){this.finished=true;hooks.finish(battle);}
+  }
+  drawAtmosphere(){
+   const layer=this.atmosphere.clear(),theme=battle.level.theme,tint=atmosphericTints[theme];
+   const scroll=this.cameras.main.scrollX,embers=theme==='ash'||theme==='abbey';
+   for(let i=0;i<14;i++){
+    const x=((1430+i*97+this.pulse*(embers?12:18)-scroll*.68)%1430+1430)%1430-75;
+    const y=46+(i*89)%244+Math.sin(i*.61+this.pulse*.5)*(embers?18:9);
+    const alpha=.11+.1*Math.sin(i+this.pulse*.9)**2;
+    if(embers)layer.fillStyle(tint,alpha*1.6).fillCircle(x,y,1+i%3);
+    else layer.fillStyle(tint,alpha*.32).fillEllipse(x,y,70+i%4*22,4+i%5);
+   }
   }
   drawEffects(){
    const g=this.effects;g.clear();this.range.clear();
@@ -123,7 +140,7 @@ export function mountGame(parent:HTMLElement,battle:Battle,hooks:Hooks):GameHand
     if(e.type==='skill'&&e.phase==='telegraph')this.ring(e.x,e.y,0xebc57d,e.radius??120,700);
     if(e.type==='damage'&&e.target===battle.activeId&&shouldVocalizeHurt(e.value??0,battle.active.hp,battle.active.maxHp))sound.play(e.targetKind+'Hurt','hurt');
     if(e.type==='skill'&&e.phase==='cast'&&e.skillIndex===1&&e.source===battle.activeId&&PAINTED_HEROES.includes(e.sourceKind??''))sound.play(e.sourceKind+'Exert','voice');
-    const cue=combatCue(e);if(cue){sound.play(cue,e.type==='attack'?'attack':e.type==='damage'&&e.skillIndex===undefined?'impact':e.type==='skill'||e.skillIndex!==undefined?'skill':'ui',spatialGain(Math.hypot(e.x-battle.active.x,e.y-battle.active.y)));this.lastCues.push(cue);if(this.lastCues.length>24)this.lastCues.shift();}
+    const cue=combatCue(e);if(cue){const warning=bossCue(e)!==undefined;sound.play(cue,warning?'warning':e.type==='attack'?'attack':e.type==='damage'&&e.skillIndex===undefined?'impact':e.type==='skill'||e.skillIndex!==undefined?'skill':'ui',warning?1:spatialGain(Math.hypot(e.x-battle.active.x,e.y-battle.active.y)));this.lastCues.push(cue);if(this.lastCues.length>24)this.lastCues.shift();}
 
    }
   }

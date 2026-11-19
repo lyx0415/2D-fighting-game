@@ -1,7 +1,7 @@
 {
   "name": "ashen-oath",
   "private": true,
-  "version": "0.13.0",
+  "version": "0.14.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
@@ -11,12 +11,13 @@
     "test:e2e": "playwright test",
     "test:chapter": "node scripts/test-chapter.mjs",
     "docs:export": "node --experimental-strip-types scripts/export-design.mjs",
-    "assets:export": "node scripts/export-v013.mjs",
+    "assets:export": "node scripts/export-v014.mjs",
     "art:preview": "node scripts/preview-v012.mjs",
     "pretest:e2e": "npm run art:legacy-preview && npm run art:preview",
     "art:pack": "python scripts/prepare-painted-assets.py",
     "art:legacy-preview": "node --experimental-strip-types scripts/preview-heroes.mjs && node --experimental-strip-types scripts/preview-rigs.mjs",
     "audio:build": "python scripts/build-audio-v012.py",
+    "audio:score": "python scripts/build-audio-v014.py",
     "art:stances": "python scripts/prepare-stances-v009.py",
     "art:ground": "python scripts/prepare-ground-v010.py",
     "art:menu": "python scripts/prepare-menu-v012.py"

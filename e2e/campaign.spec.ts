@@ -1,5 +1,6 @@
-import {writeFileSync} from 'node:fs';
+import {readFileSync,writeFileSync} from 'node:fs';
 import { test,expect,Locator } from '@playwright/test';
+const {version}=JSON.parse(readFileSync(new URL('../package.json',import.meta.url),'utf8')) as {version:string};
 const total=process.env.ASHEN_FULL_CHAPTER==='1'?10:3;
 test(`新存档用真实鼠标输入走完${total}关，无注入伤害或奖励`,async({page},info)=>{
  test.skip(info.project.name!=='chromium','完整实时时长在Chromium验证；WebKit运行独立交互矩阵');test.setTimeout(total*180000);
@@ -42,7 +43,7 @@ test(`新存档用真实鼠标输入走完${total}关，无注入伤害或奖励
    if(!danger&&!state.clear){const small=page.locator('#skill-0');if(await small.isEnabled())await clickDuringBattle(small);if(state.a.hp<state.a.maxHp*.6||state.a.kind!=='warrior'){const big=page.locator('#skill-1');if(await big.isEnabled())await clickDuringBattle(big);}}
    await page.waitForTimeout(170);
   }
-  await expect(page.locator('.result-modal')).toBeVisible();await page.screenshot({path:`artifacts/campaign-level-${level}.png`});await page.locator('[data-act="camp"]').click();
+  await expect(page.locator('.result-modal')).toBeVisible();await page.screenshot({path:`artifacts/campaign-v${version}-level-${level}.png`});await page.locator('[data-act="camp"]').click();
  }
- expect(await page.evaluate(()=>(window as any).__ASHEN__.getSave().heroes.length)).toBe(5);expect(records).toHaveLength(total);console.log('REAL_POINTER_CAMPAIGN',JSON.stringify(records));writeFileSync(`artifacts/campaign-${total}levels-v0.5.0.json`,JSON.stringify({version:'0.5.0',date:'2026-10-30',method:'真实鼠标操作，仅观察状态，未注入伤害或资源',records},null,2));await page.locator('[data-tab="heroes"]').click();await page.screenshot({path:'artifacts/campaign-five-heroes.png',fullPage:true});
+ expect(await page.evaluate(()=>(window as any).__ASHEN__.getSave().heroes.length)).toBe(5);expect(records).toHaveLength(total);console.log('REAL_POINTER_CAMPAIGN',JSON.stringify(records));writeFileSync(`artifacts/campaign-${total}levels-v${version}.json`,JSON.stringify({version,date:new Date().toISOString().slice(0,10),method:'真实鼠标操作，仅观察状态，未注入伤害或资源',records},null,2));await page.locator('[data-tab="heroes"]').click();await page.screenshot({path:`artifacts/campaign-v${version}-five-heroes.png`,fullPage:true});
 });

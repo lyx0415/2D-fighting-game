@@ -1,0 +1,11 @@
+{
+  "files": [
+    {
+      "path": "ashen-border.webp",
+      "width": 1536,
+      "height": 768,
+      "source": "OpenAI imagegen",
+      "sha256": "c480704b938f1ff1015d48aaac2a12a46da4abfe32a73c0408638e36ff2db6d3"
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import {readdir,readFile,writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 async function walk(dir){const out=[];for(const f of await readdir(dir,{withFileTypes:true})){const p=dir+'/'+f.name;if(f.isDirectory())out.push(...await walk(p));else out.push(p);}return out;}
 const all=await walk('dist');
-const files=all.filter(p=>p==='dist/index.html'||/dist\/assets\/(?!v\d{3}\/)/.test(p)||/dist\/assets\/v(008|009|010|012)\/[^/]+\.webp$/.test(p)||/dist\/audio\/v012\/[^/]+\.wav$/.test(p)||/dist\/(icons\/|manifest.webmanifest)/.test(p));
+const files=all.filter(p=>p==='dist/index.html'||/dist\/assets\/(?!v\d{3}\/)/.test(p)||/dist\/assets\/v(008|009|010|012|014)\/[^/]+\.webp$/.test(p)||/dist\/audio\/v(012|014)\/[^/]+\.wav$/.test(p)||/dist\/(icons\/|manifest.webmanifest)/.test(p));
 const hash=createHash('sha256');for(const f of files)hash.update(await readFile(f));const version=hash.digest('hex').slice(0,12);
 const urls=files.map(p=>'./'+p.slice(5));
 const sw=`const CACHE='ashen-release-${version}',FILES=${JSON.stringify(urls)};

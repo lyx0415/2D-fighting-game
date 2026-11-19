@@ -40,9 +40,16 @@ export const AUDIO_CUES:Record<string,AudioLayer[]>={
 };
 const attack:Record<string,string>={warrior:'bladeSwing',archer:'bowRelease',mage:'arcaneBolt',tank:'hammerSwing',assassin:'daggerSwing',zombie:'claw',wolf:'bite',crossbow:'crossbow',priest:'chant',raider:'cleave',guard:'hammerSwing',boss:'cleave',wraith:'chant',fanatic:'daggerSwing',bishop:'doom'};
 const skill:Record<string,[string,string]>={warrior:['sweep','ward'],archer:['volley','arrowRain'],mage:['frost','meteorCast'],tank:['shieldBash','oath'],assassin:['shadow','execute']};
+export function bossCue(event:BattleEvent):string|undefined{
+ if(event.type!=='skill'||(event.sourceKind!=='boss'&&event.sourceKind!=='bishop'))return;
+ const boss=event.sourceKind==='boss'?'warden':'bishop';
+ if(event.phase==='impact')return boss+'-impact';
+ if(event.phase==='cast'&&event.text?.includes('召唤')===false)return boss+'-warning';
+}
 export function combatCue(event:BattleEvent):string|undefined{
  if(event.type==='attack')return attack[event.sourceKind??event.kind??'']??'claw';
  if(event.type==='skill'){
+  const boss=bossCue(event);if(boss)return boss;
   if(event.phase==='telegraph')return undefined;
   if(event.phase==='impact')return event.sourceKind==='mage'&&event.skillIndex===1?'fireHit':undefined;
   return skill[event.sourceKind??event.kind??'']?.[event.skillIndex??0]??'doom';

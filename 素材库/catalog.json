@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "gameVersion": "0.13.0",
-  "updated": "2026-11-05",
+  "gameVersion": "0.14.0",
+  "updated": "2026-11-19",
   "runtimeSource": "src/game/art.ts + public/assets/v008,v009,v010,v012; public/audio/v012",
-  "note": "移动发布候选：原创盾徽、触控准备、纪事与左右手截图；旧素材完整保留",
+  "note": "远征绘画、章节原声、首领音效与出征整备截图；保留历史素材",
   "items": [
     {
       "id": "char_warrior_base_v001",
@@ -11948,6 +11948,94 @@
       "source": "artifacts/chromium-v013-left-hand.png",
       "status": "运行同源导出；v0.13移动发布候选",
       "sha256": "9492e71d9bf51717b923583c758982b793dd73c9ca3e40b327033c13e0ef2597"
+    },
+    {
+      "id": "v014_border",
+      "name": "灰烬边境远征插画",
+      "path": "03_地图背景/远征插图v014/ashen-border.webp",
+      "source": "public/assets/v014/ashen-border.webp",
+      "status": "运行同源导出",
+      "sha256": "c480704b938f1ff1015d48aaac2a12a46da4abfe32a73c0408638e36ff2db6d3"
+    },
+    {
+      "id": "v014_oath-road.wav",
+      "name": "八十拍低弦与拨弦主题《余火行路》",
+      "path": "07_音频特效/章节原声v014/oath-road.wav",
+      "source": "public/audio/v014/oath-road.wav",
+      "status": "运行同源导出",
+      "sha256": "c3efbd291b0ada1a5a9e5e52c36c587018015b99de948be3587709b1953aab0a"
+    },
+    {
+      "id": "v014_oath-pressure.wav",
+      "name": "与主题同拍的低鼓和断奏战斗层",
+      "path": "07_音频特效/章节原声v014/oath-pressure.wav",
+      "source": "public/audio/v014/oath-pressure.wav",
+      "status": "运行同源导出",
+      "sha256": "d73fd61175809a8f4d85a794a48f575b7b133133b0cd134e021e1363adca6e1f"
+    },
+    {
+      "id": "v014_warden-warning.wav",
+      "name": "原创首领预警",
+      "path": "07_音频特效/章节原声v014/warden-warning.wav",
+      "source": "public/audio/v014/warden-warning.wav",
+      "status": "运行同源导出",
+      "sha256": "f8d88582fa14c2028b326abd43ffdd66ffbd40336d39ba87e795721ef3ee2b7c"
+    },
+    {
+      "id": "v014_warden-impact.wav",
+      "name": "原创首领落地声",
+      "path": "07_音频特效/章节原声v014/warden-impact.wav",
+      "source": "public/audio/v014/warden-impact.wav",
+      "status": "运行同源导出",
+      "sha256": "bd7cbb2a3dafa6120303e392716effb6fa248d46777fe50dab707eae0adfe71c"
+    },
+    {
+      "id": "v014_bishop-warning.wav",
+      "name": "原创首领预警",
+      "path": "07_音频特效/章节原声v014/bishop-warning.wav",
+      "source": "public/audio/v014/bishop-warning.wav",
+      "status": "运行同源导出",
+      "sha256": "1763897902c83dc5c3a86be25004354b777054ec870dca8140f84c95c9d8ba82"
+    },
+    {
+      "id": "v014_bishop-impact.wav",
+      "name": "原创首领落地声",
+      "path": "07_音频特效/章节原声v014/bishop-impact.wav",
+      "source": "public/audio/v014/bishop-impact.wav",
+      "status": "运行同源导出",
+      "sha256": "a1b53bed01c2648b82ae407b88037dbdd3e9960b5cf57a868936737e8e57c484"
+    },
+    {
+      "id": "v014_audio_manifest",
+      "name": "原创音频清单",
+      "path": "07_音频特效/章节原声v014/manifest.json",
+      "source": "public/audio/v014/manifest.json",
+      "status": "运行同源导出",
+      "sha256": "d3074b95960a2d325a6020dddec5443334ee6b883bb1b5241695763f7adcf8b0"
+    },
+    {
+      "id": "v014_screen_mobile",
+      "name": "短横屏出征整备",
+      "path": "05_游戏界面/运行截图/ui_briefing-844_v014.png",
+      "source": "artifacts/chromium-v014-briefing-844.png",
+      "status": "Chromium 触屏模拟截图",
+      "sha256": "4809737ba753f4b6d53abfb6cc92ee38f6db9dc711a28c3445b579a1b9f3595c"
+    },
+    {
+      "id": "v014_screen_desktop",
+      "name": "桌面出征整备",
+      "path": "05_游戏界面/运行截图/ui_briefing-1280_v014.png",
+      "source": "artifacts/chromium-v014-briefing-1280.png",
+      "status": "Chromium 截图",
+      "sha256": "e86d4bfd76bd54e7d4b7a7f6eb9ea7da991dc7d1f3b5d060fff544d39aa55f2a"
+    },
+    {
+      "id": "v014_screen_mix",
+      "name": "战斗暂停的四路混音",
+      "path": "05_游戏界面/运行截图/ui_audio-mix_v014.png",
+      "source": "artifacts/chromium-v014-sound.png",
+      "status": "Chromium 生产构建截图",
+      "sha256": "5ad01f3ddeb1d330ae16e2c947ef4372316989e5c47ea3152551886ce1f61592"
     }
   ]
 }
