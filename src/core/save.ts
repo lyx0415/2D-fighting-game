@@ -1,4 +1,5 @@
 import { validTraining } from './training';
+import { validAudioLevels } from './audio-settings';
 import { HERO_ORDER, LEVELS, MAX_LEVEL } from './data';
 import type { SaveData } from './types';
 export const SAVE_KEY='ashen-oath.v1';
@@ -11,6 +12,8 @@ export function validSave(value:unknown):value is SaveData {
  if(!integer(s.gold,0)||!integer(s.unlocked,1,LEVELS.length)||!integer(s.nextItem,1)||!s.settings||typeof s.settings!=='object'||Array.isArray(s.settings)||!Number.isFinite(s.settings.volume)||s.settings.volume<0||s.settings.volume>1)return false;
  if(s.settings.leftHanded!==undefined&&typeof s.settings.leftHanded!=='boolean')return false;
  if(s.settings.audioProfile!==undefined&&!['grounded','feral','mystic'].includes(s.settings.audioProfile)||s.settings.exertions!==undefined&&typeof s.settings.exertions!=='boolean')return false;
+ if(s.settings.audioLevels!==undefined&&!validAudioLevels(s.settings.audioLevels))return false;
+ if(s.settings.lastVolume!==undefined&&(!Number.isFinite(s.settings.lastVolume)||s.settings.lastVolume<=0||s.settings.lastVolume>1))return false;
  if(!s.heroes.every(h=>h&&typeof h==='object'&&HERO_ORDER.includes(h.id)&&integer(h.level,1,MAX_LEVEL)&&integer(h.xp,0)&&h.equipment&&typeof h.equipment==='object'&&!Array.isArray(h.equipment)&&validTraining(h)))return false;
  if(new Set(s.heroes.map(h=>h.id)).size!==s.heroes.length||s.party.length<1||s.party.length>4||new Set(s.party).size!==s.party.length||!s.party.every(id=>s.heroes.some(h=>h.id===id))||!s.party.includes(s.leader))return false;
  if(!s.inventory.every(i=>i&&typeof i.id==='string'&&/^item-\d+$/.test(i.id)&&['weapon','armor','charm'].includes(i.slot)&&['white','green','blue'].includes(i.quality)&&integer(i.plus,0,3)&&(i.hero===undefined?i.slot!=='weapon':HERO_ORDER.includes(i.hero))))return false;

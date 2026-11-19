@@ -1,5 +1,5 @@
 import {paintedPortrait} from './raster-art.ts';
-export {paintedScene,paintedGround,menuBackground,artUrl,PAINTED_HEROES,PAINTED_ENEMIES} from './raster-art.ts';
+export {paintedScene,paintedGround,menuBackground,briefingBanner,artUrl,PAINTED_HEROES,PAINTED_ENEMIES} from './raster-art.ts';
 import {enemySvg} from './enemy-art.ts';
 import { heroSvg } from './hero-art.ts';
 /** Runtime art entry: v008 local generated textures; vector helpers retained for UI and archives. */

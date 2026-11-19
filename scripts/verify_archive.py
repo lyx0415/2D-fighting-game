@@ -1,5 +1,6 @@
 """Verify documentation links and exported asset hashes/XML without modifying sources."""
 from pathlib import Path
+from datetime import date
 import hashlib
 import json
 import math
@@ -78,16 +79,18 @@ variants = json.loads((root / 'public/audio/v011/manifest.json').read_text(encod
 variant_ids = {f['id'] for f in variants['files']}
 shared_audio = [f for f in audio['files'] if f['id'] not in variant_ids]
 menu = json.loads((root / 'public/assets/v012/manifest.json').read_text(encoding='utf-8'))
+briefing = json.loads((root / 'public/assets/v014/manifest.json').read_text(encoding='utf-8'))
 recordings = json.loads((root / 'public/audio/v012/manifest.json').read_text(encoding='utf-8'))
+score = json.loads((root / 'public/audio/v014/manifest.json').read_text(encoding='utf-8'))
 audio_old = json.loads((root / 'public/audio/v009/manifest.json').read_text(encoding='utf-8'))
-for folder, entries in [('public/assets/v008',painted['files']),('public/assets/v009',extra['files']),('public/assets/v010',ground['files']),('public/audio/v010',audio['files']+audio.get('sourceFiles',[])),('public/audio/v009',audio_old['files']),('public/audio/v011',variants['files']),('public/assets/v012',menu['files']),('public/audio/v012',recordings['files']+recordings['previews'])]:
+for folder, entries in [('public/assets/v008',painted['files']),('public/assets/v009',extra['files']),('public/assets/v010',ground['files']),('public/audio/v010',audio['files']+audio.get('sourceFiles',[])),('public/audio/v009',audio_old['files']),('public/audio/v011',variants['files']),('public/assets/v012',menu['files']),('public/audio/v012',recordings['files']+recordings['previews']),('public/assets/v014',briefing['files']),('public/audio/v014',score['files'])]:
     for entry in entries:
         name = entry.get('path',entry.get('file'))
         file = root / folder / name
         if not file.is_file() or hashlib.sha256(file.read_bytes()).hexdigest() != entry['sha256']:
             errors.append('Runtime resource missing or changed: ' + str(file))
-report = {'date': '2026-11-05', 'version': version, 'assets': len(ids), 'historicalAssetsChecked': history_count, 'runtimePaintedTextures': len(painted['files'])+len(extra['files'])+len(ground['files'])+len(menu['files']), 'runtimeAudioFiles':len(recordings['files']),'audioMixModes':3,'baseAudioCues':recordings['baseCueCount'],'voiceAlternates':recordings['variantCount'], 'svgFiles': sum(i['path'].endswith('.svg') for i in catalog['items']), 'ok': not errors, 'errors': errors}
+report = {'date': date.today().isoformat(), 'version': version, 'assets': len(ids), 'historicalAssetsChecked': history_count, 'runtimePaintedTextures': len(painted['files'])+len(extra['files'])+len(ground['files'])+len(menu['files'])+len(briefing['files']), 'runtimeAudioFiles':len(recordings['files'])+len(score['files']),'audioMixModes':3,'baseAudioCues':recordings['baseCueCount'],'voiceAlternates':recordings['variantCount'], 'svgFiles': sum(i['path'].endswith('.svg') for i in catalog['items']), 'ok': not errors, 'errors': errors}
 report.update({'legacyRigs': rig_count, 'legacyRigLayers': rig_layers, 'audioFiles': sum(i['path'].endswith('.wav') for i in catalog['items'])})
-(root / f'artifacts/archive-check-v{version}-2026-11-05.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+(root / f'artifacts/archive-check-v{version}.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps(report, ensure_ascii=False))
 raise SystemExit(1 if errors else 0)

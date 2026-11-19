@@ -1,0 +1,51 @@
+{
+  "version": "0.14.0",
+  "date": "2026-11-19",
+  "unitPassed": 97,
+  "browserByProject": {
+    "chromium": {
+      "passed": 62
+    },
+    "webkit": {
+      "passed": 59,
+      "skipped": 3
+    }
+  },
+  "fullAndTargetedRuns": [
+    {
+      "passed": 116,
+      "failed": 5,
+      "skipped": 3
+    },
+    {
+      "passed": 33,
+      "skipped": 3
+    },
+    {
+      "passed": 23,
+      "skipped": 1
+    }
+  ],
+  "browserSkipped": [
+    {
+      "file": "campaign.spec.ts",
+      "test": "新存档用真实鼠标输入走完3关，无注入伤害或奖励",
+      "project": "webkit"
+    },
+    {
+      "file": "release-v013.spec.ts",
+      "test": "生产PWA完整缓存后断网刷新并实际开战",
+      "project": "webkit"
+    },
+    {
+      "file": "v005.spec.ts",
+      "test": "差异音效离线渲染有波形且无削波，导出试听WAV",
+      "project": "webkit"
+    }
+  ],
+  "productionZip": {
+    "bytes": 31878240,
+    "sha256": "52c1eccdcd2bcd27224e32bd84bd291f1535bda0f4436435e97d717712e15173"
+  },
+  "precache": "3184317ad88e"
+}
